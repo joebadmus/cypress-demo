@@ -4,18 +4,15 @@ const footerPage = new FooterPage()
 
 
 When("I Open the Intl Homepage for {string}", function (content) {
-    footerPage.navigateToHomePage('fr')
+    footerPage.navigateToHomePage(content)
 
   });
 
 Then("{string} Homepage should be shown", function (content) {
+    
+    cy.url().should('include', '/' + content + '/')
 
-    if(content === "France" || content === "france") {
-        cy.url().should('include', '/fr/')
-    }
-    else {
-        return false
-    }
+    
    
   });
 
