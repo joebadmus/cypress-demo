@@ -27,15 +27,13 @@ let testDataHelper = {
       "Product Recall": "https://www.next.co.uk/help/Faq/32428",
       "Accessible Site": "https://accessible.next.co.uk/",
       "Website Accessibility Policy": "https://www.next.co.uk/help/Faq/32625",
-      "Accessibility In Our Stores":
-        "https://www.accessable.co.uk/organisations/next",
+      "Accessibility In Our Stores": "https://www.accessable.co.uk/organisations/next",
       "Site Map": "https://www.next.co.uk/site-map",
       "Next Credit Options": "https://www.next.co.uk/credit",
       "Next Unlimited": "https://www.next.co.uk/unlimited",
-      Evouchers: "https://www.next.co.uk/evouchers",
+      "Evouchers": "https://www.next.co.uk/evouchers",
       "Gift Cards": "https://flowers.next.co.uk/gift-cards",
-      "Gift Experiences":
-        "https://www.next.co.uk/shop/department-homeware-category-giftexperiences-0",
+      "Gift Experiences": "https://www.next.co.uk/shop/department-homeware-category-giftexperiences-0",
       "Flowers, Plants & Wine": "https://flowers.next.co.uk/",
       "Cookies & Privacy Policy": "https://www.next.co.uk/privacy",
       "Terms & Conditions": "https://www.next.co.uk/terms",
@@ -46,10 +44,8 @@ let testDataHelper = {
       "Business 2 Business": "http://b2b.next.co.uk/home.aspx",
       "Next Franchise": "https://www.next.co.uk/next-franchise",
       "Careers @ Next": "https://careers.next.co.uk/",
-      "View Our Modern Slavery Statement":
-        "https://www.nextplc.co.uk/~/media/Files/N/Next-PLC-V2/documents/corporate-responsibility/human-rights-and-modern-slavery-2019.pdf",
-      "Corporate Responsibility Report":
-        "https://www.nextplc.co.uk/~/media/Files/N/Next-PLC-V2/documents/cr-reports/cr-2019.pdf",
+      "View Our Modern Slavery Statement": "https://www.nextplc.co.uk/~/media/Files/N/Next-PLC-V2/documents/corporate-responsibility/human-rights-and-modern-slavery-2019.pdf",
+      "Corporate Responsibility Report": "https://www.nextplc.co.uk/~/media/Files/N/Next-PLC-V2/documents/cr-reports/cr-2019.pdf",
     };
 
     // for (var i = 0; i < this.link.length; i++) {
@@ -69,7 +65,7 @@ let testDataHelper = {
 
   getMarketFooterLinkUrlMK: function (linkType) {
     let dictionary = {
-      "Size Guide":  "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
+      "Size Guide": "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
       "Privacy Policy": "https://www.next.mx/en/privacypolicy",
       "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
       "Returns Information": "https://www.next.mx/en/faqs#returnskeyinformation",
@@ -105,29 +101,28 @@ Given("I am an {string} user {string} on {string} site", function (
 When("i am viewing the footer of the page", function () {});
 
 let dt;
-// Then(
-//   "i should see that the Next_UK footer links are grouped as shown",
-//   function (dataTable) {
-//     dt = dataTable;
-//     desktopHomePage.closeCookieConsent();
-//     let footer = desktopHomePage.getFooterLinks();
-//     dataTable.hashes().forEach(function (element) {
-//       footer.should(function ($section) {
-//         expect($section.eq(0)).to.contain(element.Help);
-//         if (element.Shopping_With_Us !== null)
-//           expect($section.eq(0)).to.contain(element.Shopping_With_Us);
-//         if (element.Privacy_and_Legal !== null)
-//           expect($section.eq(0)).to.contain(element.Privacy_and_Legal);
-//         if (element.More_From_Next !== null)
-//           expect($section.eq(0)).to.contain(element.More_From_Next);
-//       });
-//     });
-//   }
-// );
+Then("i should see that the Next_UK footer links are grouped as shown",
+  function (dataTable) {
+    dt = dataTable;
+    desktopHomePage.closeCookieConsent();
+    let footer = desktopHomePage.getFooterLinks();
+    dataTable.hashes().forEach(function (element) {
+      footer.should(function ($section) {
+        expect($section.eq(0)).to.contain(element.Help);
+        if (element.Shopping_With_Us !== null)
+          expect($section.eq(0)).to.contain(element.Shopping_With_Us);
+        if (element.Privacy_and_Legal !== null)
+          expect($section.eq(0)).to.contain(element.Privacy_and_Legal);
+        if (element.More_From_Next !== null)
+          expect($section.eq(0)).to.contain(element.More_From_Next);
+      });
+    });
+  }
+);
 
 Then("all the links to should lead to correct locations", function () {
-  // debugger
-  let footer = desktopHomePage.getFooterLinksMx();
+  //debugger
+  //let footer = desktopHomePage.getFooterLinksMx();
 
   dt.hashes().forEach(function (element) {
 
@@ -135,11 +130,31 @@ Then("all the links to should lead to correct locations", function () {
     let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal);
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
 
-    footer
-      // .children("div")
-      .contains(element.Help)
-      .invoke("attr", "href")
-      .should("contain", expectHelpLink);
+
+
+    checkLinkIsCorrect(element, expectHelpLink, expectPrivacyLink, expectServiceLink);
+
+
+
+    //debugger
+    //footer
+    //.children("div")
+
+    // cy.get(".footer153").children("div").contains(element.Help).invoke("attr", "href").should("contain", expectHelpLink);
+    // if (expectPrivacyLink === "") {
+    //   cy.get(".footer153").children("div").contains(element.Privacy_n_Legal).invoke("attr", "href").should("not.have.text", expectPrivacyLink)
+    // } else {
+    //   cy.get(".footer153").children("div").contains(element.Privacy_n_Legal).invoke("attr", "href").should("contain", expectPrivacyLink)
+    // }
+    // if (expectServiceLink === "") {
+    //   cy.get(".footer153").children("div").contains(element.Privacy_n_Legal).invoke("attr", "href").should("eq", "");
+    // } else {
+    //   cy.get(".footer153").children("div").contains(element.Other_Services).invoke("attr", "href").should("contain", expectServiceLink);
+    // }
+
+    //doesnt seem that we can .should(empty string) after a .contains
+    //check bookmarks
+
     // if (element.Privacy_n_Legal != "")
     //   footer
     //     // .children("div")
@@ -155,8 +170,7 @@ Then("all the links to should lead to correct locations", function () {
   });
 });
 
-Then(
-  "i should see that the Next_MX footer links are grouped as shown",
+Then("i should see that the Next_MX footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = desktopHomePage.getFooterLinksMx();
@@ -169,3 +183,24 @@ Then(
     });
   }
 );
+
+
+
+function checkLinkIsCorrect(element, expectHelpLink, expectPrivacyLink, expectServiceLink) {
+
+
+  var helpLinkName = String(element.Help).replace(/ /g, "-").toLocaleLowerCase();
+  cy.get(`[data-testid='footer-main-links-${helpLinkName}'`).invoke("attr", "href").should("contain", expectHelpLink);
+
+  if (expectPrivacyLink === "") {} else {
+
+    var privacyLinkName = String(element.Privacy_n_Legal).replace(/ /g, "-").toLocaleLowerCase();
+    cy.get(`[data-testid='footer-main-links-${privacyLinkName}'`).invoke("attr", "href").should("contain", expectPrivacyLink);
+
+  }
+
+  if (expectServiceLink === "") {} else {
+    var serviceLinkName = String(element.Other_Services).trim().replace(/ /g, "-").toLocaleLowerCase();
+    cy.get(`[data-testid='footer-main-links-${serviceLinkName}'`).invoke("attr", "href").should("contain", expectServiceLink);
+  }
+}

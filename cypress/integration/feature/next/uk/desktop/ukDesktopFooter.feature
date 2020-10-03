@@ -32,9 +32,10 @@ Feature: Uk Footer Links
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
-            | Shipping Information |                     | Careers@next   |
+            | Shipping Information |                    | Careers@next   |
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
         And all the links to should lead to correct locations
+
 
