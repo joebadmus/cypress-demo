@@ -125,16 +125,11 @@ Then("all the links to should lead to correct locations", function () {
   //let footer = desktopHomePage.getFooterLinksMx();
 
   dt.hashes().forEach(function (element) {
-
     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
     let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal);
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
 
-
-
     checkLinkIsCorrect(element, expectHelpLink, expectPrivacyLink, expectServiceLink);
-
-
 
     //debugger
     //footer
@@ -184,23 +179,22 @@ Then("i should see that the Next_MX footer links are grouped as shown",
   }
 );
 
-
-
-function checkLinkIsCorrect(element, expectHelpLink, expectPrivacyLink, expectServiceLink) {
-
-
+function checkLinkIsCorrect(element, expectHelpLink, expectPrivacyLink, expectServiceLink) 
+{
   var helpLinkName = String(element.Help).replace(/ /g, "-").toLocaleLowerCase();
   cy.get(`[data-testid='footer-main-links-${helpLinkName}'`).invoke("attr", "href").should("contain", expectHelpLink);
 
-  if (expectPrivacyLink === "") {} else {
-
+  if (expectPrivacyLink === "") {
+  } else {
     var privacyLinkName = String(element.Privacy_n_Legal).replace(/ /g, "-").toLocaleLowerCase();
-    cy.get(`[data-testid='footer-main-links-${privacyLinkName}'`).invoke("attr", "href").should("contain", expectPrivacyLink);
 
+    cy.get(`[data-testid='footer-main-links-${privacyLinkName}'`).invoke("attr", "href").should("contain", expectPrivacyLink);
   }
 
-  if (expectServiceLink === "") {} else {
+  if (expectServiceLink === "") {
+  } else {
     var serviceLinkName = String(element.Other_Services).trim().replace(/ /g, "-").toLocaleLowerCase();
+
     cy.get(`[data-testid='footer-main-links-${serviceLinkName}'`).invoke("attr", "href").should("contain", expectServiceLink);
   }
 }
