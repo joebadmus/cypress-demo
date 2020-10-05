@@ -1,11 +1,8 @@
 import PageHelper from "../../../../../../support/testHelpers/PageHelper";
-import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
-
 
 let pageHelper = new PageHelper();
 let dt;
-var page;
-
+let page;
 let testDataHelper = {
   getMode: function (modeType) {
     if (modeType === "mobile") {
@@ -53,12 +50,8 @@ let testDataHelper = {
 };
 
 Given("I am an {string} user {string} on {string} site", function ( userType, modeType, marketType) {
-//   this.page = pageHelper.createPagewith(marketType);
-  this.page = new MxDesktopQuickshopPage();
-  cy.log(page);
-  this.page.goto();
-//   this.page.validateFootLinkFor()
-//   this.page.validateFootLinkFor()
+  page = pageHelper.createPagewith(marketType);
+  page.goto();
 });
 
 When("i am viewing the footer of the page", function () {
@@ -73,15 +66,13 @@ Then("all the {string} to should lead to correct locations", function (site) {
     let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
 
-    var expectedPage = this.page;
-
-    this.page.validateFootLinkFor(element.Help, expectHelpLink);
+    page.validateFootLinkFor(element.Help, expectHelpLink);
 
     if (element.Privacy_n_Legal != "") {
-        this.page.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
+        page.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
     }
     if (element.Other_Services != "") {
-        this.page.validateFootLinkFor(element.Other_Services, expectServiceLink);
+        page.validateFootLinkFor(element.Other_Services, expectServiceLink);
     }
   });
 });
@@ -90,7 +81,7 @@ Then(
   "i should see that the Next_MX footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
-    let footer = this.page.getFooterLinksMx();
+    let footer = page.getFooterLinks();
     dataTable.hashes().forEach(function (element) {
       footer.should(function ($section) {
         expect($section.eq(0)).to.contain(element.Help);

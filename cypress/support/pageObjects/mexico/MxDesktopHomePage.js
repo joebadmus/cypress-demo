@@ -3,27 +3,21 @@ class MxDesktopQuickshopPage {
     goto(){
       cy.visit(Cypress.env('mxHomePageUrl'));
     }
-  //   getFooHelptLinks() {
-  //     return cy.get('[type="email"]');
-  //   }
+    getFooHelptLinks() {
+      return cy.get('[type="email"]');
+    }
   
-  //   getFooterLinks() {
-  //     // return cy.get('section[class*="Footer"]');
-  //     // return cy.get(".footer153");
-  //     return cy.get('[data-testid="footer-main-links-title-help-list"]');
-  //   }
+    closeCookieConsent() {
+      cy.get('div[class*="CookieConsentCross"]').click();
+    }
   
-  //   closeCookieConsent() {
-  //     cy.get('div[class*="CookieConsentCross"]').click();
-  //   }
+    getFooterLinks() {
+      return cy.get(".footer153").children("div");
+    }
   
-  //   getFooterLinksMx() {
-  //     return cy.get(".footer153").children("div");
-  //   }
-  
-  //   validateFootLinkFor(linkText, linkUrl){
-  //     cy.validateLinkHref(linkText, linkUrl);
-  //   }
+    validateFootLinkFor(linkText, linkUrl){
+      cy.validateLinkHref(linkText, linkUrl);
+    }
   }
   
   export default MxDesktopQuickshopPage;
