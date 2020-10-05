@@ -1,4 +1,8 @@
 class UkDesktopHomePage {
+
+  visistUkHomePage(){
+    cy.visit(Cypress.env('mxHomePageUrl'));
+  }
   getFooHelptLinks() {
     return cy.get('[type="email"]');
   }
@@ -15,7 +19,10 @@ class UkDesktopHomePage {
 
   getFooterLinksMx() {
     return cy.get(".footer153").children("div");
-    // return cy.get('[data-testid="footer-main-links-title-help-list"]');
+  }
+
+  validateFootLinkFor(linkText, linkUrl){
+    cy.validateLinkHref(linkText, linkUrl);
   }
 }
 

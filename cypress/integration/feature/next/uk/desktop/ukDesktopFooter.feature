@@ -24,7 +24,7 @@ Feature: Uk Footer Links
     #     And all the links to should lead to correct locations
 
 
-
+    @mx
     Scenario: MX Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "Next_MX" site
         And i am viewing the footer of the page
@@ -32,7 +32,7 @@ Feature: Uk Footer Links
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
-            | Shipping Information |                     | Careers@next   |
+            | Shipping Information |                    | Careers@next   |
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
