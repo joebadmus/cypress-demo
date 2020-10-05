@@ -73,10 +73,8 @@ let testDataHelper = {
         "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
       "Privacy Policy": "https://www.next.mx/en/privacypolicy",
       "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "Returns Information":
-        "https://www.next.mx/en/faqs#returnskeyinformation",
-      "Shipping Information":
-        "https://www.next.mx/en/faqs#deliverykeyinformation",
+      "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
+      "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
       "Contact Us": "https://www.next.mx/en/faqs#contactus",
       Sitemap: "https://www.next.mx/en/sitemap",
       "Terms & Conditions": "https://www.next.mx/en/terms",
@@ -129,17 +127,21 @@ let dt;
 //   }
 // );
 
-Then("all the links to should lead to correct locations", function () {
+Then("all the {string} to should lead to correct locations", function (site) {
+  
+
   dt.hashes().forEach(function (element) {
     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
-    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(
-      element.Privacy_n_Legal
-    );
-    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(
-      element.Other_Services
-    );
+    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
+    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
+
+
+
+
+
 
     desktopHomePage.validateFootLinkFor(element.Help, expectHelpLink);
+
     if (element.Privacy_n_Legal != "") {
       desktopHomePage.validateFootLinkFor(
         element.Privacy_n_Legal,
