@@ -19,4 +19,16 @@ require("cypress-dark");
 import "./commands";
 
 // Alternatively you can use CommonJS syntax:
+<<<<<<< HEAD
 // require('./commands')
+=======
+// require('./commands')
+
+Cypress.Server.defaults({
+    delay: 500,
+    force404: false,
+    whitelist: (xhr) => {
+        return true;
+    }
+});
+>>>>>>> feature/add-mx-acceptance-test

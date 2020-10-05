@@ -1,4 +1,10 @@
 {
   
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "video": false,
+
+  "env":{
+    "ukHomePageUrl": "https://www.next.co.uk/",
+    "mxHomePageUrl": "https://www.next.mx/en"
+  }
 }

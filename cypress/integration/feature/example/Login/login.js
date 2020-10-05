@@ -1,4 +1,4 @@
-import LoginPage from "../../../pageObject/LoginPages";
+import LoginPage from "../../../../support/pageObjects/LoginPages";
 
 let login = new LoginPage();
 
