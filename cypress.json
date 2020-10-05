@@ -5,6 +5,9 @@
 
   "env":{
     "ukHomePageUrl": "https://www.next.co.uk/",
-    "mxHomePageUrl": "https://www.next.mx/en/"
+    "mxHomePageUrl": "https://www.next.mx/en/",
+    "amHomePageUrl": "https://www.nextdirect.com/am/en/",
+    "auHomePageUrl": "https://www.next.com.au/en/"
+    
   }
 }
