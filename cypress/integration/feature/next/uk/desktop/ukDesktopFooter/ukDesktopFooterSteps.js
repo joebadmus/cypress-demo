@@ -1,6 +1,9 @@
 import UkDesktopHomePage from "../../../../../../support/pageObjects/uk/UkDesktopHomePage";
 let desktopHomePage = new UkDesktopHomePage();
 
+
+
+
 let testDataHelper = {
   getMode: function (modeType) {
     if (modeType === "mobile") {
@@ -152,8 +155,7 @@ Then("all the {string} to should lead to correct locations", function (site) {
   });
 });
 
-Then(
-  "i should see that the Next_MX footer links are grouped as shown",
+Then("i should see that the Next_MX footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = desktopHomePage.getFooterLinksMx();

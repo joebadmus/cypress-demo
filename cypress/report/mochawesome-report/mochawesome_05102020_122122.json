@@ -1,0 +1,156 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2020-10-05T11:20:44.311Z",
+    "end": "2020-10-05T11:21:22.099Z",
+    "duration": 37788,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a1f5775f-baa3-4c3d-8624-e8570169abeb",
+      "title": "",
+      "fullFile": "cypress\\integration\\feature\\example\\Login.feature",
+      "file": "cypress\\integration\\feature\\example\\Login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "37d80d77-610b-41e7-bd5e-e2ba530a4d0d",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Conduit Login",
+              "fullTitle": "Login Conduit Login",
+              "timedOut": null,
+              "duration": 12384,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.",
+                "estack": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)",
+                "diff": null
+              },
+              "uuid": "8c63e7f0-c160-40bd-ba46-52374b20e86d",
+              "parentUUID": "37d80d77-610b-41e7-bd5e-e2ba530a4d0d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Conduit Login with dt",
+              "fullTitle": "Login Conduit Login with dt",
+              "timedOut": null,
+              "duration": 11475,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.",
+                "estack": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)",
+                "diff": null
+              },
+              "uuid": "f0de35a6-8746-4f01-be33-ad7d7f1e5403",
+              "parentUUID": "37d80d77-610b-41e7-bd5e-e2ba530a4d0d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Conduit Login With Feature",
+              "fullTitle": "Login Conduit Login With Feature",
+              "timedOut": null,
+              "duration": 11466,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.",
+                "estack": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)",
+                "diff": null
+              },
+              "uuid": "6122bf9b-bfe9-4acd-8d5a-0e77909a8b4e",
+              "parentUUID": "37d80d77-610b-41e7-bd5e-e2ba530a4d0d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "8c63e7f0-c160-40bd-ba46-52374b20e86d",
+            "f0de35a6-8746-4f01-be33-ad7d7f1e5403",
+            "6122bf9b-bfe9-4acd-8d5a-0e77909a8b4e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 35325,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "ddmmyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "description": "    In order to be taken to correct location on the Next UK site\n    As a UK new user\n    I want to be able to see the foot links",
+    "keyword": "Feature",
+    "name": "Uk Footer Links",
+    "line": 1,
+    "id": "uk-footer-links",
+    "tags": [],
+    "uri": "ukDesktopFooter.feature",
+    "elements": [
+      {
+        "id": "uk-footer-links;mx-desktop-footer-links-are-displayed-correctly",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "MX Desktop Footer Links are displayed correctly",
+        "tags": [
+          {
+            "name": "@mx",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am an \"anonymous\" user \"desktop\" on \"Next_MX\" site",
+            "result": {
+              "status": "passed",
+              "duration": 3418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "i am viewing the footer of the page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Help",
+                      "Privacy_n_Legal",
+                      "Other_Services"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Size Guide",
+                      "Privacy Policy",
+                      "Media & Press"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Returns Information",
+                      "Terms & Conditions",
+                      "The Company"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Shipping Information",
+                      "",
+                      "Careers@next"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Contact Us",
+                      "",
+                      "Next Franchise"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sitemap",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "i should see that the Next_MX footer links are grouped as shown",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "all the \"Next_mx_footer\" to should lead to correct locations",
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

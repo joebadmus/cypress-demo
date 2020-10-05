@@ -13,15 +13,11 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
-require("cypress-dark");
 
 // Import commands.js using ES2015 syntax:
 import "./commands";
 
 // Alternatively you can use CommonJS syntax:
-<<<<<<< HEAD
-// require('./commands')
-=======
 // require('./commands')
 
 Cypress.Server.defaults({
@@ -31,4 +27,3 @@ Cypress.Server.defaults({
         return true;
     }
 });
->>>>>>> feature/add-mx-acceptance-test

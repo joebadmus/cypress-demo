@@ -3,6 +3,9 @@ class UkDesktopHomePage {
   visistUkHomePage(){
     cy.visit(Cypress.env('mxHomePageUrl'));
   }
+
+  
+
   getFooHelptLinks() {
     return cy.get('[type="email"]');
   }

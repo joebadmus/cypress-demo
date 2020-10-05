@@ -6,5 +6,14 @@
   "env":{
     "ukHomePageUrl": "https://www.next.co.uk/",
     "mxHomePageUrl": "https://www.next.mx/en"
+  },
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "timestamp": "ddmmyyyy_HHMMss"
   }
 }

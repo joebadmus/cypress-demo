@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    In order to be taken to correct location on the Next UK site\n    As a UK new user\n    I want to be able to see the foot links",
+    "keyword": "Feature",
+    "name": "Uk Footer Links",
+    "line": 1,
+    "id": "uk-footer-links",
+    "tags": [],
+    "uri": "frDesktopFooter.feature",
+    "elements": [
+      {
+        "id": "uk-footer-links;fr-desktop-footer-links-are-displayed-correctly",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "FR Desktop Footer Links are displayed correctly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am an \"anonymous\" user \"desktop\" on \"Next_FR\" site",
+            "result": {
+              "status": "undefined",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "i am viewing the footer of the page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Help",
+                      "Shopping_With_Us",
+                      "Privacy_&_Legal",
+                      "More_From_Next"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "i should see that the \"Next_FR\" footer links are grouped as shown",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "all the \"Next_FR\" links to should lead to correct locations",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

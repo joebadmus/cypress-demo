@@ -1,0 +1,210 @@
+[
+  {
+    "description": "    I want to login  Conduit",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;conduit-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Conduit Login",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I Open the conduit loging page",
+            "result": {
+              "status": "passed",
+              "duration": 1332000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "*****@***.com",
+                      "****4"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I type in username and password",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"Your Feed\" should be shown",
+            "result": {
+              "status": "failed",
+              "duration": 10021000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;conduit-login-with-dt",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Conduit Login with dt",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I Open the conduit loging page",
+            "result": {
+              "status": "passed",
+              "duration": 937000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "*****@***.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "password",
+                      "****4"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I signed with the below details",
+            "result": {
+              "status": "passed",
+              "duration": 509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "\"Your Feed\" should be shown",
+            "result": {
+              "status": "failed",
+              "duration": 10005000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;conduit-login-with-feature",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Conduit Login With Feature",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I Open the conduit loging page",
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I login using my credentials",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "\"Your Feed\" should be shown",
+            "result": {
+              "status": "failed",
+              "duration": 10010000000,
+              "error_message": "AssertionError: Timed out retrying: Expected to find content: 'Your Feed' but never did.\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:68:6)\n    at Context.resolveAndRunStepDefinition (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:12351:9)\n    at Context.eval (http://react-redux.realworld.io/__cypress/tests?p=cypress\\integration\\feature\\example\\Login.feature:11692:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
