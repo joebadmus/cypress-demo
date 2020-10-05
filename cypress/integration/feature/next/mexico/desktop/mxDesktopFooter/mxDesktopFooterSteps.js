@@ -1,8 +1,11 @@
 import PageHelper from "../../../../../../support/testHelpers/PageHelper";
+import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
+
 
 let pageHelper = new PageHelper();
 let dt;
-let page;
+var page;
+
 let testDataHelper = {
   getMode: function (modeType) {
     if (modeType === "mobile") {
@@ -50,8 +53,12 @@ let testDataHelper = {
 };
 
 Given("I am an {string} user {string} on {string} site", function ( userType, modeType, marketType) {
-  page = pageHelper.createPagewith(marketType);
+page = pageHelper.createPagewith(marketType);
+  page = new MxDesktopQuickshopPage();
+  cy.log(page);
   page.goto();
+//   this.page.validateFootLinkFor()
+//   this.page.validateFootLinkFor()
 });
 
 When("i am viewing the footer of the page", function () {
@@ -59,12 +66,14 @@ When("i am viewing the footer of the page", function () {
 });
 
 
-Then("all the {string} to should lead to correct locations", function (site) {
+Then("all the Next Mexico footer links should lead to correct locations", function (site) {
     
     dt.hashes().forEach(function (element) {
     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
     let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
+
+    var expectedPage = page;
 
     page.validateFootLinkFor(element.Help, expectHelpLink);
 
@@ -81,7 +90,7 @@ Then(
   "i should see that the Next_MX footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
-    let footer = page.getFooterLinks();
+    let footer = page.getFooterLinksMx();
     dataTable.hashes().forEach(function (element) {
       footer.should(function ($section) {
         expect($section.eq(0)).to.contain(element.Help);

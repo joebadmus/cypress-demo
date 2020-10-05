@@ -3,7 +3,7 @@ Feature: MX Footer Links
     As a MX new user
     I want to be able to see the foot links
 
-    @mx
+    @mexico
     @footer
     Scenario: MX_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "MX_Homepage" site
@@ -16,10 +16,10 @@ Feature: MX Footer Links
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
-        And all the "Next_mx_footer" to should lead to correct locations
+        And all the Next Mexico footer links should lead to correct locations
 
 
-    @mx
+    @mexico
     @footer
     Scenario: MX_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "MX_Quickshop" site
@@ -32,5 +32,5 @@ Feature: MX Footer Links
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
-        And all the "Next_mx_footer" to should lead to correct locations
+        And all the Next Mexico footer links should lead to correct locations
 
