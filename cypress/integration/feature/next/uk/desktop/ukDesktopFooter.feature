@@ -25,6 +25,7 @@ Feature: Uk Footer Links
 
 
     @mx
+    @footer
     Scenario: MX Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "Next_MX" site
         And i am viewing the footer of the page

@@ -1,6 +1,9 @@
 import UkDesktopHomePage from "../../../../../../support/pageObjects/uk/UkDesktopHomePage";
+import PageHelper from "../../../../../../support/testHelpers/PageHelper";
+
 let desktopHomePage = new UkDesktopHomePage();
 
+let pageHelper = new PageHelper();
 let testDataHelper = {
   getMode: function (modeType) {
     if (modeType === "mobile") {
@@ -59,8 +62,6 @@ let testDataHelper = {
     // }
     for (var key in link) {
       if (link[key] === linkType) {
-        console.log(link[key]);
-        console.log(linkType);
         return link[key];
       }
     }
@@ -99,12 +100,14 @@ Given("I am an {string} user {string} on {string} site", function (
   modeType,
   marketType
 ) {
-  // cy.visit("https://www.next.co.uk/");
-  // cy.visit("https://www.next.mx/en");
+  var page = pageHelper.createPagewith(marketType);
+  page.goto();
   desktopHomePage.visistUkHomePage();
 });
 
-When("i am viewing the footer of the page", function () {});
+When("i am viewing the footer of the page", function () {
+  // Scroll to the footer
+});
 
 let dt;
 // Then(
@@ -128,7 +131,7 @@ let dt;
 // );
 
 Then("all the {string} to should lead to correct locations", function (site) {
-  
+
 
   dt.hashes().forEach(function (element) {
     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
@@ -136,23 +139,13 @@ Then("all the {string} to should lead to correct locations", function (site) {
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
 
 
-
-
-
-
-    desktopHomePage.validateFootLinkFor(element.Help, expectHelpLink);
+   desktopHomePage.validateFootLinkFor(element.Help, expectHelpLink);
 
     if (element.Privacy_n_Legal != "") {
-      desktopHomePage.validateFootLinkFor(
-        element.Privacy_n_Legal,
-        expectPrivacyLink
-      );
+      desktopHomePage.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
     }
     if (element.Other_Services != "") {
-      desktopHomePage.validateFootLinkFor(
-        element.Other_Services,
-        expectServiceLink
-      );
+      desktopHomePage.validateFootLinkFor(element.Other_Services, expectServiceLink);
     }
   });
 });

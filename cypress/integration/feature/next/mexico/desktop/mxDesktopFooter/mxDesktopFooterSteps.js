@@ -1,0 +1,102 @@
+import PageHelper from "../../../../../../support/testHelpers/PageHelper";
+import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
+
+
+let pageHelper = new PageHelper();
+let dt;
+var page;
+
+let testDataHelper = {
+  getMode: function (modeType) {
+    if (modeType === "mobile") {
+      //set webdirver to mobile mode
+      return modeType;
+    }
+    return modeType;
+  },
+  getUser: function (userType) {
+    if (userType === "anonymous") {
+      return null;
+    }
+  },
+  setMarket: function (marketType) {
+    //Set global markey variable
+    // point webdriver to the selected market
+  },
+
+
+  getMarketFooterLinkUrlMK: function (linkType) {
+    let dictionary = {
+      "Size Guide":
+        "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
+      "Privacy Policy": "https://www.next.mx/en/privacypolicy",
+      "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
+      "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
+      "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
+      "Contact Us": "https://www.next.mx/en/faqs#contactus",
+      Sitemap: "https://www.next.mx/en/sitemap",
+      "Terms & Conditions": "https://www.next.mx/en/terms",
+      "The Company": "https://www.nextplc.co.uk/",
+      "Careers@next": "https://careers.next.co.uk/",
+      "Next Franchise": "https://www.next.mx/en/franchise",
+    };
+
+    var keys = Object.keys(dictionary);
+
+    for (var i = 0; i < keys.length; i++) {
+      if (keys[i] === linkType) {
+        return dictionary[keys[i]];
+      }
+    }
+    return "";
+  },
+};
+
+Given("I am an {string} user {string} on {string} site", function ( userType, modeType, marketType) {
+//   this.page = pageHelper.createPagewith(marketType);
+  this.page = new MxDesktopQuickshopPage();
+  cy.log(page);
+  this.page.goto();
+//   this.page.validateFootLinkFor()
+//   this.page.validateFootLinkFor()
+});
+
+When("i am viewing the footer of the page", function () {
+  // Scroll to the footer
+});
+
+
+Then("all the {string} to should lead to correct locations", function (site) {
+    
+    dt.hashes().forEach(function (element) {
+    let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
+    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
+    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
+
+    var expectedPage = this.page;
+
+    this.page.validateFootLinkFor(element.Help, expectHelpLink);
+
+    if (element.Privacy_n_Legal != "") {
+        this.page.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
+    }
+    if (element.Other_Services != "") {
+        this.page.validateFootLinkFor(element.Other_Services, expectServiceLink);
+    }
+  });
+});
+
+Then(
+  "i should see that the Next_MX footer links are grouped as shown",
+  function (dataTable) {
+    dt = dataTable;
+    let footer = this.page.getFooterLinksMx();
+    dataTable.hashes().forEach(function (element) {
+      footer.should(function ($section) {
+        expect($section.eq(0)).to.contain(element.Help);
+        expect($section.eq(0)).to.contain(element.Privacy_n_Legal);
+        expect($section.eq(0)).to.contain(element.Other_Services);
+      });
+    });
+  }
+);
