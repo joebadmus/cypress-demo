@@ -5,9 +5,9 @@ class MxDesktopQuickshopPage {
     cy.visit(url);
   }
   
-  getFooHelptLinks() {
-    return cy.get('[type="email"]');
-  }
+  // getFooHelptLinks() {
+  //   return cy.get('[type="email"]');
+  // }
 
   closeCookieConsent() {
     cy.get('div[class*="CookieConsentCross"]').click();
