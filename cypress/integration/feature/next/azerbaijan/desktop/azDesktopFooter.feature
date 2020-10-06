@@ -4,6 +4,7 @@ Feature: AZ Footer Links
     I want to be able to see the foot links
 
     @azerbaijan
+    @international
     @footer
     Scenario: AZ_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Homepage" site
@@ -20,6 +21,7 @@ Feature: AZ Footer Links
 
 
     @azerbaijan
+    @international
     @footer
     Scenario: AZ_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Quickshop" site

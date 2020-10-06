@@ -4,6 +4,7 @@ Feature: MX Footer Links
     I want to be able to see the foot links
 
     @mexico
+    @international
     @footer
     Scenario: MX_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "MX_Homepage" site
@@ -20,6 +21,7 @@ Feature: MX Footer Links
 
 
     @mexico
+    @international
     @footer
     Scenario: MX_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "MX_Quickshop" site

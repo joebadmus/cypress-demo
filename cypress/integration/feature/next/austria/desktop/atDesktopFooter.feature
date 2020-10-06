@@ -4,6 +4,7 @@ Feature: AT Footer Links
     I want to be able to see the foot links
 
     @austria
+    @international
     @footer
     Scenario: AT_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AT_Homepage" site
@@ -20,6 +21,7 @@ Feature: AT Footer Links
 
 
     @austria
+    @international
     @footer
     Scenario: AT_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AT_Quickshop" site

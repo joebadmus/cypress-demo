@@ -4,6 +4,7 @@ Feature: BH Footer Links
     I want to be able to see the foot links
 
     @bahrain
+    @international
     @footer
     Scenario: BH_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BH_Homepage" site
@@ -20,6 +21,7 @@ Feature: BH Footer Links
 
 
     @bahrain
+    @international
     @footer
     Scenario: BH_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BH_Quickshop" site

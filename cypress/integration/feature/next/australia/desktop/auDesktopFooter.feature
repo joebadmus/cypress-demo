@@ -4,6 +4,7 @@ Feature: AU Footer Links
     I want to be able to see the foot links
 
     @australia
+    @international
     @footer
     Scenario: AU_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AU_Homepage" site
@@ -20,6 +21,7 @@ Feature: AU Footer Links
 
 
     @australia
+    @international
     @footer
     Scenario: AU_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AU_Quickshop" site

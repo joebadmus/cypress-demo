@@ -4,6 +4,7 @@ Feature: AM Footer Links
     I want to be able to see the foot links
 
     @armenia
+    @international
     @footer
     Scenario: AM_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AM_Homepage" site
@@ -20,6 +21,7 @@ Feature: AM Footer Links
 
 
     @armenia
+    @international
     @footer
     Scenario: AM_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AM_Quickshop" site
