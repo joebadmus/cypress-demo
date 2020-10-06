@@ -3,10 +3,7 @@ Feature: Uk Footer Links
     As a UK new user
     I want to be able to see the foot links
 
-    @uk
-    @desktop
-    @next
-    @anonymous
+  
     Scenario: FR Desktop Footer Links are displayed correctly
         # Given i am an anonymous desktop UK user on Next Uk site
         Given I am an "anonymous" user "desktop" on "Next_FR" site

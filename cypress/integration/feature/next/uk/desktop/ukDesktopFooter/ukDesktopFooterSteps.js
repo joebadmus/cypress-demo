@@ -59,8 +59,6 @@ let testDataHelper = {
     // }
     for (var key in link) {
       if (link[key] === linkType) {
-        console.log(link[key]);
-        console.log(linkType);
         return link[key];
       }
     }
@@ -69,13 +67,14 @@ let testDataHelper = {
 
   getMarketFooterLinkUrlMK: function (linkType) {
     let dictionary = {
-      "Size Guide":  "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
+      "Size Guide":
+        "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
       "Privacy Policy": "https://www.next.mx/en/privacypolicy",
       "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "Returns Information": "https://www.next.mx/en/faqs#returnskeyinformation",
+      "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
       "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
       "Contact Us": "https://www.next.mx/en/faqs#contactus",
-      "Sitemap": "https://www.next.mx/en/sitemap",
+      Sitemap: "https://www.next.mx/en/sitemap",
       "Terms & Conditions": "https://www.next.mx/en/terms",
       "The Company": "https://www.nextplc.co.uk/",
       "Careers@next": "https://careers.next.co.uk/",
@@ -98,11 +97,14 @@ Given("I am an {string} user {string} on {string} site", function (
   modeType,
   marketType
 ) {
-  // cy.visit("https://www.next.co.uk/");
-  cy.visit("https://www.next.mx/en");
+  var page = pageHelper.createPagewith(marketType);
+  page.goto();
+  desktopHomePage.visistUkHomePage();
 });
 
-When("i am viewing the footer of the page", function () {});
+When("i am viewing the footer of the page", function () {
+  // Scroll to the footer
+});
 
 let dt;
 // Then(
@@ -125,33 +127,23 @@ let dt;
 //   }
 // );
 
-Then("all the links to should lead to correct locations", function () {
-  // debugger
-  let footer = desktopHomePage.getFooterLinksMx();
+Then("all the {string} to should lead to correct locations", function (site) {
+
 
   dt.hashes().forEach(function (element) {
-
     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
-    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal);
+    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
 
-    footer
-      // .children("div")
-      .contains(element.Help)
-      .invoke("attr", "href")
-      .should("contain", expectHelpLink);
-    // if (element.Privacy_n_Legal != "")
-    //   footer
-    //     // .children("div")
-    //     .contains(element.Privacy_n_Legal)
-    //     .invoke("attr", "href")
-    //     .should("contain", expectPrivacyLink);
-    // if (element.Other_Services != "")
-    //   footer
-    //     // .children("div")
-    //     .contains(element.Other_Services)
-    //     .invoke("attr", "href")
-    //     .should("contain", expectServiceLink);
+
+   desktopHomePage.validateFootLinkFor(element.Help, expectHelpLink);
+
+    if (element.Privacy_n_Legal != "") {
+      desktopHomePage.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
+    }
+    if (element.Other_Services != "") {
+      desktopHomePage.validateFootLinkFor(element.Other_Services, expectServiceLink);
+    }
   });
 });
 
