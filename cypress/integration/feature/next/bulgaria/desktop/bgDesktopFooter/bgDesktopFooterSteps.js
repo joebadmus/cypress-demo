@@ -19,6 +19,7 @@ When("I am viewing the footer of the page", function () {
 Then("all the Next Mexico footer links should lead to correct locations", function () {
     
     dt.hashes().forEach(function (element) {
+      debugger;
     let expectHelpLink = TestDataHelper.getMarketFooterLinkUrlMK(element.Help);
     let expectPrivacyLink = TestDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
     let expectServiceLink = TestDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
