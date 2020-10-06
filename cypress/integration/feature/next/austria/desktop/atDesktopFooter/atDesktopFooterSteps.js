@@ -1,5 +1,5 @@
 import PageHelper from "../../../../../../support/testHelpers/PageHelper";
-import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
+//import AtDesktopQuickshopPage from "../../../../../../support/pageObjects/austria/AtDesktopQuickshopPage"
 
 
 let pageHelper = new PageHelper();
@@ -25,20 +25,20 @@ let testDataHelper = {
   },
 
 
-  getMarketFooterLinkUrlMK: function (linkType) {
+  getMarketFooterLinkUrlAT: function (linkType) {
     let dictionary = {
       "Size Guide":
-        "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
-      "Privacy Policy": "https://www.next.mx/en/privacypolicy",
+        "https://www.nextdirect.com/help/en/at/Section.aspx?ItemId=30781",
+      "Privacy Policy": "https://www.next.at/en/privacypolicy",
       "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
-      "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
-      "Contact Us": "https://www.next.mx/en/faqs#contactus",
-      Sitemap: "https://www.next.mx/en/sitemap",
-      "Terms & Conditions": "https://www.next.mx/en/terms",
+      "Returns Information":  "https://www.next.at/en/faqs#returnskeyinformation",
+      "Shipping Information": "https://www.next.at/en/faqs#deliverykeyinformation",
+      "Contact Us": "https://www.next.at/en/faqs#contactus",
+      Sitemap: "https://www.next.at/en/sitemap",
+      "Terms & Conditions": "https://www.next.at/en/terms",
       "The Company": "https://www.nextplc.co.uk/",
       "Careers@next": "https://careers.next.co.uk/",
-      "Next Franchise": "https://www.next.mx/en/franchise",
+      "Next Franchise": "https://www.next.at/en/franchise",
     };
 
     var keys = Object.keys(dictionary);
@@ -53,9 +53,7 @@ let testDataHelper = {
 };
 
 Given("I am an {string} user {string} on {string} site", function ( userType, modeType, marketType) {
-page = pageHelper.createPagewith(marketType);
-  //page = new MxDesktopQuickshopPage();
-  //cy.log(page);
+  page = pageHelper.createPagewith(marketType);
   page.goto();
 //   this.page.validateFootLinkFor()
 //   this.page.validateFootLinkFor()
@@ -66,12 +64,12 @@ When("i am viewing the footer of the page", function () {
 });
 
 
-Then("all the Next Mexico footer links should lead to correct locations", function (site) {
+Then("all the Next Austria footer links should lead to correct locations", function (site) {
     
     dt.hashes().forEach(function (element) {
-    let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
-    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
-    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
+    let expectHelpLink = testDataHelper.getMarketFooterLinkUrlAT(element.Help);
+    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlAT(element.Privacy_n_Legal );
+    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlAT(element.Other_Services);
 
     var expectedPage = page;
 
@@ -87,7 +85,7 @@ Then("all the Next Mexico footer links should lead to correct locations", functi
 });
 
 Then(
-  "i should see that the Next_MX footer links are grouped as shown",
+  "i should see that the Next_AT footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = page.getFooterLinks();

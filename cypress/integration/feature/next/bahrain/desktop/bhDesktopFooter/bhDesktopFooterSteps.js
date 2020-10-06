@@ -1,5 +1,5 @@
 import PageHelper from "../../../../../../support/testHelpers/PageHelper";
-import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
+//import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
 
 
 let pageHelper = new PageHelper();
@@ -25,20 +25,19 @@ let testDataHelper = {
   },
 
 
-  getMarketFooterLinkUrlMK: function (linkType) {
+  getMarketFooterLinkUrlBH: function (linkType) {
     let dictionary = {
-      "Size Guide":
-        "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
-      "Privacy Policy": "https://www.next.mx/en/privacypolicy",
-      "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
-      "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
-      "Contact Us": "https://www.next.mx/en/faqs#contactus",
-      Sitemap: "https://www.next.mx/en/sitemap",
-      "Terms & Conditions": "https://www.next.mx/en/terms",
-      "The Company": "https://www.nextplc.co.uk/",
-      "Careers@next": "https://careers.next.co.uk/",
-      "Next Franchise": "https://www.next.mx/en/franchise",
+    "Size Guide": "https://www.nextdirect.com/help/en/bh/Section.aspx?ItemId=31534",
+    "Privacy Policy": "https://www.nextdirect.com/bh/en/privacypolicy",
+    "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
+    "Returns Information":  "https://www.nextdirect.com/bh/en/faqs#returnskeyinformation",
+    "Shipping Information": "https://www.nextdirect.com/bh/en/faqs#deliverykeyinformation",
+    "Contact Us": "https://www.nextdirect.com/bh/en/faqs#contactus",
+    Sitemap: "https://www.nextdirect.com/bh/en/sitemap",
+    "Terms & Conditions": "https://www.nextdirect.com/bh/en/terms",
+    "The Company": "https://www.nextplc.co.uk/",
+    "Careers@next": "https://careers.next.co.uk/",
+    "Next Franchise": "https://www.nextdirect.com/bh/en/franchise",
     };
 
     var keys = Object.keys(dictionary);
@@ -66,12 +65,12 @@ When("i am viewing the footer of the page", function () {
 });
 
 
-Then("all the Next Mexico footer links should lead to correct locations", function (site) {
+Then("all the Next Bahrain footer links should lead to correct locations", function (site) {
     
     dt.hashes().forEach(function (element) {
-    let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
-    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
-    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
+    let expectHelpLink = testDataHelper.getMarketFooterLinkUrlBH(element.Help);
+    let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlBH(element.Privacy_n_Legal );
+    let expectServiceLink = testDataHelper.getMarketFooterLinkUrlBH(element.Other_Services);
 
     var expectedPage = page;
 
@@ -87,7 +86,7 @@ Then("all the Next Mexico footer links should lead to correct locations", functi
 });
 
 Then(
-  "i should see that the Next_MX footer links are grouped as shown",
+  "i should see that the Next_BH footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = page.getFooterLinks();
