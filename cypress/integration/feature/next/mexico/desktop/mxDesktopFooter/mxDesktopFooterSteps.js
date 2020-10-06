@@ -61,7 +61,7 @@ page = pageHelper.createPagewith(marketType);
 //   this.page.validateFootLinkFor()
 });
 
-When("i am viewing the footer of the page", function () {
+When("I am viewing the footer of the page", function () {
   // Scroll to the footer
 });
 
@@ -87,7 +87,7 @@ Then("all the Next Mexico footer links should lead to correct locations", functi
 });
 
 Then(
-  "i should see that the Next_MX footer links are grouped as shown",
+  "I should see that the Next_MX footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = page.getFooterLinks();
@@ -96,7 +96,7 @@ Then(
         expect($section.eq(0)).to.contain(element.Help);
         expect($section.eq(0)).to.contain(element.Privacy_n_Legal);
         expect($section.eq(0)).to.contain(element.Other_Services);
-      });
+      }); 
     });
   }
 );

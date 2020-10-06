@@ -59,7 +59,7 @@ Given("I am an {string} user {string} on {string} site", function ( userType, mo
 //   this.page.validateFootLinkFor()
 });
 
-When("i am viewing the footer of the page", function () {
+When("I am viewing the footer of the page", function () {
   // Scroll to the footer
 });
 
@@ -84,8 +84,7 @@ Then("all the Next Austria footer links should lead to correct locations", funct
   });
 });
 
-Then(
-  "i should see that the Next_AT footer links are grouped as shown",
+Then("I should see that the Next_AT footer links are grouped as shown",
   function (dataTable) {
     dt = dataTable;
     let footer = page.getFooterLinks();

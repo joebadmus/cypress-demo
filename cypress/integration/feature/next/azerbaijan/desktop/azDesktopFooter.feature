@@ -7,8 +7,8 @@ Feature: AZ Footer Links
     @footer
     Scenario: AZ_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Homepage" site
-        And i am viewing the footer of the page
-        Then i should see that the Next_AZ footer links are grouped as shown
+        And I am viewing the footer of the page
+        Then I should see that the Next_AZ footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
@@ -23,8 +23,8 @@ Feature: AZ Footer Links
     @footer
     Scenario: AZ_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Quickshop" site
-        And i am viewing the footer of the page
-        Then i should see that the Next_AZ footer links are grouped as shown
+        And I am viewing the footer of the page
+        Then I should see that the Next_AZ footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
