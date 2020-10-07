@@ -1,12 +1,9 @@
+@bulgaria @international @footer @desktop
 Feature: Bulgaria Footer Links
     In order to be taken to correct location on the Next site
     As a user in Bulgaria
     I want to be taken to the correct location from the footer links
 
-    @bulgaria
-    @international
-    @footer
-    @desktop
     Scenario: BG_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BG_Home" page
         And I am viewing the footer of the page
@@ -19,12 +16,6 @@ Feature: Bulgaria Footer Links
             | Карта на сайта          |                                 |                    |
         And I should see that the view mobile site link is present
 
-
-
-    @bulgaria
-    @international
-    @footer
-    @desktop
     Scenario:BG_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BG_Quickshop" page
         And I am viewing the footer of the page

@@ -13,6 +13,12 @@ Given("I am an {string} user {string} on {string} page", (userType, modeType, ma
   page.goto();
 });
 
+
+Given("I am an {string} user on the {string} on any international Homepage",(userType, modeType) =>{
+
+});
+
+
 When("I am viewing the footer of the page", function () {
   page.gotoFooter();
 });

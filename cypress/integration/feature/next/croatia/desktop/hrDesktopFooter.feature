@@ -1,12 +1,9 @@
+@croatia @international @footer @desktop
 Feature: Croatia Footer Links
     In order to be taken to correct location on the Next site
     As a user in Croatia
     I want to be taken to the correct location from the footer links
 
-    @croatia
-    @international
-    @footer
-    @desktop
     Scenario: HR_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "HR_Home" page
         And I am viewing the footer of the page
@@ -19,10 +16,6 @@ Feature: Croatia Footer Links
             | Sitemap              |                    |                |
         And I should see that the view mobile site link is present
 
-    @croatia
-    @international
-    @footer
-    @desktop
     Scenario: HR_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "HR_Quickshop" page
         And I am viewing the footer of the page
