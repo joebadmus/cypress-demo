@@ -20,7 +20,9 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:footer:tests" : "npx cypress-tags run -e TAGS=@footer",
+    "open:cypress": "npx cypress open"
   },
   "author": "",
   "license": "ISC"

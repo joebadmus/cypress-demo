@@ -4,6 +4,8 @@ import MxDesktopQuickshopPage from "../../support/pageObjects/mexico/MxDesktopQu
 import MxDesktopHomePage from "../../support/pageObjects/mexico/MxDesktopHomePage";
 import CaDesktopHomePage from "../../support/pageObjects/canada/CaDesktopHomePage";
 import CaDesktopQuickshopPage from "../../support/pageObjects/canada/CaDesktopQuickshopPage";
+import HrDesktopHomePage from "../../support/pageObjects/croatia/HrDesktopHomePage";
+import HrDesktopQuickshopPage from "../../support/pageObjects/croatia/HrDesktopQuickshopPage";
 
 
 class PageHelper {
@@ -15,6 +17,8 @@ class PageHelper {
       case "BG_Home":  return new BgDesktopHomePage();
       case "CA_Home":  return new CaDesktopHomePage();
       case "CA_Quickshop":  return new CaDesktopQuickshopPage();
+      case "HR_Home":  return new HrDesktopHomePage();
+      case "HR_Quickshop":  return new HrDesktopQuickshopPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }
