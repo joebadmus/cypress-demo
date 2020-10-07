@@ -36,6 +36,18 @@ class TestDataHelper {
       "За компанията": "https://www.nextplc.co.uk/",
       "Работа в Next": "https://careers.next.co.uk/",
       "Франчайзинг с Next": "https://www.nextdirect.com/bg/bg/franchise",
+      // ======================Taiwan==============================
+      "尺碼指南": "href=https://www.nextdirect.com/help/zh/tw/Section.aspx?ItemId=14485",
+      "退貨資訊": "href=https://www.next.tw/zh/faqs#returnskeyinformation",
+      "運送資訊": "href=https://www.next.tw/zh/faqs#deliverykeyinformation",
+      "聯絡我們": "href=https://www.next.tw/zh/faqs#contactus",
+      "網站導覽": "href=https://www.next.tw/zh/sitemap",
+      "隱私權政策": "href=https://www.next.tw/zh/privacypolicy",
+      "條款及細則": "href=https://www.next.tw/zh/terms",
+      "媒體新聞": "href=https://www.nextplc.co.uk/media/media-contacts",
+      "公司簡介": "href=https://www.nextplc.co.uk/",
+      "Next人才招募": "href=https://careers.next.co.uk/",
+      "Next加盟店": "href=https://www.next.tw/zh/franchise"
     };
     var keys = Object.keys(dictionary);
 
