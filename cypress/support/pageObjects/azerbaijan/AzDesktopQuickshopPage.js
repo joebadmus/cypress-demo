@@ -1,4 +1,6 @@
-class AzDesktopQuickshopPage {
+import FooterPage from "../../FooterPage";
+
+class AzDesktopQuickshopPage extends FooterPage {
   
   goto() {
     let url = Cypress.env("azHomePageUrl") + "quickshop";

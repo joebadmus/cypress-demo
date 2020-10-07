@@ -1,4 +1,6 @@
-class AuDesktopQuickshopPage {
+import FooterPage from "../../FooterPage";
+
+class AuDesktopQuickshopPage extends FooterPage {
   
   goto() {
     let url = Cypress.env("auHomePageUrl") + "quickshop";

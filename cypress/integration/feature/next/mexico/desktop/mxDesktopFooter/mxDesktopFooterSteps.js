@@ -1,104 +1,37 @@
 // import PageHelper from "../../../../../../support/testHelpers/PageHelper";
-// import MxDesktopQuickshopPage from "../../../../../../support/pageObjects/mexico/MxDesktopQuickshopPage"
-
+// import TestDataHelper from "../../../../../../support/testHelpers/TestDataHelper";
 
 // let pageHelper = new PageHelper();
-// let dt;
-// var page;
+// let page;
 
-// let testDataHelper = {
-//   getMode: function (modeType) {
-//     if (modeType === "mobile") {
-//       //set webdirver to mobile mode
-//       return modeType;
-//     }
-//     return modeType;
-//   },
-//   getUser: function (userType) {
-//     if (userType === "anonymous") {
-//       return null;
-//     }
-//   },
-//   setMarket: function (marketType) {
-//     //Set global markey variable
-//     // point webdriver to the selected market
-//   },
-
-
-//   getMarketFooterLinkUrlMK: function (linkType) {
-//     let dictionary = {
-//       "Size Guide":
-//         "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
-//       "Privacy Policy": "https://www.next.mx/en/privacypolicy",
-//       "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-//       "Returns Information":  "https://www.next.mx/en/faqs#returnskeyinformation",
-//       "Shipping Information": "https://www.next.mx/en/faqs#deliverykeyinformation",
-//       "Contact Us": "https://www.next.mx/en/faqs#contactus",
-//       Sitemap: "https://www.next.mx/en/sitemap",
-//       "Terms & Conditions": "https://www.next.mx/en/terms",
-//       "The Company": "https://www.nextplc.co.uk/",
-//       "Careers@next": "https://careers.next.co.uk/",
-//       "Next Franchise": "https://www.next.mx/en/franchise",
-//     };
-
-//     var keys = Object.keys(dictionary);
-
-//     for (var i = 0; i < keys.length; i++) {
-//       if (keys[i] === linkType) {
-//         return dictionary[keys[i]];
-//       }
-//     }
-//     return "";
-//   },
-// };
-
-// Given("I am an {string} user {string} on {string} site", function ( userType, modeType, marketType) {
-// page = pageHelper.createPagewith(marketType);
-//   //page = new MxDesktopQuickshopPage();
-//   //cy.log(page);
+// Given("I am an {string} user {string} on {string} page", function ( userType, modeType, marketType) {
+//   page = pageHelper.createPagewith(marketType);
 //   page.goto();
-// //   this.page.validateFootLinkFor()
-// //   this.page.validateFootLinkFor()
 // });
 
 // When("I am viewing the footer of the page", function () {
-//   // Scroll to the footer
+//   page.gotoFooter();
 // });
 
 
-// Then("all the Next Mexico footer links should lead to correct locations", function (site) {
+// Then("I should see that the footer links are grouped as shown", dataTable => {
 
-    
-//     dt.hashes().forEach(function (element) {
-
-//     let expectHelpLink = testDataHelper.getMarketFooterLinkUrlMK(element.Help);
-//     let expectPrivacyLink = testDataHelper.getMarketFooterLinkUrlMK(element.Privacy_n_Legal );
-//     let expectServiceLink = testDataHelper.getMarketFooterLinkUrlMK(element.Other_Services);
-
-//     var expectedPage = page;
-
-//     page.validateFootLinkFor(element.Help, expectHelpLink);
-
-//     if (element.Privacy_n_Legal != "") {
-//         page.validateFootLinkFor(element.Privacy_n_Legal, expectPrivacyLink );
-//     }
-//     if (element.Other_Services != "") {
-//         page.validateFootLinkFor(element.Other_Services, expectServiceLink);
-//     }
-//   });
-// });
-
-// Then(
-//   "I should see that the Next_MX footer links are grouped as shown",
-//   function (dataTable) {
-//     dt = dataTable;
-//     let footer = page.getFooterLinks();
-//     dataTable.hashes().forEach(function (element) {
-//       footer.should(function ($section) {
-//         expect($section.eq(0)).to.contain(element.Help);
-//         expect($section.eq(0)).to.contain(element.Privacy_n_Legal);
-//         expect($section.eq(0)).to.contain(element.Other_Services);
-//       }); 
-//     });
+//   let allParameters = dataTable.hashes();
+//   let headers = dataTable.rawTable[0];
+  
+//   for (var i = 0;i < allParameters.length; i++) {
+//     for(var header in headers){
+//       let linkText = allParameters[i][headers[header]]
+     
+//       if(linkText !== ""){
+//         let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
+//         page.validateFootLinkFor(linkText, expectLink);
+//         page.validateLinkIsPresent(linkText);
+//       } 
+//     } 
 //   }
-// );
+
+//   And("I should see that the view mobile site link is present", () => {
+//     page.ValidateMobileViewLinkIsPrestn();
+//   })
+// });

@@ -1,9 +1,6 @@
-import UkDesktopHomePage from "../../../../../../support/pageObjects/uk/UkDesktopHomePage";
-import PageHelper from "../../../../../../support/testHelpers/PageHelper";
-
+import UkDesktopHomePage from "../../../../../pageObject/uk/ukDesktopHomePage";
 let desktopHomePage = new UkDesktopHomePage();
 
-let pageHelper = new PageHelper();
 let testDataHelper = {
   getMode: function (modeType) {
     if (modeType === "mobile") {

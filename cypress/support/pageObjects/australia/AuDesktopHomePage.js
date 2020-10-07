@@ -1,4 +1,6 @@
-class AuDesktopHomePage {
+import FooterPage from "../../FooterPage";
+
+class AuDesktopHomePage extends FooterPage {
 
     goto(){
       cy.visit(Cypress.env('auHomePageUrl'));

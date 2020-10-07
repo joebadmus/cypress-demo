@@ -1,4 +1,6 @@
-class BhDesktopHomePage {
+import FooterPage from "../../FooterPage";
+
+class BhDesktopHomePage extends FooterPage {
 
     goto(){
       cy.visit(Cypress.env('bhHomePageUrl'));
