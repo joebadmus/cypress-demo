@@ -6,10 +6,11 @@ Feature: AT Footer Links
     @austria
     @international
     @footer
-    Scenario: AT_Homepage Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "AT_Homepage" site
+    @desktop
+    Scenario: Austria Homepage Desktop Footer Links are displayed correctly
+        Given I am an "anonymous" user "desktop" on "AT_Homepage" page
         And I am viewing the footer of the page
-        Then I should see that the Next_AT footer links are grouped as shown
+        Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
@@ -17,16 +18,17 @@ Feature: AT Footer Links
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
-        And all the Next Austria footer links should lead to correct locations
+
 
 
     @austria
     @international
     @footer
-    Scenario: AT_Quickshop Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "AT_Quickshop" site
+    @desktop
+    Scenario: Austria Quickshop Desktop Footer Links are displayed correctly
+        Given I am an "anonymous" user "desktop" on "AT_Quickshop" page
         And I am viewing the footer of the page
-        Then I should see that the Next_AT footer links are grouped as shown
+        Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
             | Returns Information  | Terms & Conditions | The Company    |
@@ -34,5 +36,5 @@ Feature: AT Footer Links
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
 
-        And all the Next Austria footer links should lead to correct locations
+
 

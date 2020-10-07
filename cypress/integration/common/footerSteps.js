@@ -5,9 +5,11 @@ import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 
 let pageHelper = new PageHelper();
 let page;
+let testMarketType;
 
-Given("I am an {string} user {string} on {string} page", function ( userType, modeType, marketType) {
-
+Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
+  
+  testMarketType = marketType
   page = pageHelper.createPagewith(marketType);
   page.goto();
 });
@@ -24,11 +26,13 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
   
   for (var i = 0;i < allParameters.length; i++) {
     for(var header in headers){
-      let linkText = allParameters[i][headers[header]]
+      let linkText = allParameters[i][headers[header]];
      
       if(linkText !== ""){
-        let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
-        page.validateFootLinkFor(linkText, expectLink);
+        // let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
+
+        let expectLink = TestDataHelper.getFooterFor(testMarketType, linkText);
+        page.validateFootLinkFor(linkText, expectLink.linkHref);
         page.validateLinkIsPresent(linkText);
       } 
     } 
@@ -36,5 +40,5 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
 
   And("I should see that the view mobile site link is present", () => {
     page.ValidateMobileViewLinkIsPrestn();
-  })
+  });
 });

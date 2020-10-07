@@ -11,6 +11,9 @@
     "atHomePageUrl": "https://www.next.at/en/",
     "azHomePageUrl": "https://www.next.com.az/en/",
     "bhHomePageUrl": "https://www.nextdirect.com/bh/en/",
-    "bgHomePageUrl": "https://www.nextdirect.com/bg/bg/"
+    "bgHomePageUrl": "https://www.nextdirect.com/bg/bg/",
+    "caHomePageUrl": "https://www.nextdirect.com/ca/en/",
+    "hrHomePageUrl": "https://www.nextdirect.com/hr/en/",
+    "dkHomePageUrl": "https://www.nextdirect.com/dk/en/"
   }
 }

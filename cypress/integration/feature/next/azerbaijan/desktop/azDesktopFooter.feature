@@ -6,7 +6,8 @@ Feature: AZ Footer Links
     @azerbaijan
     @international
     @footer
-    Scenario: AZ_Homepage Desktop Footer Links are displayed correctly
+    @desktop
+    Scenario: Azerbaijan Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Homepage" site
         And I am viewing the footer of the page
         Then I should see that the Next_AZ footer links are grouped as shown
@@ -23,7 +24,8 @@ Feature: AZ Footer Links
     @azerbaijan
     @international
     @footer
-    Scenario: AZ_Quickshop Desktop Footer Links are displayed correctly
+    @desktop
+    Scenario: Azerbaijan Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AZ_Quickshop" site
         And I am viewing the footer of the page
         Then I should see that the Next_AZ footer links are grouped as shown

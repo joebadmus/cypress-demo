@@ -6,7 +6,8 @@ Feature: BH Footer Links
     @bahrain
     @international
     @footer
-    Scenario: BH_Homepage Desktop Footer Links are displayed correctly
+    @desktop
+    Scenario: Bahrain Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BH_Homepage" site
         And I am viewing the footer of the page
         Then I should see that the Next_BH footer links are grouped as shown
@@ -23,7 +24,8 @@ Feature: BH Footer Links
     @bahrain
     @international
     @footer
-    Scenario: BH_Quickshop Desktop Footer Links are displayed correctly
+    @desktop
+    Scenario: Bahrain Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BH_Quickshop" site
         And I am viewing the footer of the page
         Then I should see that the Next_BH footer links are grouped as shown

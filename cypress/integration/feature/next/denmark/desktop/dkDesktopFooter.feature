@@ -1,14 +1,14 @@
-Feature: Mexico Footer Links
+Feature: Denmark Footer Links
     In order to be taken to correct location on the Next site
-    As a user in Mexico
+    As a user in Denmark
     I want to be taken to the correct location from the footer links
 
-    @mexico
+    @denmark
     @international
     @footer
     @desktop
-    Scenario: Mexico Homepage Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "MX_Home" page
+    Scenario: Denmark Homepage Desktop Footer Links are displayed correctly
+        Given I am an "anonymous" user "desktop" on "DK_Home" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
@@ -19,12 +19,12 @@ Feature: Mexico Footer Links
             | Sitemap              |                    |                |
         And I should see that the view mobile site link is present
 
-    @mexico
+    @denmark
     @international
     @footer
     @desktop
-    Scenario: Mexico Quickshop Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "MX_Quickshop" page
+    Scenario: Denmark Quickshop Desktop Footer Links are displayed correctly
+        Given I am an "anonymous" user "desktop" on "DK_Quickshop" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
