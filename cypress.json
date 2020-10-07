@@ -8,6 +8,9 @@
     "mxHomePageUrl": "https://www.next.mx/en/",
     "bgHomePageUrl": "https://www.nextdirect.com/bg/bg/",
     "caHomePageUrl": "https://www.nextdirect.com/ca/en/",
-    "hrHomePageUrl": "https://www.nextdirect.com/hr/en/"
+    "hrHomePageUrl": "https://www.nextdirect.com/hr/en/",
+    "trHomePageUrl": "https://www.nextdirect.com/tr/en/",
+    "thHomePageUrl": "https://www.nextdirect.com/th/en/"
+
   }
 }
