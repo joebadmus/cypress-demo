@@ -22,11 +22,11 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
 
   let allParameters = dataTable.hashes();
   let headers = dataTable.rawTable[0];
-  
+  debugger
   for (var i = 0;i < allParameters.length; i++) {
     for(var header in headers){
       let linkText = allParameters[i][headers[header]];
-     
+      debugger
       if(linkText !== ""){
         // let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
 
