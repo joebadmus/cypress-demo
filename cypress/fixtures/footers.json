@@ -463,5 +463,97 @@
             "linkText": "Next Affiliates",
             "linkHref": "https://www.nextdirect.com/help/en/us/Section.aspx?ItemId=21923"
         }
+    ],
+    "CH": [
+        {
+            "linkText": "Größentabelle",
+            "linkHref": "https://www.nextdirect.com/help/de/ch/Section.aspx?ItemId=26526"
+        },
+        {
+            "linkText": "Rücksendungsinformationen",
+            "linkHref": "https://www.nextdirect.com/ch/de/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Versandinformationen",
+            "linkHref": "https://www.nextdirect.com/ch/de/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Kontakt",
+            "linkHref": "https://www.nextdirect.com/ch/de/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/ch/de/sitemap"
+        },
+        {
+            "linkText": "Datenschutzrichtlinie",
+            "linkHref": "https://www.nextdirect.com/ch/de/privacypolicy"
+        },
+        {
+            "linkText": "Geschäftsbedingungen",
+            "linkHref": "https://www.nextdirect.com/ch/de/terms"
+        },
+        {
+            "linkText": "Medien & Presse",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Das Unternehmen",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Karriere bei Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next-Franchise",
+            "linkHref": "https://www.nextdirect.com/ch/de/franchise"
+        }
+    ],
+    "SE": [
+        {
+            "linkText": "Storleksguide",
+            "linkHref": "https://www.nextdirect.com/help/en/se/Section.aspx?ItemId=18300"
+        },
+        {
+            "linkText": "Returinformation",
+            "linkHref": "https://www.next.se/sv/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Leveransinformation",
+            "linkHref": "https://www.next.se/sv/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Kontakta oss",
+            "linkHref": "https://www.next.se/sv/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.se/sv/sitemap"
+        },
+        {
+            "linkText": "Sekretesspolicy",
+            "linkHref": "https://www.next.se/sv/privacypolicy"
+        },
+        {
+            "linkText": "Allmänna villkor",
+            "linkHref": "https://www.next.se/sv/terms"
+        },
+        {
+            "linkText": "Media & press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Företaget",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.se/sv/franchise"
+        }
     ]
 }
