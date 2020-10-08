@@ -18,6 +18,7 @@ class TestDataHelper {
       "The Company": "https://www.nextplc.co.uk/",
       "Careers@next": "https://careers.next.co.uk/",
       "Next Franchise": "https://www.next.mx/en/franchise"
+      
     };
     var keys = Object.keys(dictionary);
 
