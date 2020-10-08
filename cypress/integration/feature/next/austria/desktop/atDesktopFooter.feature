@@ -1,12 +1,10 @@
+@austria @international @footer @desktop
+
 Feature: AT Footer Links
     In order to be taken to correct location on the Next Austria site
     As a AT new user
     I want to be able to see the foot links
 
-    @austria
-    @international
-    @footer
-    @desktop
     Scenario: Austria Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AT_Homepage" page
         And I am viewing the footer of the page
@@ -21,10 +19,6 @@ Feature: AT Footer Links
 
 
 
-    @austria
-    @international
-    @footer
-    @desktop
     Scenario: Austria Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "AT_Quickshop" page
         And I am viewing the footer of the page

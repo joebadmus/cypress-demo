@@ -354,26 +354,6 @@
 
         {
             "linkText": "Returns Information",
-            "linkHref": "https://www.next.com.au/en/faqs#returnskeyinformation"
-        },
-        {
-            "linkText": "Shipping Information",
-            "linkHref": "https://www.next.com.au/en/faqs#deliverykeyinformation"
-        },
-        {
-            "linkText": "Contact Us",
-            "linkHref": "https://www.next.com.au/en/faqs#contactus"
-        },
-        {
-            "linkText": "Sitemap",
-            "linkHref": "https://www.next.com.au/en/sitemap"
-        },
-        {
-            "linkText": "Privacy Policy",
-            "linkHref": "https://www.next.com.au/en/privacypolicy"
-        },
-        {
-            "linkText": "Terms & Conditions",
             "linkHref": "https://www.nextdirect.com/th/en/faqs#returnskeyinformation"
         },
         {
@@ -403,16 +383,7 @@
         {
             "linkText": "Careers@next",
             "linkHref": "https://careers.next.co.uk/"
-        },
-        {
-            "linkText": "Next Franchise",
-            "linkHref": "https://www.next.com.au/en/franchise"
-        },  
-        {
-            "linkText": "Next Affiliates",
-            "linkHref": "https://www.nextdirect.com/help/en/au/Section.aspx?ItemId=21924"
-        }     
-
+        }
     ],
     "AT": [
         
@@ -611,7 +582,6 @@
             "linkText": "尺碼指南",
             "linkHref": "https://www.nextdirect.com/help/zh/tw/Section.aspx?ItemId=14485"
         },
-
         {
             "linkText": "退貨資訊",
             "linkHref": "https://www.next.tw/zh/faqs#returnskeyinformation"

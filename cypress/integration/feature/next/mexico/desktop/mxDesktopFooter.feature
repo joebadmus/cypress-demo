@@ -4,15 +4,7 @@ Feature: Mexico Footer Links
     As a user in Mexico
     I want to be taken to the correct location from the footer links
 
-<<<<<<< HEAD
-    @mexico
-    @international
-    @footer
-    @desktop
-    Scenario: Mexico Homepage Desktop Footer Links are displayed correctly
-=======
     Scenario: MX_Homepage Desktop Footer Links are displayed correctly
->>>>>>> master
         Given I am an "anonymous" user "desktop" on "MX_Home" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
@@ -24,15 +16,7 @@ Feature: Mexico Footer Links
             | Sitemap              |                    |                |
         And I should see that the view mobile site link is present
 
-<<<<<<< HEAD
-    @mexico
-    @international
-    @footer
-    @desktop
-    Scenario: Mexico Quickshop Desktop Footer Links are displayed correctly
-=======
     Scenario: MX_Quickshop Desktop Footer Links are displayed correctly
->>>>>>> master
         Given I am an "anonymous" user "desktop" on "MX_Quickshop" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown

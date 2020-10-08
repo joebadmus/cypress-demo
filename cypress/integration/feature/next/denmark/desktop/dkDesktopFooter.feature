@@ -31,3 +31,6 @@ Feature: Denmark Footer Links
             | Sitemap              |                    |                |
         And I should see that the view mobile site link is present
 
+
+
+
