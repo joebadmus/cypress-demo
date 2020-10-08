@@ -19,6 +19,12 @@ import HrDesktopQuickshopPage from "../../support/pageObjects/croatia/HrDesktopQ
 import DkDesktopHomePage from "../../support/pageObjects/denmark/DkDesktopHomePage";
 import DkDesktopQuickshopPage from "../../support/pageObjects/denmark/DkDesktopQuickshopPage";
 
+import TrDesktopHomePage from "../../support/pageObjects/turkey/TrDesktopHomePage";
+import TrDesktopQuickshopPage from "../../support/pageObjects/turkey/TrDesktopQuickshopPage";
+import ThDesktopHomePage from "../../support/pageObjects/thailand/ThDesktopHomePage";
+import ThDesktopQuickshopPage from "../../support/pageObjects/thailand/ThDesktopQuickshopPage";
+import TwDesktopHomePage from "../../support/pageObjects/taiwan/TwDesktopHomePage";
+import TwDesktopQuickshopPage from "../../support/pageObjects/taiwan/TwDesktopQuickshopPage";
 
 
 class PageHelper {
@@ -44,6 +50,12 @@ class PageHelper {
       case "HR_Quickshop":  return new HrDesktopQuickshopPage();
       case "DK_Home":  return new DkDesktopHomePage();
       case "DK_Quickshop":  return new DkDesktopQuickshopPage();
+      case "TR_Quickshop": return new TrDesktopQuickshopPage();
+      case "TR_Home":  return new TrDesktopHomePage();
+      case "TH_Quickshop": return new ThDesktopQuickshopPage();
+      case "TH_Home":  return new ThDesktopHomePage();
+      case "TW_Quickshop": return new TwDesktopQuickshopPage();
+      case "TW_Home":  return new TwDesktopHomePage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }

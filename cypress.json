@@ -14,6 +14,10 @@
     "bgHomePageUrl": "https://www.nextdirect.com/bg/bg/",
     "caHomePageUrl": "https://www.nextdirect.com/ca/en/",
     "hrHomePageUrl": "https://www.nextdirect.com/hr/en/",
-    "dkHomePageUrl": "https://www.nextdirect.com/dk/en/"
+    "dkHomePageUrl": "https://www.nextdirect.com/dk/en/",
+    "trHomePageUrl": "https://www.nextdirect.com/tr/en/",
+    "thHomePageUrl": "https://www.nextdirect.com/th/en/",
+    "twHomePageUrl": "https://www.next.tw/zh/"
+
   }
 }
