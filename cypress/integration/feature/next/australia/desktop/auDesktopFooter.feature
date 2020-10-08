@@ -16,7 +16,7 @@ Feature: AU Footer Links
             | Shipping Information |                    | Careers@next    |
             | Contact Us           |                    | Next Franchise  |
             | Sitemap              |                    | Next Affiliates |
-
+        And I should see that the view mobile site link is present
 
 
 
@@ -30,6 +30,6 @@ Feature: AU Footer Links
             | Shipping Information |                    | Careers@next    |
             | Contact Us           |                    | Next Franchise  |
             | Sitemap              |                    | Next Affiliates |
-
+        And I should see that the view mobile site link is present
 
 

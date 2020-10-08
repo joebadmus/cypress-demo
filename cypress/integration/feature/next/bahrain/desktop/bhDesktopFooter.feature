@@ -15,8 +15,7 @@ Feature: BH Footer Links
             | Returns Information  | Terms & Conditions | The Company    |
             | Shipping Information |                    | Careers@next   |
             | Contact Us           |                    | Next Franchise |
-            | Sitemap              |                    |                |
-            
+            | Sitemap              |                    |                |       
         And I should see that the view mobile site link is present
 
 
@@ -32,5 +31,4 @@ Feature: BH Footer Links
             | Shipping Information |                    | Careers@next   |
             | Contact Us           |                    | Next Franchise |
             | Sitemap              |                    |                |
-
         And I should see that the view mobile site link is present
