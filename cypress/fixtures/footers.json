@@ -238,27 +238,7 @@
         },
         {
             "linkText": "Returns Information",
-            "linkHref": "https://www.nextdirect.com/am/en/faqs#returnskeyinformation"
-        },
-        {
-            "linkText": "Shipping Information",
-            "linkHref": "https://www.nextdirect.com/am/en/faqs#deliverykeyinformation"
-        },
-        {
-            "linkText": "Contact Us",
-            "linkHref": "https://www.nextdirect.com/am/en/faqs#contactus"
-        },
-        {
-            "linkText": "Sitemap",
-            "linkHref": "https://www.nextdirect.com/am/en/sitemap"
-        },
-        {
-            "linkText": "Privacy Policy",
-            "linkHref": "https://www.nextdirect.com/am/en/privacypolicy"
-        },
-        {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.nextdirect.com/am/en/terms"
+            "linkHref": "https://www.nextdirect.com/tr/en/faqs#returnskeyinformation"
         },
         {
             "linkText": "Shipping Information",
@@ -287,12 +267,7 @@
         {
             "linkText": "Careers@next",
             "linkHref": "https://careers.next.co.uk/"
-        },
-        {
-            "linkText": "Next Franchise",
-            "linkHref": "https://www.nextdirect.com/am/en/franchise"
-        }      
-
+        }
     ],
     "AU": [
         

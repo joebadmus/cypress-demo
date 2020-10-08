@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run:footer:tests": "npx cypress run -e TAGS='@footer'",
+    "run:footer:tests": "npx cypress-tags run -e TAGS=@footer",
     "open:cypress": "npx cypress open"
   },
   "author": "",
