@@ -1,2 +1,4 @@
 node_modules
 debub.log
+cypress/screenshots/
+cypress/videos/
