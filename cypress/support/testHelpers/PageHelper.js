@@ -16,6 +16,8 @@ import CaDesktopHomePage from "../../support/pageObjects/canada/CaDesktopHomePag
 import CaDesktopQuickshopPage from "../../support/pageObjects/canada/CaDesktopQuickshopPage";
 import HrDesktopHomePage from "../../support/pageObjects/croatia/HrDesktopHomePage";
 import HrDesktopQuickshopPage from "../../support/pageObjects/croatia/HrDesktopQuickshopPage";
+import DkDesktopHomePage from "../../support/pageObjects/denmark/DkDesktopHomePage";
+import DkDesktopQuickshopPage from "../../support/pageObjects/denmark/DkDesktopQuickshopPage";
 
 
 
@@ -24,7 +26,6 @@ class PageHelper {
     switch (marketType) {
       case "MX_Quickshop": return new MxDesktopQuickshopPage();
       case "MX_Home":  return new MxDesktopHomePage();
-      case "BG_Quickshop":  return new BgDesktopQuickshopPage();
       case "AM_Quickshop":  return new AmDesktopQuickshopPage();
       case "AM_Homepage":  return new AmDesktopHomePage();
       case "AU_Quickshop":  return new AuDesktopQuickshopPage();
@@ -33,13 +34,16 @@ class PageHelper {
       case "AT_Homepage":  return new AtDesktopHomePage();
       case "AZ_Quickshop":  return new AzDesktopQuickshopPage();
       case "AZ_Homepage":  return new AzDesktopHomePage();
-      case "BH_Quickshop":  return new BgDesktopHomePage();
-      case "BH_Homepage":  return new BgDesktopQuickshopPage();
+      case "BH_Quickshop":  return new BhDesktopHomePage();
+      case "BH_Homepage":  return new BhDesktopQuickshopPage();
+      case "BG_Quickshop":  return new BgDesktopQuickshopPage();
       case "BG_Home":  return new BgDesktopHomePage();
       case "CA_Home":  return new CaDesktopHomePage();
       case "CA_Quickshop":  return new CaDesktopQuickshopPage();
       case "HR_Home":  return new HrDesktopHomePage();
       case "HR_Quickshop":  return new HrDesktopQuickshopPage();
+      case "DK_Home":  return new DkDesktopHomePage();
+      case "DK_Quickshop":  return new DkDesktopQuickshopPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }
