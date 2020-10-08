@@ -1,7 +1,4 @@
-    @taiwan
-    @international
-    @footer
-    @desktop
+    @taiwan @international @footer @desktop
 Feature: Taiwan Footer Links
     In order to be taken to correct location on the Next site
     As a user in Taiwan
