@@ -1,4 +1,4 @@
-import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
+import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 import PageHelper from "../../support/testHelpers/PageHelper";
 import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 
@@ -6,7 +6,7 @@ import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 let testMarketType;
 
 Given("I am an {string} user {string} on {string} vewing {string}.", (userType, modeType, country, currentPage) => {
-  debugger;
+
   testMarketType = TestDataHelper.getCountryCode(country) +"_" + currentPage;
   globalThis.page = PageHelper.createPagewith(testMarketType);
   page.goto();
@@ -74,6 +74,7 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
       } 
     } 
   }
+});
 
   And("I should see that the view mobile site link is present", () => {
     page.ValidateMobileViewLinkIsPrestn();
@@ -82,5 +83,6 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
 
   And("I select the {string} from the footer", footerOption =>{
     page.selectFootByText(footerOption);
-  });
 });
+
+  
