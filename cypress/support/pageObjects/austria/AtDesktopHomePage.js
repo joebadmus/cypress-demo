@@ -1,4 +1,4 @@
-import FooterPage from "../../FooterPage";
+import FooterPage from "../FooterPage";
 
 class AtDesktopHomePage extends FooterPage {
 

@@ -1,4 +1,5 @@
 import FooterPage from "../FooterPage";
+import FooterPage from "../../pageObjects/FooterPage";
 class CaDesktopHomePage extends FooterPage {
  
   goto() {
