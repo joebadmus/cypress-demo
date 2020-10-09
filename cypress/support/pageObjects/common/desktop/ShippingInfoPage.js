@@ -1,7 +1,7 @@
 class ShippingInfoPage {
 
     ValidateFAQsTextIsPresent() {
-        cy.get("#header-logo").should("be.visible")
+        cy.get("#divStorefrontContentSection").should("be.visible")
     }
 }
 

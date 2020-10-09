@@ -12,13 +12,17 @@ Feature: Platform Mod International Shipping information
 
         Examples:
             | domain      |   
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
             | Canada      | 
-           # | Mexico      | 
-           # | Bulgaria    | 
-          #  | Croatia     | 
-          #  | Turkey      | 
-           # | Thailand    | 
+            | Mexico      | 
+            | Bulgaria    | 
+            | Croatia     | 
+            | Turkey      | 
+            | Thailand    | 
             | Taiwan      | 
-           ## | USA         | 
-           # | Sweden      |
-           # | Switzerland | 
+            | USA         | 
+            | Sweden      |
+            | Switzerland | 

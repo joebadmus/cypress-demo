@@ -6,10 +6,6 @@ import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 let testMarketType;
 
 Given("I am an {string} user {string} on {string} vewing {string}.", (userType, modeType, country, currentPage) => {
-<<<<<<< HEAD
-
-=======
->>>>>>> master
   testMarketType = TestDataHelper.getCountryCode(country) +"_" + currentPage;
   globalThis.page = PageHelper.createPagewith(testMarketType);
   page.goto();
