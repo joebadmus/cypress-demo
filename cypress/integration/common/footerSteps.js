@@ -6,7 +6,10 @@ import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 let testMarketType;
 
 Given("I am an {string} user {string} on {string} vewing {string}.", (userType, modeType, country, currentPage) => {
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
   testMarketType = TestDataHelper.getCountryCode(country) +"_" + currentPage;
   globalThis.page = PageHelper.createPagewith(testMarketType);
   page.goto();
@@ -21,6 +24,13 @@ Given("I am an {string} user {string} on {string} page", (userType, modeType, ma
 
 When("I am viewing the footer of the page", function(){
   page.gotoFooter();
+});
+
+When("I select the {string} from the footer", (footerOption) =>{
+  let footerLinks = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.currentCountryCode);
+  let footerIndex = TestDataHelper.getInternationalFoorterIndex(footerOption);
+  
+  page.selectFootByText(footerLinks[footerIndex].linkText);
 });
 
 Then("I should see all footer content are displayed correctly", dataTable => {
@@ -67,7 +77,6 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
     for(var header in headers){
       let linkText = allParameters[i][headers[header]];
       if(linkText !== ""){
-        // let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
         let expectLink = TestDataHelper.getFooterFor(testMarketType, linkText);
         page.validateFootLinkFor(linkText, expectLink.linkHref);
         page.validateLinkIsPresent(linkText);
@@ -76,13 +85,6 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
   }
 });
 
-  And("I should see that the view mobile site link is present", () => {
-    page.ValidateMobileViewLinkIsPrestn();
-  });
-
-
-  And("I select the {string} from the footer", footerOption =>{
-    page.selectFootByText(footerOption);
+And("I should see that the view mobile site link is present", () => {
+  page.ValidateMobileViewLinkIsPrestn();
 });
-
-  
