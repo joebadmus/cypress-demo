@@ -1,7 +1,4 @@
-    @thailand
-    @international
-    @footer
-    @desktop
+    @thailand @international @footer @desktop
 Feature: Thailand Footer Links
     In order to be taken to correct location on the Next site
     As a user in Thailand

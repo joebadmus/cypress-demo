@@ -262,5 +262,52 @@
             "linkText": "Careers@next",
             "linkHref": "https://careers.next.co.uk/"
         }
+    ],
+    "TW": [
+        {
+            "linkText": "尺碼指南",
+            "linkHref": "https://www.nextdirect.com/help/zh/tw/Section.aspx?ItemId=14485"
+        },
+
+        {
+            "linkText": "退貨資訊",
+            "linkHref": "https://www.next.tw/zh/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "運送資訊",
+            "linkHref": "https://www.next.tw/zh/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "聯絡我們",
+            "linkHref": "https://www.next.tw/zh/faqs#contactus"
+        },
+        {
+            "linkText": "網站導覽",
+            "linkHref": "https://www.next.tw/zh/sitemap"
+        },
+        {
+            "linkText": "隱私權政策",
+            "linkHref": "https://www.next.tw/zh/privacypolicy"
+        },
+        {
+            "linkText": "條款及細則",
+            "linkHref": "https://www.next.tw/zh/terms"
+        },
+        {
+            "linkText": "媒體新聞",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "公司簡介",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Next人才招募",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next加盟店",
+            "linkHref": "https://www.next.tw/zh/franchise"
+        }
     ]
 }

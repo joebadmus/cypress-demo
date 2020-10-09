@@ -16,25 +16,8 @@ class TestDataHelper {
       "Terms & Conditions": "https://www.next.mx/en/terms",
       "The Company": "https://www.nextplc.co.uk/",
       "Careers@next": "https://careers.next.co.uk/",
-      "Next Franchise": "https://www.next.mx/en/franchise",
-      // ======================Bugaria==============================
-      "Таблица с размерите":
-        "https://www.nextdirect.com/help/en/bg/Section.aspx?ItemId=15083",
-      "Информация за връщане":
-        "https://www.nextdirect.com/bg/bg/faqs#returnskeyinformation",
-      "Информация за доставка":
-        "https://www.nextdirect.com/bg/bg/faqs#deliverykeyinformation",
-      "Свържете се с нас": "https://www.nextdirect.com/bg/bg/faqs#contactus",
-      "Карта на сайта": "https://www.nextdirect.com/bg/bg/sitemap",
-
-      "Декларация за поверителност":
-        "https://www.nextdirect.com/bg/bg/privacypolicy",
-      "Общи условия": "https://www.nextdirect.com/bg/bg/terms",
-
-      "Медии и преса": "https://www.nextplc.co.uk/media/media-contacts",
-      "За компанията": "https://www.nextplc.co.uk/",
-      "Работа в Next": "https://careers.next.co.uk/",
-      "Франчайзинг с Next": "https://www.nextdirect.com/bg/bg/franchise",
+      "Next Franchise": "https://www.next.mx/en/franchise"
+      
     };
     var keys = Object.keys(dictionary);
 
