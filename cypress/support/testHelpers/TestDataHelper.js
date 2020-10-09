@@ -34,7 +34,15 @@ class TestDataHelper {
       TAIWAN: "TW",
       USA: "US",
       SWEDEN: "SE",
-      SWITZERLAND:"CH" 
+      SWITZERLAND:"CH",
+      ARMENIA:"AM",
+      AUSTRALIA:"AU",
+      AUSTRIA:"AT",
+      AZERBAIJAN:"AZ",
+      BAHRAIN:"BH",
+      DENMARK:"DK",
+      UAE:"AE",
+      UKRAINE:"UA",
     };
 
     var keys = Object.keys(dictionary);

@@ -11,14 +11,22 @@ Feature: Platform Mod International Site Guide
         Then I should be taken to Returns Information page
 
         Examples:
-            | domain      | 
-            | Canada      | 
-            | Mexico      | 
-            | Bulgaria    | 
-            | Croatia     | 
-            | Turkey      | 
-            | Thailand    | 
-            | Taiwan      | 
-            | USA         | 
-            | Sweden      | 
-            | Switzerland | 
+            | domain      |
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
+            | Bulgaria    |
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
+            | Sweden      |
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            # | UAE         |
+            | Ukraine     |
+            | USA         |
