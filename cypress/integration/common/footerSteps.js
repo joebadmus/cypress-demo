@@ -14,7 +14,7 @@ Given("I am an {string} user {string} on {string} vewing {string}.", (userType, 
 
 Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
   testMarketType = marketType
-  globalThis.page = pageHelper.createPagewith(testMarketType);
+  globalThis.page = PageHelper.createPagewith(testMarketType);
   page.goto();
 });
 
