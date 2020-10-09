@@ -15,7 +15,7 @@ import TwDesktopQuickshopPage from "../../support/pageObjects/taiwan/TwDesktopQu
 
 
 class PageHelper {
-  createPagewith(marketType) {
+ static createPagewith(marketType) {
     switch (marketType) {
       case "MX_Quickshop": return new MxDesktopQuickshopPage();
       case "MX_Home":  return new MxDesktopHomePage();

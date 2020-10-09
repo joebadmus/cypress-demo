@@ -6,7 +6,7 @@ Feature: Bulgaria Footer Links
 
     Scenario: BG_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BG_Home" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Помощ                   | Поверителност_и_правни_въпроси  | Други_услуги       |
             | Таблица с размерите     | Декларация за поверителност     | Медии и преса      |
@@ -18,7 +18,7 @@ Feature: Bulgaria Footer Links
 
     Scenario:BG_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "BG_Quickshop" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Помощ                   | Поверителност_и_правни_въпроси | Други_услуги       |
             | Таблица с размерите     | Декларация за поверителност    | Медии и преса      |

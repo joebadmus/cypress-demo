@@ -3,26 +3,59 @@ import PageHelper from "../../support/testHelpers/PageHelper";
 import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 
 
-let pageHelper = new PageHelper();
-let page;
 let testMarketType;
 
-Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
-  testMarketType = marketType
-  page = pageHelper.createPagewith(marketType);
+Given("I am an {string} user {string} on {string} vewing {string}.", (userType, modeType, country, currentPage) => {
+  debugger;
+  testMarketType = TestDataHelper.getCountryCode(country) +"_" + currentPage;
+  globalThis.page = PageHelper.createPagewith(testMarketType);
   page.goto();
 });
 
-
-Given("I am an {string} user on the {string} on any international Homepage",(userType, modeType) =>{
-
+Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
+  testMarketType = marketType
+  globalThis.page = pageHelper.createPagewith(testMarketType);
+  page.goto();
 });
 
-
-When("I am viewing the footer of the page", function () {
+When("I am viewing the footer of the page", function(){
   page.gotoFooter();
 });
 
+Then("I should see all footer content are displayed correctly", dataTable => {
+
+  page.validateQuickLinkQuickPresent();
+  page.validateMyAccountIsPresent();
+  // page.validateQuickLinkLanguageSelectorPresent();
+
+  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(testMarketType.substring(0, 2));
+
+  testPageFooters.forEach(footer => {
+    page.validateFootLinkFor(footer.linkText, footer.linkHref);
+    page.validateLinkIsPresent(footer.linkText);
+  });
+  
+});
+
+
+let testPageFooters;
+Then("I should see that all the footer links are displayed corrected", () => {
+
+  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(testMarketType.substring(0, 2));
+
+  testPageFooters.forEach(footer => {
+    page.validateFootLinkFor(footer.linkText, footer.linkHref);
+    page.validateLinkIsPresent(footer.linkText);
+  });
+});
+
+Then("selecting the links should lead to correct location", () => {
+  testPageFooters.forEach(footer => {
+    page.clickFooterLink(footer.linkHref);
+    page.returnToPreviousPage();
+  });
+
+})
 
 Then("I should see that the footer links are grouped as shown", dataTable => {
 
@@ -32,10 +65,8 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
   for (var i = 0;i < allParameters.length; i++) {
     for(var header in headers){
       let linkText = allParameters[i][headers[header]];
-      debugger
       if(linkText !== ""){
         // let expectLink = TestDataHelper.getMarketFooterLinkUrlMK(linkText);
-
         let expectLink = TestDataHelper.getFooterFor(testMarketType, linkText);
         page.validateFootLinkFor(linkText, expectLink.linkHref);
         page.validateLinkIsPresent(linkText);

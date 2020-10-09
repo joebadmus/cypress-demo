@@ -9,7 +9,7 @@ Feature: Uk Footer Links
     @anonymous
     Scenario: UK Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "Next_UK" site
-        And i am viewing the footer of the page
+        When i am viewing the footer of the page
         Then i should see that the Next_UK footer links are grouped as shown
             | Help                         | Shopping_With_Us       | Privacy_and_Legal        | More_From_Next                    |
             | Frequently Asked Questions   | Next Credit Options    | Cookies & Privacy Policy | Next Mobile                       |

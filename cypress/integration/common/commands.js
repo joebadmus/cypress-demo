@@ -1,6 +1,5 @@
 Cypress.Commands.add("validateLinkHref", (linkText, linkUrl)=> {
-    debugger;
-    cy.contains("a",linkText, { timeout: 10000 })
+    cy.contains("a",linkText)
     .invoke("attr", "href")
     .should("contain", linkUrl);
 
