@@ -1,4 +1,4 @@
-    @turkey @international @footer @desktop
+@turkey @international @footer @desktop
 Feature: Turkey Footer Links
     In order to be taken to correct location on the Next site
     As a user in Turkey
