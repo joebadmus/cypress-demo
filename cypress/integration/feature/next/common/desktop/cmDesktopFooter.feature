@@ -1,4 +1,4 @@
-@international1 @footer  @desktop @ignore
+@international @footer  @desktop @ignore
 Feature: International Footer Links
     In order to be taken to correct location on the Next site
     As a user in all next international
