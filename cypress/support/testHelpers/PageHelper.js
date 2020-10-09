@@ -13,7 +13,7 @@ import ThDesktopQuickshopPage from "../../support/pageObjects/thailand/ThDesktop
 
 
 class PageHelper {
-  createPagewith(marketType) {
+ static createPagewith(marketType) {
     switch (marketType) {
       case "MX_Quickshop": return new MxDesktopQuickshopPage();
       case "MX_Home":  return new MxDesktopHomePage();

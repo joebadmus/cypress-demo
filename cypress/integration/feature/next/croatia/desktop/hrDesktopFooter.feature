@@ -6,7 +6,7 @@ Feature: Croatia Footer Links
 
     Scenario: HR_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "HR_Home" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
@@ -18,7 +18,7 @@ Feature: Croatia Footer Links
 
     Scenario: HR_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "HR_Quickshop" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
@@ -28,3 +28,18 @@ Feature: Croatia Footer Links
             | Sitemap              |                    |                |
         And I should see that the view mobile site link is present
 
+
+#    Scenario Outline: Platform Mod enabled footer content are displayed correctly
+#         Given I am an "anonymous" user "desktop" on "<domain>" vewing "<page>".
+#         When I am viewing the footer of the page
+#         Then I should see all footer content are displayed correctly
+#             | footer_content |
+#             | Social Media   |
+#             | MyAccount      |
+#             | Quickshop      |
+#             | LinkLists      |
+
+
+#         Examples:
+#              | domain | page      |
+#              | Canada | Quickshop |
