@@ -29,6 +29,7 @@ class TestDataHelper {
     return "";
   }
   static getFooterFor(marketType, linkText) {
+    
     let marketFooters = footer[marketType.substring(0, 2)];
     if (marketFooters === undefined)
       throw `The market ${marketType} does not exist`;

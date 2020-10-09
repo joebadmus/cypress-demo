@@ -1,4 +1,4 @@
-import FooterPage from "../../pageObjects/FooterPage";
+import FooterPage from "../FooterPage";
 class TwDesktopQuickshopPage extends FooterPage {
   goto() {
     cy.visit(Cypress.env("twHomePageUrl"));
