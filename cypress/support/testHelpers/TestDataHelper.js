@@ -1,33 +1,6 @@
 let footer = require("../../fixtures/footers.json");
 
 class TestDataHelper {
-  static getMarketFooterLinkUrlMK(linkType) {
-    let dictionary = {
-      "Size Guide":
-        "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693",
-      "Privacy Policy": "https://www.next.mx/en/privacypolicy",
-      "Media & Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "Returns Information":
-        "https://www.next.mx/en/faqs#returnskeyinformation",
-      "Shipping Information":
-        "https://www.next.mx/en/faqs#deliverykeyinformation",
-      "Contact Us": "https://www.next.mx/en/faqs#contactus",
-      Sitemap: "https://www.next.mx/en/sitemap",
-      "Terms & Conditions": "https://www.next.mx/en/terms",
-      "The Company": "https://www.nextplc.co.uk/",
-      "Careers@next": "https://careers.next.co.uk/",
-      "Next Franchise": "https://www.next.mx/en/franchise"
-      
-    };
-    var keys = Object.keys(dictionary);
-
-    for (var i = 0; i < keys.length; i++) {
-      if (keys[i] === linkType) {
-        return dictionary[keys[i]];
-      }
-    }
-    return "";
-  }
   static getFooterFor(marketType, linkText) {
     
     let marketFooters = footer[marketType.substring(0, 2)];
@@ -47,7 +20,6 @@ class TestDataHelper {
     let marketFooters = footer[countryCode];
     if (marketFooters === undefined)
       throw `The country code ${countryCode} does not exist`;
-
     return marketFooters;
   }
 
@@ -62,7 +34,15 @@ class TestDataHelper {
       TAIWAN: "TW",
       USA: "US",
       SWEDEN: "SE",
-      SWITZERLAND:"CH" 
+      SWITZERLAND:"CH",
+      ARMENIA:"AM",
+      AUSTRALIA:"AU",
+      AUSTRIA:"AT",
+      AZERBAIJAN:"AZ",
+      BAHRAIN:"BH",
+      DENMARK:"DK",
+      UAE:"AE",
+      UKRAINE:"UA",
     };
 
     var keys = Object.keys(dictionary);
@@ -70,11 +50,27 @@ class TestDataHelper {
     for (var i = 0; i < keys.length; i++) {
       if (keys[i] === country.toUpperCase()) {
         let countryCode = dictionary[keys[i]] 
-        cy.log('Country code' + countryCode + 'is returned for ' + country);
+        cy.log('Country code ' + countryCode + ' is returned for ' + country);
+        globalThis.currentCountryCode = countryCode;
         return countryCode;
       }
     }
     throw `The country code ${countryCode} does not exist`;
+  }
+
+  static getInternationalFoorterIndex(footerText){
+    if (footerText === "Size Guide") return 0;
+    if (footerText === "Returns Information") return 1;
+    if (footerText === "Shipping Information") return 2;
+    if (footerText === "Contact Us") return 3;
+    if (footerText === "Sitemap") return 4;
+    if (footerText === "Terms & Conditions") return 5;
+    if (footerText === "Privacy Policy") return 6;
+    if (footerText === "Media & Press") return 7;
+    if (footerText === "The Company") return 8;
+    if (footerText === "Careers@next") return 9;
+    if (footerText === "Next Franchise") return 10;
+    throw `The footer ${footerText} does not exist`;
   }
 }
 
