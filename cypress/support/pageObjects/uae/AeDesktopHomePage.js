@@ -1,4 +1,4 @@
-import FooterPage from "../../footerPage";
+import FooterPage from "../FooterPage";
 class AeDesktopQuickshopPage extends FooterPage {
   goto() {
     cy.visit(Cypress.env("aeHomePageUrl"));

@@ -17,19 +17,27 @@ Feature: International Footer Links
 
 
         Examples:
-            | domain   | page      |
-            | Canada   | Home      |
-            | Canada   | Quickshop |
-            | Mexico   | Home      |
-            | Mexico   | Quickshop |
-            | Bulgaria | Home      |
-            | Bulgaria | Quickshop |
-            | Croatia  | Home      |
-            | Croatia  | Quickshop |
-            | Turkey   | Home      |
-            | Turkey   | Quickshop |
-            | Thailand | Home      |
-            | Thailand | Quickshop |
+            | domain      | page      |
+            | Canada      | Home      |
+            | Canada      | Quickshop |
+            | Mexico      | Home      |
+            | Mexico      | Quickshop |
+            | Bulgaria    | Home      |
+            | Bulgaria    | Quickshop |
+            | Croatia     | Home      |
+            | Croatia     | Quickshop |
+            | Turkey      | Home      |
+            | Turkey      | Quickshop |
+            | Thailand    | Home      |
+            | Thailand    | Quickshop |
+            | Taiwan      | Home      |
+            | Taiwan      | Quickshop |
+            | USA         | Home      |
+            | USA         | Quickshop |
+            | Sweden      | Home      |
+            | Sweden      | Quickshop |
+            | Switzerland | Home      |
+            | Switzerland | Quickshop |
 
 # Examples:
 #     | international |
