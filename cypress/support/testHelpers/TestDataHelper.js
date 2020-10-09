@@ -1,4 +1,3 @@
-
 let footer = require("../../fixtures/footers.json");
 
 class TestDataHelper {
@@ -30,8 +29,10 @@ class TestDataHelper {
     return "";
   }
   static getFooterFor(marketType, linkText) {
+    
     let marketFooters = footer[marketType.substring(0, 2)];
-    if (marketFooters === undefined) throw `The market ${marketType} does not exist`;
+    if (marketFooters === undefined)
+      throw `The market ${marketType} does not exist`;
 
     for (var i = 0; i < marketFooters.length; i++) {
       if (linkText === marketFooters[i].linkText) {
@@ -39,6 +40,37 @@ class TestDataHelper {
       }
     }
     throw `The link '${linkText}' does not exist`;
+  }
+
+  //Two digits country code is accepted
+  static getAllFooterLinksWithCountryCode(countryCode) {
+    let marketFooters = footer[countryCode];
+    if (marketFooters === undefined)
+      throw `The country code ${countryCode} does not exist`;
+
+    return marketFooters;
+  }
+
+  static getCountryCode(country) {
+    let dictionary = {
+      MEXICO: "MX",
+      CANADA: "CA",
+      BULGARIA: "BG",
+      CROATIA: "HR",
+      TURKEY: "TR",
+      THAILAND: "TH"
+    };
+
+    var keys = Object.keys(dictionary);
+
+    for (var i = 0; i < keys.length; i++) {
+      if (keys[i] === country.toUpperCase()) {
+        let countryCode = dictionary[keys[i]] 
+        cy.log('Country code' + countryCode + 'is returned for ' + country);
+        return countryCode;
+      }
+    }
+    throw `The country code ${countryCode} does not exist`;
   }
 }
 

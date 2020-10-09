@@ -1,4 +1,4 @@
-import FooterPage from "../../footerPage";
+import FooterPage from "../FooterPage";
 
 class BgDesktopQuickshopPage extends FooterPage{
   
