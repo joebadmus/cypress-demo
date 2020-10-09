@@ -1,6 +1,6 @@
 class ReturnsInformationPage {
   checkPageIsDisplayed() {
-    cy.get('[data-testid="footer-container"]').should("be.visible");
+    cy.get('#divStorefrontContentSection').should("be.visible");
   }
 }
 
