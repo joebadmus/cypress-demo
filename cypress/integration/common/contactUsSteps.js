@@ -6,7 +6,7 @@ import ContactUsPage from "../../support/pageObjects/common/desktop/ContactUsPag
 
 Then("I should be taken to Contact Us page", () => {
     globalThis.page = PageHelper.createPagewith("ContactUsPage");
-    page.validateContactPage()
+    page.checkContactUsPageIsDisplayed()
     
    // page.validateContactUsPage();
     });
