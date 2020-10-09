@@ -1,4 +1,4 @@
-import FooterPage from "../../FooterPage";
+import FooterPage from "../../pageObjects/FooterPage";
 
 class TrDesktopQuickshopPage extends FooterPage{
   

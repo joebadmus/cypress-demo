@@ -1,4 +1,4 @@
-    @turkey @international @footer @desktop
+@turkey @international @footer @desktop
 Feature: Turkey Footer Links
     In order to be taken to correct location on the Next site
     As a user in Turkey
@@ -6,7 +6,7 @@ Feature: Turkey Footer Links
 
     Scenario: Turkey_Homepage Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "TR_Home" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |
@@ -17,7 +17,7 @@ Feature: Turkey Footer Links
 
     Scenario: Turkey_Quickshop Desktop Footer Links are displayed correctly
         Given I am an "anonymous" user "desktop" on "TR_Quickshop" page
-        And I am viewing the footer of the page
+        When I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |
             | Size Guide           | Privacy Policy     | Media & Press  |

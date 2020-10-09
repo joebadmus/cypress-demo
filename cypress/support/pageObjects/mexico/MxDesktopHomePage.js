@@ -1,7 +1,9 @@
-import FooterPage from "../../footerPage";
+import FooterPage from "../FooterPage";
+
 class MxDesktopQuickshopPage extends FooterPage {
   goto() {
-    cy.visit(Cypress.env("mxHomePageUrl"));
+    let url = Cypress.env("mxHomePageUrl") + "quickshop";
+    cy.visit(url);
   }
 }
 
