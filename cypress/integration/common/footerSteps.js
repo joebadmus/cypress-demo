@@ -56,7 +56,7 @@ Then("selecting the links should lead to correct location", () => {
     page.returnToPreviousPage();
   });
 
-})
+});
 
 Then("I should see that the footer links are grouped as shown", dataTable => {
 
@@ -74,13 +74,14 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
       } 
     } 
   }
+});
 
-  And("I should see that the view mobile site link is present", () => {
-    page.ValidateMobileViewLinkIsPrestn();
-  });
+And("I should see that the view mobile site link is present", () => {
+  page.ValidateMobileViewLinkIsPrestn();
+});
 
 
-  And("I select the {string} from the footer", footerOption =>{
-    page.selectFootByText(footerOption);
-  });
+And("I select the {string} from the footer", (footerOption) =>{
+  page.selectFootByText(footerOption);
+  
 });
