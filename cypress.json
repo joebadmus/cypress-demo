@@ -17,7 +17,12 @@
     "dkHomePageUrl": "https://www.nextdirect.com/dk/en/",
     "trHomePageUrl": "https://www.nextdirect.com/tr/en/",
     "thHomePageUrl": "https://www.nextdirect.com/th/en/",
-    "twHomePageUrl": "https://www.next.tw/zh/"
+    "twHomePageUrl": "https://www.next.tw/zh/",
+    "uaHomePageUrl": "https://www.next.ua/ru/",
+    "aeHomePageUrl": "https://www.next.ae/ar/",
+    "usHomePageUrl": "https://www.next.us/en/",
+    "chHomePageUrl": "https://www.nextdirect.com/ch/de/",
+    "seHomePageUrl": "https://www.next.se/sv/"
 
   }
 }
