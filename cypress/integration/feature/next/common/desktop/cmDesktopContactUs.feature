@@ -12,13 +12,21 @@ Feature: Platform Mod International Contact Us
 
         Examples:
             | domain      | 
-            | Canada      | 
-            # | Mexico      | 
-            # | Bulgaria    | 
-            # | Croatia     | 
-            # | Turkey      | 
-            # | Thailand    | 
-            # | Taiwan      | 
-            # | USA         | 
-            # | Sweden      | 
-            # | Switzerland | 
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
+            | Bulgaria    |
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
+            | Sweden      |
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            #| UAE         |
+            #| Ukraine     |
+            | USA         |
