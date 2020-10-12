@@ -36,6 +36,9 @@ import ChDesktopQuickshopPage from "../../support/pageObjects/switzerland/ChDesk
 import SeDesktopHomePage from "../../support/pageObjects/sweden/SeDesktopHomePage";
 import SeDesktopQuickshopPage from "../../support/pageObjects/sweden/SeDesktopQuickshopPage";
 import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage"
+import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage"
+import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage"
+
 
 
 class PageHelper {
@@ -79,6 +82,8 @@ class PageHelper {
       case "SE_Home":  return new SeDesktopHomePage();
       case "SE_Quickshop":  return new SeDesktopQuickshopPage();
       case "ContactUsPage":  return new ContactUsPage();
+      case "PrivacyPolicyPage":  return new PrivacyPolicyPage();
+      case "ShippingInfoPage":  return new ShippingInfoPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }

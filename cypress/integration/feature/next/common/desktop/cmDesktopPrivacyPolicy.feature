@@ -8,7 +8,7 @@ Feature: Platform Mod International Privacy Policy
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page
         And I select the "Privacy Policy" from the footer
-        Then I should be taken to Shipping Information page
+        Then I should be taken to Privacy Policy page
 
         Examples:
             | domain      |   

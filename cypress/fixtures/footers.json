@@ -21,12 +21,12 @@
             "linkHref": "https://www.next.mx/en/sitemap"
         },
         {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.next.mx/en/terms"
-        },
-        {
             "linkText": "Privacy Policy",
             "linkHref": "https://www.next.mx/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.mx/en/terms"
         },
         {
             "linkText": "Media & Press",
@@ -249,6 +249,10 @@
             "linkHref": "https://www.nextdirect.com/tr/en/faqs#contactus"
         },
         {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/tr/en/sitemap"
+        },
+        {
             "linkText": "Privacy Policy",
             "linkHref": "https://www.nextdirect.com/tr/en/privacypolicy"
         },
@@ -338,6 +342,10 @@
         {
             "linkText": "Contact Us",
             "linkHref": "https://www.nextdirect.com/th/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/th/en/sitemap"
         },
         {
             "linkText": "Privacy Policy",
@@ -724,12 +732,12 @@
             "linkHref": "https://www.next.us/en/sitemap"
         },
         {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.next.us/en/terms"
-        },
-        {
             "linkText": "Privacy Policy",
             "linkHref": "https://www.next.us/en/privacypolicy" 
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.us/en/terms"
         },
         {
             "linkText": "Media & Press",
