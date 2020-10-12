@@ -3,5 +3,5 @@ import PageHelper from "../../support/testHelpers/PageHelper";
 
 Then("I should be taken to Privacy Policy page", () => {
     var privacyPolicyPage = PageHelper.createPagewith('PrivacyPolicyPage');
-    privacyPolicyPage.verifyBreadcrumbHasPrivacyPolicyText();
+    privacyPolicyPage.verifyPageIsDisplayed();
 });

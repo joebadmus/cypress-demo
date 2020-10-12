@@ -1,12 +1,11 @@
 class PrivacyPolicyPage {
 
-    verifyBreadcrumbHasPrivacyPolicyText() {
-        if (globalThis.currentCountryCode === "BG")
-            cy.get("li[class='Breadcrumb']").should('have.text', 'Декларация за поверителност')
-        else if (globalThis.currentCountryCode === "SE")
-            cy.get("li[class='Breadcrumb']").should('have.text', 'Sekretesspolicy')
-        else
-            cy.get("li[class='Breadcrumb']").should('have.text', 'Privacy Policy')
+    verifyPageIsDisplayed() {
+        cy.location().should((loc) =>{
+            expect(loc.toString()).to.contain("privacypolicy")
+        })
+
+        cy.get("div[data-index='03_1']").should('be.visible')
     }
 }
 

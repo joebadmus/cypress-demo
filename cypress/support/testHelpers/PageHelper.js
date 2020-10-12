@@ -35,21 +35,15 @@ import ChDesktopHomePage from "../../support/pageObjects/switzerland/ChDesktopHo
 import ChDesktopQuickshopPage from "../../support/pageObjects/switzerland/ChDesktopQuickshopPage";
 import SeDesktopHomePage from "../../support/pageObjects/sweden/SeDesktopHomePage";
 import SeDesktopQuickshopPage from "../../support/pageObjects/sweden/SeDesktopQuickshopPage";
-<<<<<<< HEAD
-import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage"
-import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage"
-import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage"
-
-=======
 import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage";
 import ReturnsInformationPage from "../pageObjects/common/desktop/ReturnsInformationPage";
 import SitemapPage from "../pageObjects/common/desktop/SitemapPage";
->>>>>>> master
+import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage"
+import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage"
 
 
 class PageHelper {
  static createPagewith(marketType) {
-  debugger;
     switch (marketType) {
       case "MX_Quickshop": return new MxDesktopQuickshopPage();
       case "MX_Home":  return new MxDesktopHomePage();
@@ -88,13 +82,10 @@ class PageHelper {
       case "SE_Home":  return new SeDesktopHomePage();
       case "SE_Quickshop":  return new SeDesktopQuickshopPage();
       case "ContactUsPage":  return new ContactUsPage();
-<<<<<<< HEAD
-      case "PrivacyPolicyPage":  return new PrivacyPolicyPage();
-      case "ShippingInfoPage":  return new ShippingInfoPage();
-=======
       case "ReturnsInformationPage":  return new ReturnsInformationPage();
       case "SitemapPage":  return new SitemapPage();
->>>>>>> master
+      case "PrivacyPolicyPage":  return new PrivacyPolicyPage();
+      case "ShippingInfoPage":  return new ShippingInfoPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }
