@@ -1,10 +1,10 @@
 class SitemapPage {
-
-    verifyPageIsDisplayed() {
-        cy.get('[data-index="03_1"]')
-        .should("be.visible");
-    }
+  verifyPageIsDisplayed() {
+    cy.location().should(url => {
+        expect(url.toString()).to.contain("sitemap");
+    })
+    cy.get('[data-index="03_1"]').should("be.visible");
+  }
 }
 
-  export default SitemapPage;
-  
+export default SitemapPage;

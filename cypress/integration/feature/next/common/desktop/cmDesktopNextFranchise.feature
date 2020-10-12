@@ -4,11 +4,11 @@ Feature: Platform Mod International Site Guide
     As a user in all next international
     I want to be taken to the correct location from the footer links
 
-    Scenario Outline: Platform Mod Check Sitemap Page is Displayed
+    Scenario Outline: Platform Mod Check Next Franchise Page is Displayed
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page
-        And I select the "Sitemap" from the footer
-        Then I should be taken to sitemap page
+        And I select the "Next Franchise" from the footer
+        Then I should be taken to Next Franchise page
 
         Examples:
             | domain      |
@@ -28,5 +28,5 @@ Feature: Platform Mod International Site Guide
             | Thailand    |
             | Turkey      |
             # | UAE         |
-            #| Ukraine     |
+            # | Ukraine     |
             | USA         |

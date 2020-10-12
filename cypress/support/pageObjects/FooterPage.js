@@ -32,7 +32,6 @@ class FooterPage {
   }
 
   validateMyAccountIsPresent() {
-    // cy.get('[data-testid="footer-quick-links-myaccountloggedout-my-account"]')
     cy.get('[data-testid*="footer-quick-links-myaccount"]').should(
       "be.visible"
     );
