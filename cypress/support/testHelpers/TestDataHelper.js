@@ -64,8 +64,8 @@ class TestDataHelper {
     if (footerText === "Shipping Information") return 2;
     if (footerText === "Contact Us") return 3;
     if (footerText === "Sitemap") return 4;
-    if (footerText === "Terms & Conditions") return 5;
-    if (footerText === "Privacy Policy") return 6;
+    if (footerText === "Privacy Policy") return 5;
+    if (footerText === "Terms & Conditions") return 6;
     if (footerText === "Media & Press") return 7;
     if (footerText === "The Company") return 8;
     if (footerText === "Careers@next") return 9;
