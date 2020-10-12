@@ -81,7 +81,6 @@ class PageHelper {
       case "CH_Home":  return new ChDesktopHomePage();
       case "SE_Quickshop": return new SeDesktopQuickshopPage();
       case "SE_Home":  return new SeDesktopHomePage();
-      case "SE_Home":  return new SeDesktopHomePage();
       case "ContactUsPage":  return new ContactUsPage();
       case "TermsAndConditionsPage":  return new TermsAndConditionsPage();
       case "ReturnsInformationPage":  return new ReturnsInformationPage();
