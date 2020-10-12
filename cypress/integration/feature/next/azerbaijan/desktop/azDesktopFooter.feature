@@ -4,8 +4,15 @@ Feature: AZ Footer Links
     As a AZ new user
     I want to be able to see the foot links
 
+
+    ###
+    ##
+    ###
+    # TO DO: FOR REST OF COUNTRIES CHANGE 'SITE' TO 'PAGE', ADD URLS INTO JSON
+
+  
     Scenario: Azerbaijan Homepage Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "AZ_Home" page
+        Given I am an "anonymous" user "desktop" on "AZ_Homepage" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |

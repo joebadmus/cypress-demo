@@ -1,6 +1,6 @@
 class ShippingInfoPage {
 
-    verifyPageIsDisplayed() {
+    ValidateFAQsTextIsPresent() {
         cy.get("#divStorefrontContentSection").should("be.visible")
     }
 }

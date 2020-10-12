@@ -5,7 +5,7 @@ Feature: Platform Mod International Shipping information
     I want to be taken to the correct location from the footer links
 
     Scenario Outline: Platform Mod Check Shipping Information Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        Given I am an "anonymous" user "desktop" on "<domain>" vewing "Home".
         When I am viewing the footer of the page
         And I select the "Shipping Information" from the footer
         Then I should be taken to Shipping Information page
@@ -16,10 +16,9 @@ Feature: Platform Mod International Shipping information
             | Australia   |
             | Austria     |
             | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     | 
             | Canada      | 
-            | Mexico      |          
+            | Mexico      | 
+            | Bulgaria    | 
             | Croatia     | 
             | Turkey      | 
             | Thailand    | 
