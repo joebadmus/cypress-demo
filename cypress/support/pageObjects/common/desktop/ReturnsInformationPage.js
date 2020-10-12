@@ -1,6 +1,6 @@
 class ReturnsInformationPage {
   checkPageIsDisplayed() {
-    cy.get('#divStorefrontContentSection').should("be.visible");
+    cy.get("#divStorefrontContentSection").should("be.visible");
   }
 }
 

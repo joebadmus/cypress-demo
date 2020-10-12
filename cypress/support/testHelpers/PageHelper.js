@@ -39,6 +39,7 @@ import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage"
 import TermsAndConditionsPage from "../pageObjects/common/desktop/TermsAndConditionsPage"
 import ReturnsInformationPage from "../pageObjects/common/desktop/ReturnsInformationPage";
 import SitemapPage from "../pageObjects/common/desktop/SitemapPage";
+import NextFranchisePage from "../pageObjects/common/desktop/NextFranchisePage";
 
 
 class PageHelper {
@@ -85,6 +86,7 @@ class PageHelper {
       case "TermsAndConditionsPage":  return new TermsAndConditionsPage();
       case "ReturnsInformationPage":  return new ReturnsInformationPage();
       case "SitemapPage":  return new SitemapPage();
+      case "NextFranchisePage":  return new NextFranchisePage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }
