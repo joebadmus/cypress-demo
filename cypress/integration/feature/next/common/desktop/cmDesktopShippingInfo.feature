@@ -16,10 +16,9 @@ Feature: Platform Mod International Shipping information
             | Australia   |
             | Austria     |
             | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     | 
             | Canada      | 
-            | Mexico      |          
+            | Mexico      | 
+            | Bulgaria    | 
             | Croatia     | 
             | Turkey      | 
             | Thailand    | 

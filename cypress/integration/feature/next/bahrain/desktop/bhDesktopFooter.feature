@@ -7,7 +7,7 @@ Feature: BH Footer Links
 
   
     Scenario: Bahrain Homepage Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "BH_Home" page
+        Given I am an "anonymous" user "desktop" on "BH_Homepage" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services |

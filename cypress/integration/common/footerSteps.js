@@ -24,7 +24,7 @@ When("I am viewing the footer of the page", function(){
 
 When("I select the {string} from the footer", (footerOption) =>{
   let footerLinks = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.currentCountryCode);
-  let footerIndex = TestDataHelper.getInternationalFoorterIndex(footerOption);
+  let footerIndex = TestDataHelper.getInternationalFooterIndex(footerOption);
   
   page.selectFootByText(footerLinks[footerIndex].linkText);
 });

@@ -27,7 +27,7 @@
         {
             "linkText": "Terms & Conditions",
             "linkHref": "https://www.next.mx/en/terms"
-        },
+        },       
         {
             "linkText": "Media & Press",
             "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
@@ -330,7 +330,6 @@
             "linkText": "Size Guide",
             "linkHref": "https://www.nextdirect.com/help/en/th/Section.aspx?ItemId=24475"
         },
-
         {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/th/en/faqs#returnskeyinformation"
@@ -734,7 +733,11 @@
         {
             "linkText": "Privacy Policy",
             "linkHref": "https://www.next.us/en/privacypolicy" 
-        },
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.us/en/terms"
+        },       
         {
             "linkText": "Terms & Conditions",
             "linkHref": "https://www.next.us/en/terms"
