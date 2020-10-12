@@ -40,11 +40,12 @@ import TermsAndConditionsPage from "../pageObjects/common/desktop/TermsAndCondit
 import ReturnsInformationPage from "../pageObjects/common/desktop/ReturnsInformationPage";
 import SitemapPage from "../pageObjects/common/desktop/SitemapPage";
 import NextFranchisePage from "../pageObjects/common/desktop/NextFranchisePage";
+import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage"
+import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage"
 
 
 class PageHelper {
  static createPagewith(marketType) {
-  debugger;
     switch (marketType) {
       case "MX_Quickshop": return new MxDesktopQuickshopPage();
       case "MX_Home":  return new MxDesktopHomePage();
@@ -87,6 +88,8 @@ class PageHelper {
       case "ReturnsInformationPage":  return new ReturnsInformationPage();
       case "SitemapPage":  return new SitemapPage();
       case "NextFranchisePage":  return new NextFranchisePage();
+      case "PrivacyPolicyPage":  return new PrivacyPolicyPage();
+      case "ShippingInfoPage":  return new ShippingInfoPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }

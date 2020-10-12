@@ -1,7 +1,7 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import ShippingInfoPage from "../../support/PageObjects/common/desktop/ShippingInfoPage";
+import PageHelper from "../../support/testHelpers/PageHelper";
 
 Then("I should be taken to Shipping Information page", () => {
-var shippingInfoPage = new ShippingInfoPage();
-shippingInfoPage.verifyPageIsDisplayed();
+    var shippingInfoPage = PageHelper.createPagewith('ShippingInfoPage');
+    shippingInfoPage.verifyPageIsDisplayed();
 });
