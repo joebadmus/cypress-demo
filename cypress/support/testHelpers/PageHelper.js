@@ -35,7 +35,8 @@ import ChDesktopHomePage from "../../support/pageObjects/switzerland/ChDesktopHo
 import ChDesktopQuickshopPage from "../../support/pageObjects/switzerland/ChDesktopQuickshopPage";
 import SeDesktopHomePage from "../../support/pageObjects/sweden/SeDesktopHomePage";
 import SeDesktopQuickshopPage from "../../support/pageObjects/sweden/SeDesktopQuickshopPage";
-import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage";
+import ContactUsPage from "../pageObjects/common/desktop/ContactUsPage"
+import TermsAndConditionsPage from "../pageObjects/common/desktop/TermsAndConditionsPage"
 import ReturnsInformationPage from "../pageObjects/common/desktop/ReturnsInformationPage";
 import SitemapPage from "../pageObjects/common/desktop/SitemapPage";
 
@@ -54,8 +55,8 @@ class PageHelper {
       case "AT_Home":  return new AtDesktopHomePage();
       case "AZ_Quickshop":  return new AzDesktopQuickshopPage();
       case "AZ_Home":  return new AzDesktopHomePage();
-      case "BH_Quickshop":  return new BhDesktopQuickshopPage();
-      case "BH_Home":  return new BhDesktopHomePage();
+      case "BH_Quickshop":  return new BhDesktopHomePage();
+      case "BH_Home":  return new BhDesktopQuickshopPage();
       case "BG_Quickshop":  return new BgDesktopQuickshopPage();
       case "BG_Home":  return new BgDesktopHomePage();
       case "CA_Home":  return new CaDesktopHomePage();
@@ -76,12 +77,13 @@ class PageHelper {
       case "AE_Home":  return new AeDesktopHomePage();
       case "US_Quickshop": return new UsDesktopQuickshopPage();
       case "US_Home":  return new UsDesktopHomePage();
-      case "US_Quickshop":  return new UsDesktopQuickshopPage();
       case "CH_Quickshop": return new ChDesktopQuickshopPage();
       case "CH_Home":  return new ChDesktopHomePage();
+      case "SE_Quickshop": return new SeDesktopQuickshopPage();
       case "SE_Home":  return new SeDesktopHomePage();
-      case "SE_Quickshop":  return new SeDesktopQuickshopPage();
+      case "SE_Home":  return new SeDesktopHomePage();
       case "ContactUsPage":  return new ContactUsPage();
+      case "TermsAndConditionsPage":  return new TermsAndConditionsPage();
       case "ReturnsInformationPage":  return new ReturnsInformationPage();
       case "SitemapPage":  return new SitemapPage();
       default : throw `Page ${marketType} is not defined in the page helper`;

@@ -58,7 +58,7 @@ class TestDataHelper {
     throw `The country code ${countryCode} does not exist`;
   }
 
-  static getInternationalFoorterIndex(footerText){
+  static getInternationalFooterIndex(footerText){
     if (footerText === "Size Guide") return 0;
     if (footerText === "Returns Information") return 1;
     if (footerText === "Shipping Information") return 2;
@@ -70,6 +70,7 @@ class TestDataHelper {
     if (footerText === "The Company") return 8;
     if (footerText === "Careers@next") return 9;
     if (footerText === "Next Franchise") return 10;
+    if (footerText === "Next Affiliates") return 11;
     throw `The footer ${footerText} does not exist`;
   }
 }
