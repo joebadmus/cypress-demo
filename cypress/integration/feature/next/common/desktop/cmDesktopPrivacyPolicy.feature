@@ -12,10 +12,10 @@ Feature: Platform Mod International Privacy Policy
 
         Examples:
             | domain      |   
-           # | Armenia     |
-           # | Australia   |
+            | Armenia     |
+            | Australia   |
             | Austria     |
-          #  | Azerbaijan  |
+            | Azerbaijan  |
             | Bulgaria    |
             | Bahrain     | 
             | Canada      | 
