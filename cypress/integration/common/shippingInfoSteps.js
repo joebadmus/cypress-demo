@@ -3,5 +3,5 @@ import ShippingInfoPage from "../../support/PageObjects/common/desktop/ShippingI
 
 Then("I should be taken to Shipping Information page", () => {
 var shippingInfoPage = new ShippingInfoPage();
-shippingInfoPage.ValidateFAQsTextIsPresent();
+shippingInfoPage.verifyPageIsDisplayed();
 });
