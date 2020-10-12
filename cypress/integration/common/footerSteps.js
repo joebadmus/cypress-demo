@@ -1,4 +1,4 @@
-import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
+import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 import PageHelper from "../../support/testHelpers/PageHelper";
 import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 
