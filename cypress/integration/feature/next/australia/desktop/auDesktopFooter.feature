@@ -7,7 +7,7 @@ Feature: AU Footer Links
 
 
     Scenario: Australia Homepage Desktop Footer Links are displayed correctly
-        Given I am an "anonymous" user "desktop" on "AU_Homepage" page
+        Given I am an "anonymous" user "desktop" on "AU_Home" page
         And I am viewing the footer of the page
         Then I should see that the footer links are grouped as shown
             | Help                 | Privacy_n_Legal    | Other_Services  |

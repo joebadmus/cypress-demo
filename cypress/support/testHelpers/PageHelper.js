@@ -51,8 +51,8 @@ class PageHelper {
       case "AT_Home":  return new AtDesktopHomePage();
       case "AZ_Quickshop":  return new AzDesktopQuickshopPage();
       case "AZ_Home":  return new AzDesktopHomePage();
-      case "BH_Quickshop":  return new BhDesktopHomePage();
-      case "BH_Home":  return new BhDesktopQuickshopPage();
+      case "BH_Quickshop":  return new BhDesktopQuickshopPage();
+      case "BH_Home":  return new BhDesktopHomePage();
       case "BG_Quickshop":  return new BgDesktopQuickshopPage();
       case "BG_Home":  return new BgDesktopHomePage();
       case "CA_Home":  return new CaDesktopHomePage();
@@ -73,11 +73,12 @@ class PageHelper {
       case "AE_Home":  return new AeDesktopHomePage();
       case "US_Quickshop": return new UsDesktopQuickshopPage();
       case "US_Home":  return new UsDesktopHomePage();
+      case "US_Quickshop":  return new UsDesktopQuickshopPage();
       case "CH_Quickshop": return new ChDesktopQuickshopPage();
       case "CH_Home":  return new ChDesktopHomePage();
       case "SE_Quickshop": return new SeDesktopQuickshopPage();
       case "SE_Home":  return new SeDesktopHomePage();
-      case "SE_Home":  return new SeDesktopHomePage();
+      case "SE_Quickshop":  return new SeDesktopQuickshopPage();
       case "ContactUsPage":  return new ContactUsPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }

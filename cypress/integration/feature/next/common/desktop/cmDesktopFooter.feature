@@ -6,7 +6,7 @@ Feature: International Footer Links
 
 
     Scenario Outline: Platform Mod enabled footer content are displayed correctly
-        Given I am an "anonymous" user "desktop" on "<domain>" vewing "<page>".
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
         When I am viewing the footer of the page
         Then I should see all footer content are displayed correctly
             | footer_content |
