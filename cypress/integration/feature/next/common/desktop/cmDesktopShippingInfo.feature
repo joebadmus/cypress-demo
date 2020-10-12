@@ -14,7 +14,7 @@ Feature: Platform Mod International Shipping information
             | domain      |   
             | Armenia     |
             | Australia   |
-            | Austria     |
+           #| Austria     |
             | Azerbaijan  |
             | Canada      | 
             | Mexico      | 
