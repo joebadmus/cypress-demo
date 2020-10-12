@@ -62,7 +62,7 @@ Then("selecting the links should lead to correct location", () => {
     page.returnToPreviousPage();
   });
 
-})
+});
 
 Then("I should see that the footer links are grouped as shown", dataTable => {
 
