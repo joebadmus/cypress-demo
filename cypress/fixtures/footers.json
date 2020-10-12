@@ -271,7 +271,11 @@
         {
             "linkText": "Careers@next",
             "linkHref": "https://careers.next.co.uk/"
-        }
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/tr/en/franchise"
+        } 
     ],
     "AU": [
         
@@ -365,6 +369,10 @@
         {
             "linkText": "Careers@next",
             "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/th/en/franchise/"
         }
     ],
     "AT": [

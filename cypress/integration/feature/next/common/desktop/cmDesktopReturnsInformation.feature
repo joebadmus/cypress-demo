@@ -14,7 +14,7 @@ Feature: Platform Mod International Site Guide
             | domain      |
             | Armenia     |
             | Australia   |
-            | Austria     |
+            #| Austria     |
             | Azerbaijan  |
             | Bulgaria    |
             | Bahrain     |
@@ -28,5 +28,5 @@ Feature: Platform Mod International Site Guide
             | Thailand    |
             | Turkey      |
             # | UAE         |
-            | Ukraine     |
+            #| Ukraine     |
             | USA         |
