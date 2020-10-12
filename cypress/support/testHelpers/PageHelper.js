@@ -76,7 +76,6 @@ class PageHelper {
       case "US_Quickshop":  return new UsDesktopQuickshopPage();
       case "CH_Quickshop": return new ChDesktopQuickshopPage();
       case "CH_Home":  return new ChDesktopHomePage();
-      case "SE_Quickshop": return new SeDesktopQuickshopPage();
       case "SE_Home":  return new SeDesktopHomePage();
       case "SE_Quickshop":  return new SeDesktopQuickshopPage();
       case "ContactUsPage":  return new ContactUsPage();
