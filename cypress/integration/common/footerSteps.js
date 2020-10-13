@@ -75,7 +75,7 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
     } 
   }
 });
-
+ 
 And("I should see that the view mobile site link is present", () => {
   page.footerSection().ValidateMobileViewLinkIsPrestn();
 });
