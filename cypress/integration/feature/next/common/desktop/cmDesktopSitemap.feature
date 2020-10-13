@@ -1,5 +1,5 @@
 @international @footer  @desktop  @ignore
-Feature: Platform Mod International Site Guide
+Feature: Platform Mod International Site Map
     In order to be taken to correct location on the Next site
     As a user in all next international
     I want to be taken to the correct location from the footer links

@@ -11,12 +11,6 @@ Given("I am an {string} user {string} on {string} viewing {string}.", (userType,
   // page.goto();
 });
 
-// Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
-  
-//   testMarketType = marketType
-//   globalThis.page = PageHelper.createPagewith(testMarketType);
-//   page.goto();
-// });
 
 When("I am viewing the footer of the page", function(){
   page.footerSection().gotoFooter();
