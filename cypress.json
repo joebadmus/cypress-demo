@@ -1,5 +1,6 @@
 {
-  
+  "defaultCommandTimeout":9000,
+  "chromeWebSecurity": false,
   "testFiles": "**/*.feature",
   "video": false,
 

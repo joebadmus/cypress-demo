@@ -48,7 +48,17 @@ class FooterSection {
   }
 
   selectFootByText(linkText) {
-    cy.get(".footer153").contains("a", linkText).should("be.visible").click();
+    cy.get("div.footer153 a").each(($el) => {
+      if ($el.text() === linkText) {
+        if ($el.attr('target') === '_self') {
+          cy.get(".footer153").contains("a", linkText).should("be.visible").click();
+          return
+        } else {
+          cy.get(".footer153").contains("a", linkText).should("be.visible").invoke('removeAttr', 'target').click()
+          return
+        }
+      }
+    })
   }
 }
 

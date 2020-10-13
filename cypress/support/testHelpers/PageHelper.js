@@ -7,6 +7,7 @@ import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage";
 import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage";
 import HomePage from "../pageObjects/common/desktop/HomePage";
 import QuickshopPage from "../pageObjects/common/desktop/QuickshopPage";
+import CareersAtNextPage from "../pageObjects/common/desktop/CareersAtNextPage";
 
 
 class PageHelper {
@@ -21,6 +22,7 @@ class PageHelper {
       case "ShippingInfoPage":  return new ShippingInfoPage();
       case "HomePage":  return new HomePage();
       case "QuickshopPage":  return new QuickshopPage();
+      case "CareersAtNextPage":  return new CareersAtNextPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }

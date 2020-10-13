@@ -13,6 +13,7 @@ Given("I am an {string} user {string} on {string} viewing {string}.", (userType,
 
 
 When("I am viewing the footer of the page", function(){
+  debugger;
   page.footerSection().gotoFooter();
 });
 
