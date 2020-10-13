@@ -3,5 +3,5 @@ import PageHelper from "../../support/testHelpers/PageHelper";
 
 Then("I should be taken to Shipping Information page", () => {
     var shippingInfoPage = PageHelper.createPagewith('ShippingInfoPage');
-    shippingInfoPage.verifyPageIsDisplayed();
+    shippingInfoPage.storefrontContentSection().verifyPageIsDisplayed();
 });

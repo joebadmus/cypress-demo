@@ -6,42 +6,41 @@ import TestDataHelper from "../../support/testHelpers/TestDataHelper";
 let testMarketType;
 
 Given("I am an {string} user {string} on {string} viewing {string}.", (userType, modeType, country, currentPage) => {
-  testMarketType = TestDataHelper.getCountryCode(country) +"_" + currentPage;
-  globalThis.page = PageHelper.createPagewith(testMarketType);
-  page.goto();
+  TestDataHelper.setTestCountry(country);
+  globalThis.page = PageHelper.createPagewith(currentPage  + "Page");
+  // page.goto();
 });
 
-Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
+// Given("I am an {string} user {string} on {string} page", (userType, modeType, marketType) => {
   
-  testMarketType = marketType
-  globalThis.page = PageHelper.createPagewith(testMarketType);
-  page.goto();
-});
+//   testMarketType = marketType
+//   globalThis.page = PageHelper.createPagewith(testMarketType);
+//   page.goto();
+// });
 
 When("I am viewing the footer of the page", function(){
-  page.gotoFooter();
+  page.footerSection().gotoFooter();
 });
 
 When("I select the {string} from the footer", (footerOption) =>{
-  let footerLinks = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.currentCountryCode);
+  let footerLinks = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.countryUnderTest.code);
   let footerIndex = TestDataHelper.getInternationalFooterIndex(footerOption);
   
-  debugger;
-  page.closeCookieConsent();
-  page.selectFootByText(footerLinks[footerIndex].linkText);
+
+  page.footerSection().closeCookieConsent();
+  page.footerSection().selectFootByText(footerLinks[footerIndex].linkText);
 });
 
 Then("I should see all footer content are displayed correctly", dataTable => {
 
-  page.validateQuickLinkQuickPresent();
-  page.validateMyAccountIsPresent();
-  // page.validateQuickLinkLanguageSelectorPresent();
+  page.footerSection().validateQuickLinkQuickPresent();
+  page.footerSection().validateMyAccountIsPresent();
 
-  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(testMarketType.substring(0, 2));
+  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.countryUnderTest.code);
 
   testPageFooters.forEach(footer => {
-    page.validateFootLinkFor(footer.linkText, footer.linkHref);
-    page.validateLinkIsPresent(footer.linkText);
+    page.footerSection().validateFootLinkFor(footer.linkText, footer.linkHref);
+    page.footerSection().validateLinkIsPresent(footer.linkText);
   });
   
 });
@@ -50,18 +49,18 @@ Then("I should see all footer content are displayed correctly", dataTable => {
 let testPageFooters;
 Then("I should see that all the footer links are displayed corrected", () => {
 
-  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(testMarketType.substring(0, 2));
+  testPageFooters = TestDataHelper.getAllFooterLinksWithCountryCode(globalThis.cou);
 
   testPageFooters.forEach(footer => {
-    page.validateFootLinkFor(footer.linkText, footer.linkHref);
-    page.validateLinkIsPresent(footer.linkText);
+    page.footerSection().validateFootLinkFor(footer.linkText, footer.linkHref);
+    page.footerSection().validateLinkIsPresent(footer.linkText);
   });
 });
 
 Then("selecting the links should lead to correct location", () => {
   testPageFooters.forEach(footer => {
-    page.clickFooterLink(footer.linkHref);
-    page.returnToPreviousPage();
+    page.footerSection().clickFooterLink(footer.linkHref);
+    page.footerSection().returnToPreviousPage();
   });
 
 });
@@ -76,13 +75,13 @@ Then("I should see that the footer links are grouped as shown", dataTable => {
       let linkText = allParameters[i][headers[header]];
       if(linkText !== ""){
         let expectLink = TestDataHelper.getFooterFor(testMarketType, linkText);
-        page.validateFootLinkFor(linkText, expectLink.linkHref);
-        page.validateLinkIsPresent(linkText);
+        page.footerSection().validateFootLinkFor(linkText, expectLink.linkHref);
+        page.footerSection().validateLinkIsPresent(linkText);
       } 
     } 
   }
 });
 
 And("I should see that the view mobile site link is present", () => {
-  page.ValidateMobileViewLinkIsPrestn();
+  page.footerSection().ValidateMobileViewLinkIsPrestn();
 });

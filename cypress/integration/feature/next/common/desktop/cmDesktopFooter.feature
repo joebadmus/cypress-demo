@@ -39,34 +39,3 @@ Feature: International Footer Links
             | Switzerland | Home      |
             | Switzerland | Quickshop |
 
-
-
-# Scenario Outline: Platform Mod enabled foote
-#     Given I am an "anonymous" user "desktop" on "<domain>" vewing "<page>".
-#     When I am viewing the footer of the page
-#     And I select the "The Company" from the footer
-#     Then I should be taken to Next Plc portal
-
-# Then I should see all footer content are displayed correctly
-#     | footer_content |
-#     | Social Media   |
-#     | MyAccount      |
-#     | Quickshop      |
-#     | LinkLists      |
-
-
-# Examples:
-# | domain | page |
-# | Canada   | Home      |
-# | Canada   | Quickshop |
-# | Mexico   | Home      |
-# | Mexico   | Quickshop |
-# | Bulgaria | Home      |
-# | Bulgaria | Quickshop |
-# | Croatia  | Home      |
-# | Croatia  | Quickshop |
-# | Turkey   | Home      |
-# | Turkey   | Quickshop |
-# | Thailand | Home      |
-# | Thailand | Quickshop |
-

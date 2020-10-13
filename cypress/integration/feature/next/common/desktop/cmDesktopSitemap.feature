@@ -1,4 +1,4 @@
-@international @footer  @desktop 
+@international @footer  @desktop  @ignore
 Feature: Platform Mod International Site Guide
     In order to be taken to correct location on the Next site
     As a user in all next international

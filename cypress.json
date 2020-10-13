@@ -4,25 +4,24 @@
   "video": false,
 
   "env":{
-    "ukHomePageUrl": "https://www.next.co.uk/",
-    "mxHomePageUrl": "https://www.next.mx/en/",
-    "amHomePageUrl": "https://www.nextdirect.com/am/en/",
-    "auHomePageUrl": "https://www.next.com.au/en/",
-    "atHomePageUrl": "https://www.next.at/en/",
-    "azHomePageUrl": "https://www.next.com.az/en/",
-    "bhHomePageUrl": "https://www.nextdirect.com/bh/en/",
-    "bgHomePageUrl": "https://www.nextdirect.com/bg/bg/",
-    "caHomePageUrl": "https://www.nextdirect.com/ca/en/",
-    "hrHomePageUrl": "https://www.nextdirect.com/hr/en/",
-    "dkHomePageUrl": "https://www.nextdirect.com/dk/en/",
-    "trHomePageUrl": "https://www.nextdirect.com/tr/en/",
-    "thHomePageUrl": "https://www.nextdirect.com/th/en/",
-    "twHomePageUrl": "https://www.next.tw/zh/",
-    "uaHomePageUrl": "https://www.next.ua/ru/",
-    "aeHomePageUrl": "https://www.next.ae/ar/",
-    "usHomePageUrl": "https://www.next.us/en/",
-    "chHomePageUrl": "https://www.nextdirect.com/ch/de/",
-    "seHomePageUrl": "https://www.next.se/sv/"
-
-  }
+      "Uk": "https://www.next.co.uk/",
+      "Mexico": "https://www.next.mx/en/",
+      "Armenia": "https://www.nextdirect.com/am/en/",
+      "Australia": "https://www.next.com.au/en/",
+      "Austria": "https://www.next.at/en/",
+      "Azerbaijan": "https://www.next.com.az/en/",
+      "Bahrain": "https://www.nextdirect.com/bh/en/",
+      "Bulgaria": "https://www.nextdirect.com/bg/bg/",
+      "Canada": "https://www.nextdirect.com/ca/en/",
+      "Croatia": "https://www.nextdirect.com/hr/en/",
+      "Denmark": "https://www.nextdirect.com/dk/en/",
+      "Turkey": "https://www.nextdirect.com/tr/en/",
+      "Thailand": "https://www.nextdirect.com/th/en/",
+      "Taiwan": "https://www.next.tw/zh/",
+      "Ukraine": "https://www.next.ua/ru/",
+      "UAE": "https://www.next.ae/ar/",
+      "USA": "https://www.next.us/en/",
+      "Switzerland": "https://www.nextdirect.com/ch/de/",
+      "Sweden": "https://www.next.se/sv/"
+    }
 }

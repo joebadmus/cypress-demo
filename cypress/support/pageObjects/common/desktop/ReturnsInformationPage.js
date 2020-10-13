@@ -1,6 +1,18 @@
+import FooterSection from "../../../pageSections/FooterSection";
+import StorefrontContentSection from "../../../pageSections/StorefrontContentSection";
 class ReturnsInformationPage {
-  checkPageIsDisplayed() {
-    cy.get("#divStorefrontContentSection").should("be.visible");
+  constructor() {
+    cy.log(
+      `Application on ${globalThis.countryUnderTest.name} Returns Information Page`
+    );
+  }
+
+  storefrontContentSection() {
+    return new StorefrontContentSection();
+  }
+
+  footerSection() {
+    return new FooterSection();
   }
 }
 
