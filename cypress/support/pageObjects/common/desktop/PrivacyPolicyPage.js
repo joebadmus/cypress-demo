@@ -1,11 +1,17 @@
+import FooterSection from "../../../pageSections/FooterSection";
+import PrivacypolicyContentSection from "../../../pageSections/PrivacypolicyContentSection";
 class PrivacyPolicyPage {
 
-    verifyPageIsDisplayed() {
-        cy.location().should((loc) =>{
-            expect(loc.toString()).to.contain("privacypolicy")
-        })
+    constructor(){
+        cy.log(`Application on ${globalThis.countryUnderTest.name} Privacy Policy Page`);
+      }
 
-        cy.get("div[data-index='03_1']").should('be.visible')
+    PrivacypolicyContentSection(){
+        return new PrivacypolicyContentSection();
+    }
+    
+    footerSection(){
+        return new FooterSection();
     }
 }
 

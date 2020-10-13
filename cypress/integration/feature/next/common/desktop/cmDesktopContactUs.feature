@@ -14,7 +14,7 @@ Feature: Platform Mod International Contact Us
             | domain      | 
             | Armenia     |
             | Australia   |
-            #| Austria     |
+            | Austria     |
             | Azerbaijan  |
             | Bulgaria    |
             | Bahrain     |

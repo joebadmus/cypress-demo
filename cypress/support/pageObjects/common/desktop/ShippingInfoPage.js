@@ -1,7 +1,13 @@
+import FooterSection from "../../../pageSections/FooterSection";
+import StorefrontContentSection from "../../../pageSections/StorefrontContentSection";
 class ShippingInfoPage {
 
-    verifyPageIsDisplayed() {
-        cy.get("#divStorefrontContentSection").should("be.visible")
+    storefrontContentSection() {
+      return new StorefrontContentSection();
+    }
+  
+    footerSection() {
+      return new FooterSection();
     }
 }
 

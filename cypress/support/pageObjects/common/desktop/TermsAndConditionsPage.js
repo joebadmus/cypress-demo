@@ -1,17 +1,18 @@
+import FooterSection from "../../../pageSections/FooterSection";
+import TermsAndConditionsContentSection from "../../../pageSections/TermsAndConditionsContentSection";
 class TermsAndConditionsPage {
+  constructor() {
+    cy.log(
+      `Application on ${globalThis.countryUnderTest.name} Terms And Conditions Page`
+    );
+  }
 
-    verifyPageIsDisplayed()  {
-
-        cy.location().should((loc) => {
-            expect(loc.toString()).to.contain("terms")
-        })
-
-        cy.get("[data-index='03_1']").should('be.visible')
-
-
-        
-    }
+  termsAndConditionsContentSection() {
+    return new TermsAndConditionsContentSection()
+  }
+  footerSection() {
+    return new FooterSection();
+  }
 }
 
-  export default TermsAndConditionsPage;
-  
+export default TermsAndConditionsPage;

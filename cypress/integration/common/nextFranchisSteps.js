@@ -6,5 +6,5 @@ Then("I should be taken to Next Franchise page", () => {
 
 let nextFranchisePage = PageHelper.createPagewith("NextFranchisePage");
 
-nextFranchisePage.verifyPageIsDisplayed();
+nextFranchisePage.NextFranchiseMainGridSection().verifyPageIsDisplayed();
 });

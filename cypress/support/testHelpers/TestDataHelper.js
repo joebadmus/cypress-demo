@@ -2,7 +2,6 @@ let footer = require("../../fixtures/footers.json");
 
 class TestDataHelper {
   static getFooterFor(marketType, linkText) {
-    
     let marketFooters = footer[marketType.substring(0, 2)];
     if (marketFooters === undefined)
       throw `The market ${marketType} does not exist`;
@@ -17,6 +16,7 @@ class TestDataHelper {
 
   //Two digits country code is accepted
   static getAllFooterLinksWithCountryCode(countryCode) {
+    debugger;
     let marketFooters = footer[countryCode];
     if (marketFooters === undefined)
       throw `The country code ${countryCode} does not exist`;
@@ -34,31 +34,31 @@ class TestDataHelper {
       TAIWAN: "TW",
       USA: "US",
       SWEDEN: "SE",
-      SWITZERLAND:"CH",
-      ARMENIA:"AM",
-      AUSTRALIA:"AU",
-      AUSTRIA:"AT",
-      AZERBAIJAN:"AZ",
-      BAHRAIN:"BH",
-      DENMARK:"DK",
-      UAE:"AE",
-      UKRAINE:"UA",
+      SWITZERLAND: "CH",
+      ARMENIA: "AM",
+      AUSTRALIA: "AU",
+      AUSTRIA: "AT",
+      AZERBAIJAN: "AZ",
+      BAHRAIN: "BH",
+      DENMARK: "DK",
+      UAE: "AE",
+      UKRAINE: "UA",
     };
 
     var keys = Object.keys(dictionary);
 
     for (var i = 0; i < keys.length; i++) {
       if (keys[i] === country.toUpperCase()) {
-        let countryCode = dictionary[keys[i]] 
-        cy.log('Country code ' + countryCode + ' is returned for ' + country);
-        globalThis.currentCountryCode = countryCode;
+        let countryCode = dictionary[keys[i]];
+        cy.log("Country code " + countryCode + " is returned for " + country);
+        // globalThis.currentCountryCode = countryCode;
         return countryCode;
       }
     }
     throw `The country code ${countryCode} does not exist`;
   }
 
-  static getInternationalFooterIndex(footerText){
+  static getInternationalFooterIndex(footerText) {
     if (footerText === "Size Guide") return 0;
     if (footerText === "Returns Information") return 1;
     if (footerText === "Shipping Information") return 2;
@@ -72,6 +72,22 @@ class TestDataHelper {
     if (footerText === "Next Franchise") return 10;
     if (footerText === "Next Affiliates") return 11;
     throw `The footer ${footerText} does not exist`;
+  }
+
+  static setTestCountry(value) {
+    // set test country
+    let countryUrl = Cypress.env(value);
+    if (countryUrl === undefined) throw `Country ${value} is not found`;
+
+    let countryUnderTest = {
+      name: value,
+      code: TestDataHelper.getCountryCode(value),
+      url: countryUrl,
+    };
+
+    globalThis.countryUnderTest = countryUnderTest;
+    // set test country code
+    // set test base url
   }
 }
 
