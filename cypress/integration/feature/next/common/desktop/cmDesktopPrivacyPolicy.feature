@@ -27,3 +27,5 @@ Feature: Platform Mod International Privacy Policy
             | USA         | 
             | Sweden      |
             | Switzerland | 
+            | Spain       |
+            | South_Korea |

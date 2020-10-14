@@ -1,6 +1,8 @@
 class FooterSection {
   gotoFooter() {
     cy.scrollTo("bottom");
+    //cy.get("#platform_modernisation_footer").scrollIntoView();
+    
   }
 
   closeCookieConsent() {

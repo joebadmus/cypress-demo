@@ -14,7 +14,7 @@ Feature: Platform Mod International Terms and Conditions
             | domain      |
             | Armenia     |
             | Australia   |
-            #| Austria     |
+            | Austria     |
             | Azerbaijan  |
             | Bulgaria    |
             | Bahrain     |
@@ -30,3 +30,5 @@ Feature: Platform Mod International Terms and Conditions
             # | UAE         |
             #| Ukraine     |
             | USA         |
+            | Spain       |
+            | South_Korea |

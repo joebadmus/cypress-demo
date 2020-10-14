@@ -30,3 +30,5 @@ Feature: Platform Mod International Contact Us
             #| UAE         |
             #| Ukraine     |
             | USA         |
+            | Spain       |
+            | South_Korea |
