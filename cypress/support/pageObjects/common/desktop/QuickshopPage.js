@@ -3,25 +3,23 @@ import QuickshopContentSection from "../../../pageSections/QuickshopContentSecti
 import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
 class QuickshopPage {
+  constructor() {
+    cy.visit(globalThis.countryUnderTest);
+    cy.get('[data-testid*="footer-quick-links-link"]').click();
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Quickshop page`);
+  }
 
-    constructor(){
-        cy.visit(globalThis.countryUnderTest);
-        cy.get('[title="Quickshop"]').click();
-        cy.log(`Application on ${globalThis.countryUnderTest.name} Quickshop page`);
-    }
+  headerTopBarSection() {
+    return new HeaderTopBarSection();
+  }
 
-    headerTopBarSection(){
-        return new HeaderTopBarSection();
-      }
-    
-    QuickshopContentSection(){
-        return new QuickshopContentSection();
-    }
-    
-    footerSection(){
-        return new FooterSection();
-    }
+  QuickshopContentSection() {
+    return new QuickshopContentSection();
+  }
+
+  footerSection() {
+    return new FooterSection();
+  }
 }
 
-  export default QuickshopPage;
-  
+export default QuickshopPage;

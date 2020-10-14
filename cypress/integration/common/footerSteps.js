@@ -89,6 +89,6 @@ When("I am viewing the footer of the page for the second language", () => {
 
   page.footerSection().gotoFooter();
 
-  page.footerSection().closeCookieConsent();
+  // page.footerSection().closeCookieConsent();
   isSecondLanguage = true;
 });
