@@ -38,6 +38,7 @@ class TestDataHelper {
       CANADA: "CA",
       BULGARIA: "BG",
       CROATIA: "HR",
+      CZECH: "CZ",
       TURKEY: "TR",
       THAILAND: "TH",
       TAIWAN: "TW",
@@ -60,11 +61,11 @@ class TestDataHelper {
     for (var i = 0; i < keys.length; i++) {
       if (keys[i] === country.toUpperCase()) {
         let countryCode = dictionary[keys[i]];
-        cy.log("Country code " + countryCode + " is returned for " + country);
+        cy.log("Country code for " + countryCode + " is returned for " + country);
         return countryCode;
       }
     }
-    throw `The country code ${countryCode} does not exist`;
+    throw `Country code does not exist for "${country}" `;
   }
 
   static getInternationalFooterIndex(footerText) {
