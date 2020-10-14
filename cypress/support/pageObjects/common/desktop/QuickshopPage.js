@@ -1,5 +1,6 @@
 import FooterSection from "../../../pageSections/FooterSection";
 import QuickshopContentSection from "../../../pageSections/QuickshopContentSection";
+import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
 class QuickshopPage {
 
@@ -8,6 +9,10 @@ class QuickshopPage {
         cy.get('[title="Quickshop"]').click();
         cy.log(`Application on ${globalThis.countryUnderTest.name} Quickshop page`);
     }
+
+    headerTopBarSection(){
+        return new HeaderTopBarSection();
+      }
     
     QuickshopContentSection(){
         return new QuickshopContentSection();

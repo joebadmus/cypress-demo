@@ -17,25 +17,69 @@ Feature: International Footer Links
 
 
         Examples:
-            | domain      | page      |
-            | Canada      | Home      |
-            | Canada      | Quickshop |
-            | Mexico      | Home      |
-            | Mexico      | Quickshop |
-            | Bulgaria    | Home      |
-            | Bulgaria    | Quickshop |
-            | Croatia     | Home      |
-            | Croatia     | Quickshop |
-            | Turkey      | Home      |
-            | Turkey      | Quickshop |
-            | Thailand    | Home      |
-            | Thailand    | Quickshop |
-            | Taiwan      | Home      |
-            | Taiwan      | Quickshop |
-            | USA         | Home      |
-            | USA         | Quickshop |
-            | Sweden      | Home      |
-            | Sweden      | Quickshop |
-            | Switzerland | Home      |
-            | Switzerland | Quickshop |
+            | domain  | page      |
+            | Austria | Home      |
+            | Austria | Quickshop |
+            | Canada  | Home      |
+    #         | Canada      | Quickshop |
+    #         | Mexico      | Home      |
+    #         | Mexico      | Quickshop |
+    #         | Bulgaria    | Home      |
+    #         | Bulgaria    | Quickshop |
+            | Bahrain    | Home |
+    #         | Bahrain    | Quickshop |
+    #         | Croatia     | Home      |
+    #         | Croatia     | Quickshop |
+    #         | Turkey      | Home      |
+    #         | Turkey      | Quickshop |
+    #         | Thailand    | Home      |
+    #         | Thailand    | Quickshop |
+    #         | Taiwan      | Home      |
+    #         | Taiwan      | Quickshop |
+    #         | USA         | Home      |
+    #         | USA         | Quickshop |
+    #         | Sweden      | Home      |
+    #         | Sweden      | Quickshop |
+    #         | Switzerland | Home      |
+    #         | Switzerland | Quickshop |
+
+
+
+
+    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+        When I am viewing the footer of the page for the second language
+        Then I should see all footer content are displayed correctly
+            | footer_content |
+            | Social Media   |
+            | MyAccount      |
+            | Quickshop      |
+            | LinkLists      |
+
+
+        Examples:
+            | domain  | page |
+            | Canada  | Home |
+            | Austria | Home |
+            | Bahrain    | Home |
+# | Canada      | Quickshop |
+# | Mexico      | Home      |
+# | Mexico      | Quickshop |
+# | Bulgaria    | Home      |
+# | Bulgaria    | Quickshop |
+# | Croatia     | Home      |
+# | Croatia     | Quickshop |
+# | Turkey      | Home      |
+# | Turkey      | Quickshop |
+# | Thailand    | Home      |
+# | Thailand    | Quickshop |
+# | Taiwan      | Home      |
+# | Taiwan      | Quickshop |
+# | USA         | Home      |
+# | USA         | Quickshop |
+# | Sweden      | Home      |
+# | Sweden      | Quickshop |
+# | Switzerland | Home      |
+# | Switzerland | Quickshop |
+
 

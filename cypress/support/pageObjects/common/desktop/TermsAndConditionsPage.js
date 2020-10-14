@@ -1,5 +1,7 @@
 import FooterSection from "../../../pageSections/FooterSection";
 import TermsAndConditionsContentSection from "../../../pageSections/TermsAndConditionsContentSection";
+import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
+
 class TermsAndConditionsPage {
   constructor() {
     cy.log(
@@ -7,6 +9,10 @@ class TermsAndConditionsPage {
     );
   }
 
+  headerTopBarSection(){
+    return new HeaderTopBarSection();
+  }
+  
   termsAndConditionsContentSection() {
     return new TermsAndConditionsContentSection()
   }
