@@ -129,6 +129,49 @@
             "linkHref": "https://www.nextdirect.com/ca/en/franchise"
         }
     ],
+    "CZ": [
+        {
+            "linkText": "Informace o vrácení zboží",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Informace o poštovném",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Kontaktujte nás",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#contactus"
+        },
+        {
+            "linkText": "Mapa stránek",
+            "linkHref": "https://www.nextdirect.com/cz/cs/sitemap"
+        },
+        {
+            "linkText": "Zásady ochrany osobních údajů",
+            "linkHref": "https://www.nextdirect.com/cz/cs/privacypolicy"
+        },
+        {
+            "linkText": "Podmínky",
+            "linkHref": "https://www.nextdirect.com/cz/cs/terms"
+        },
+        {
+            "linkText": "Média a tisk",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Společnost",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Kariéra s Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franšíza Next",
+            "linkHref": "https://www.nextdirect.com/cz/cs/franchise"
+        }
+    ],
+
     "HR": [
         {
             "linkText": "Size Guide",
