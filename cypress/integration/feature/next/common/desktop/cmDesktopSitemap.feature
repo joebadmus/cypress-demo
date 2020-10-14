@@ -32,3 +32,4 @@ Feature: Platform Mod International Site Map
             | USA         |
             | Spain       |
             | South_Korea |
+            | Serbia      |

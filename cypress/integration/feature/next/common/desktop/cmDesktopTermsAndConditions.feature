@@ -32,3 +32,4 @@ Feature: Platform Mod International Terms and Conditions
             | USA         |
             | Spain       |
             | South_Korea |
+            | Serbia      |
