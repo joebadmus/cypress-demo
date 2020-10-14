@@ -5,7 +5,7 @@ class QuickshopContentSection {
             expect(loc.toString()).to.contain("quickshop");
         });
 
-        cy.get('id="QuickshopWrap"').should('be.visible');
+        cy.get('id="QuickshopWrap"').should('be.visible');      
     }
 }
 export default QuickshopContentSection;

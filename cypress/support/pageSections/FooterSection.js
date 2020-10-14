@@ -1,10 +1,12 @@
 class FooterSection {
   gotoFooter() {
     cy.scrollTo("bottom");
+    //cy.get("#platform_modernisation_footer").scrollIntoView();
+    
   }
 
   closeCookieConsent() {
-    // cy.get('div[class*="CookieConsentCross"]').click();
+    cy.get('div[class*="CookieConsentCross"]').click();
   }
 
   getFooterLinks() {

@@ -12,21 +12,22 @@ Feature: Platform Mod International Site Guide
 
         Examples:
             | domain      |
-            | Armenia     |
-            | Australia   |
-            #| Austria     |
-            | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     |
-            | Canada      |
-            | Croatia     |
-            | Denmark     |
-            | Mexico      |
-            | Sweden      |
-            | Switzerland |
-            | Taiwan      |
-            | Thailand    |
-            | Turkey      |
-            # | UAE         |
-            #| Ukraine     |
-            | USA         |
+            # | Armenia     |
+            # | Australia   |
+            # #| Austria     |
+            # | Azerbaijan  |
+            # | Bulgaria    |
+            # | Bahrain     |
+            # | Canada      |
+            # | Croatia     |
+            # | Denmark     |
+            # | Mexico      |
+            # | Sweden      |
+            # | Switzerland |
+            # | Taiwan      |
+            # | Thailand    |
+            # | Turkey      |
+            # # | UAE         |
+            # #| Ukraine     |
+            # | USA         |
+            | Spain       |

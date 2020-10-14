@@ -171,7 +171,7 @@
             "linkHref": "https://www.nextdirect.com/cz/cs/franchise"
         }
     ],
-
+    
     "HR": [
         {
             "linkText": "Size Guide",
@@ -874,6 +874,48 @@
         {
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.se/sv/franchise"
+        }
+    ],
+    "ES": [
+        {
+            "linkText": "Información sobre devoluciones",
+            "linkHref": "https://www.next.es/es/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Información de envío",
+            "linkHref": "https://www.next.es/es/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contáctanos",
+            "linkHref": "https://www.next.es/es/faqs#contactus"
+        },
+        {
+            "linkText": "Mapa del sitio",
+            "linkHref": "https://www.next.es/es/sitemap"
+        },
+        {
+            "linkText": "Política de privacidad",
+            "linkHref": "https://www.next.es/es/privacypolicy"
+        },
+        {
+            "linkText": "Términos y condiciones",
+            "linkHref": "https://www.next.es/es/terms"
+        },
+        {
+            "linkText": "Medios y prensa",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "La empresa",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Trabajos en NEXT",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franquicia de Next",
+            "linkHref": "https://www.next.es/es/franchise"
         }
     ]
 }
