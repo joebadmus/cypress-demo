@@ -28,3 +28,4 @@ Feature: Platform Mod International Privacy Policy
             | Sweden      |
             | Switzerland | 
             | Spain       |
+            | South_Korea |

@@ -31,3 +31,4 @@ Feature: Platform Mod International Site Guide
             # | Ukraine     |
             | USA         |
             | Spain       |
+            | South_Korea |

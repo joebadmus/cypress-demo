@@ -27,3 +27,4 @@ Feature: Platform Mod International Shipping information
             | Sweden      |
             | Switzerland | 
             | Spain       |
+            | South_Korea |
