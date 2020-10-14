@@ -22,6 +22,8 @@
       "UAE": "https://www.next.ae/ar/",
       "USA": "https://www.next.us/en/",
       "Switzerland": "https://www.nextdirect.com/ch/de/",
-      "Sweden": "https://www.next.se/sv/"
+      "Switzerland_S": "https://www.nextdirect.com/ch/en/",
+      "Sweden": "https://www.next.se/sv/",
+      "Sweden_S": "https://www.next.se/en/"
     }
 }

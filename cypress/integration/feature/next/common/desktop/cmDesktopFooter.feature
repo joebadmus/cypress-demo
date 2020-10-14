@@ -5,8 +5,43 @@ Feature: International Footer Links
     I want to be taken to the correct location from the footer links
 
 
-    Scenario Outline: Platform Mod enabled footer content are displayed correctly
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+    # Scenario Outline: Platform Mod enabled footer content are displayed correctly
+    #     Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+    #     When I am viewing the footer of the page
+    #     Then I should see all footer content are displayed correctly
+    #         | footer_content |
+    #         | Social Media   |
+    #         | MyAccount      |
+    #         | Quickshop      |
+    #         | LinkLists      |
+
+
+    #     Examples:
+    #         | domain | page |
+    #         | Canada | Home |
+    # # | Canada      | Quickshop |
+    # # | Mexico      | Home      |
+    # # | Mexico      | Quickshop |
+    # # | Bulgaria    | Home      |
+    # # | Bulgaria    | Quickshop |
+    # # | Croatia     | Home      |
+    # # | Croatia     | Quickshop |
+    # # | Turkey      | Home      |
+    # # | Turkey      | Quickshop |
+    # # | Thailand    | Home      |
+    # # | Thailand    | Quickshop |
+    # # | Taiwan      | Home      |
+    # # | Taiwan      | Quickshop |
+    # # | USA         | Home      |
+    # # | USA         | Quickshop |
+    # # | Sweden      | Home      |
+    # # | Sweden      | Quickshop |
+    # # | Switzerland | Home      |
+    # # | Switzerland | Quickshop |
+
+
+    Scenario Outline: Platform Mod enabled footer content are displayed correctly for second language
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>" for "<language>"
         When I am viewing the footer of the page
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -17,25 +52,31 @@ Feature: International Footer Links
 
 
         Examples:
-            | domain      | page      |
-            | Canada      | Home      |
-            | Canada      | Quickshop |
-            | Mexico      | Home      |
-            | Mexico      | Quickshop |
-            | Bulgaria    | Home      |
-            | Bulgaria    | Quickshop |
-            | Croatia     | Home      |
-            | Croatia     | Quickshop |
-            | Turkey      | Home      |
-            | Turkey      | Quickshop |
-            | Thailand    | Home      |
-            | Thailand    | Quickshop |
-            | Taiwan      | Home      |
-            | Taiwan      | Quickshop |
-            | USA         | Home      |
-            | USA         | Quickshop |
-            | Sweden      | Home      |
-            | Sweden      | Quickshop |
-            | Switzerland | Home      |
-            | Switzerland | Quickshop |
+            | domain      | page      | language  |
+            | Switzerland | Home      | Secondary |
+            | Switzerland | Quickshop | Secondary |
+            | Switzerland | Home      | Primary   |
+            | Switzerland | Quickshop | Primary   |
+            | Sweden      | Home      | Secondary |
+            | Sweden      | Quickshop | Secondary |
+            | Sweden      | Home      | Primary   |
+            | Sweden      | Quickshop | Primary   |
+# | Mexico      | Home      |
+# | Mexico      | Quickshop |
+# | Bulgaria    | Home      |
+# | Bulgaria    | Quickshop |
+# | Croatia     | Home      |
+# | Croatia     | Quickshop |
+# | Turkey      | Home      |
+# | Turkey      | Quickshop |
+# | Thailand    | Home      |
+# | Thailand    | Quickshop |
+# | Taiwan      | Home      |
+# | Taiwan      | Quickshop |
+# | USA         | Home      |
+# | USA         | Quickshop |
+# | Sweden      | Home      |
+# | Sweden      | Quickshop |
+# | Switzerland | Home      |
+# | Switzerland | Quickshop |
 

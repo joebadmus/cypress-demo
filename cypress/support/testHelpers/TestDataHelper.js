@@ -74,14 +74,28 @@ class TestDataHelper {
     throw `The footer ${footerText} does not exist`;
   }
 
-  static setTestCountry(value) {
+  static setTestCountry(value, language=null) {
     // set test country
-    let countryUrl = Cypress.env(value);
+    let countryUrl;
+    let code;
+    if(language === 'Secondary'){
+      countryUrl = Cypress.env(value +"_S")
+      code = TestDataHelper.getCountryCode(value) +"_S"
+      cy.log("Country code under secondary language is : " + code);
+    } else{
+
+      countryUrl = Cypress.env(value);
+      code = TestDataHelper.getCountryCode(value)
+      cy.log("Country code under primary language is : " + code);
+    }
+      
+    
+     
     if (countryUrl === undefined) throw `Country ${value} is not found`;
 
     let countryUnderTest = {
       name: value,
-      code: TestDataHelper.getCountryCode(value),
+      code: code,
       url: countryUrl,
     };
 
@@ -89,6 +103,7 @@ class TestDataHelper {
     // set test country code
     // set test base url
   }
+  
 }
 
 export default TestDataHelper;
