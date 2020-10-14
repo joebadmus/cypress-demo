@@ -45,6 +45,9 @@ Feature: International Footer Links
             | Switzerland | Home      |
             | Switzerland | Quickshop |
             | South_Korea | Home      |
+            | South_Korea | Quickshop |
+            | Spain       | Home      |
+            | Spain       | Quickshop |
 
 
 
