@@ -12,19 +12,19 @@ Feature: Platform Mod International Privacy Policy
 
         Examples:
             | domain      |   
-            # | Armenia     |
-            # | Australia   |
-            # | Austria     |
-            # | Azerbaijan  |
-            # | Bulgaria    |
-            # | Bahrain     | 
-            # | Canada      | 
-            # | Mexico      |          
-            # | Croatia     | 
-            # | Turkey      | 
-            # | Thailand    | 
-            # | Taiwan      | 
-            # | USA         | 
-            # | Sweden      |
-            # | Switzerland | 
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
+            | Bulgaria    |
+            | Bahrain     | 
+            | Canada      | 
+            | Mexico      |          
+            | Croatia     | 
+            | Turkey      | 
+            | Thailand    | 
+            | Taiwan      | 
+            | USA         | 
+            | Sweden      |
+            | Switzerland | 
             | Spain       |
