@@ -43,10 +43,6 @@
     ],
     "BG": [
         {
-            "linkText": "Таблица с размерите",
-            "linkHref": "https://www.nextdirect.com/help/en/bg/Section.aspx?ItemId=15083"
-        },
-        {
             "linkText": "Информация за връщане",
             "linkHref": "https://www.nextdirect.com/bg/bg/faqs#returnskeyinformation"
         },
@@ -174,10 +170,6 @@
 
     "HR": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/hr/Section.aspx?ItemId=23221"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/hr/en/faqs#returnskeyinformation"
         },
@@ -219,11 +211,6 @@
         }
     ],
     "AM": [
-        
-        {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/am/Section.aspx?ItemId=21194"
-        },
         {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/am/en/faqs#returnskeyinformation"
@@ -268,10 +255,6 @@
     ],
     "TR": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/tr/Section.aspx?ItemId=13561"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/tr/en/faqs#returnskeyinformation"
         },
@@ -313,11 +296,6 @@
         } 
     ],
     "AU": [
-        
-        {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/au/Section.aspx?ItemId=15215"
-        },
         {
             "linkText": "Returns Information",
             "linkHref": "https://www.next.com.au/en/faqs#returnskeyinformation"
@@ -366,10 +344,6 @@
     ],
     "TH": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/th/Section.aspx?ItemId=24475"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/th/en/faqs#returnskeyinformation"
         },
@@ -407,7 +381,7 @@
         },
         {
             "linkText": "Next Franchise",
-            "linkHref": "https://www.nextdirect.com/th/en/franchise/"
+            "linkHref": "https://www.nextdirect.com/th/en/franchise"
         }
     ],
     "AT": [  
@@ -537,12 +511,6 @@
         } 
     ],
     "DK": [
-        
-        {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/dk/Section.aspx?ItemId=12622"
-        },
-
         {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/dk/en/faqs#returnskeyinformation"
@@ -586,10 +554,6 @@
     ],
     "TW": [
         {
-            "linkText": "尺碼指南",
-            "linkHref": "https://www.nextdirect.com/help/zh/tw/Section.aspx?ItemId=14485"
-        },
-        {
             "linkText": "退貨資訊",
             "linkHref": "https://www.next.tw/zh/faqs#returnskeyinformation"
         },
@@ -631,10 +595,6 @@
         }
     ],
     "UA": [
-        {
-            "linkText": "Моя учетная запись",
-            "linkHref": "https://account.next.ua/ru/myaccount"
-        },
         {
             "linkText": "Возврат товаров",
             "linkHref": "https://www.next.ua/ru/faqs#returnskeyinformation"
@@ -681,14 +641,10 @@
         },
         {
             "linkText": "Франшиза Next",
-            "linkHref": "https://www.next.ua/ru/franchise"
+            "linkHref": "https://www.next.ua/ru/franchise/"
         }
     ],
     "AE": [
-        {
-            "linkText": "حسابي",
-            "linkHref": "https://account.next.ae/ar/myaccount"
-        },
         {
             "linkText": "معلومات المرتجعات",
             "linkHref": "https://www.next.ae/ar/faqs#returnskeyinformation"
@@ -736,10 +692,6 @@
     ],
     "US": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/us/Section.aspx?ItemId=10876"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.next.us/en/faqs#returnskeyinformation"
         },
@@ -786,10 +738,6 @@
     ],
     "CH": [
         {
-            "linkText": "Größentabelle",
-            "linkHref": "https://www.nextdirect.com/help/de/ch/Section.aspx?ItemId=26526"
-        },
-        {
             "linkText": "Rücksendungsinformationen",
             "linkHref": "https://www.nextdirect.com/ch/de/faqs#returnskeyinformation"
         },
@@ -831,10 +779,6 @@
         }
     ],
     "SE": [
-        {
-            "linkText": "Storleksguide",
-            "linkHref": "https://www.nextdirect.com/help/en/se/Section.aspx?ItemId=18300"
-        },
         {
             "linkText": "Returinformation",
             "linkHref": "https://www.next.se/sv/faqs#returnskeyinformation"
