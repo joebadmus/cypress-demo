@@ -33,3 +33,5 @@ Feature: Platform Mod International Shipping information
             | Spain       |
             | South_Korea |
             | Serbia      |
+            | Romania     |
+            | Qatar       |

@@ -33,3 +33,5 @@ Feature: Platform Mod International Terms and Conditions
             | Spain       |
             | South_Korea |
             | Serbia      |
+            | Romania     |
+            | Qatar       |

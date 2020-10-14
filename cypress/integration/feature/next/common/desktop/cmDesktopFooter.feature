@@ -46,6 +46,11 @@ Feature: International Footer Links
             | Switzerland | Quickshop |
             | South_Korea | Home      |
             | Serbia      | Home      |
+            | Serbia      | Quickshop |
+            | Romania     | Home      |
+            | Romania     | Quickshop |
+            | Qatar       | Home      |
+            | Qatar       | Quickshop |
 
 
 
@@ -91,5 +96,8 @@ Feature: International Footer Links
             | South_Korea | Quickshop |
             | Spain       | Home      |
             | Spain       | Quickshop |
-
+            | Romania     | Home      |
+            | Romania     | Quickshop |
+            | Qatar       | Home      |
+            | Qatar       | Quickshop |
 

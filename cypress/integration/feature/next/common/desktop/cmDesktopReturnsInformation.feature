@@ -33,3 +33,5 @@ Feature: Platform Mod International Site Guide
             | Spain       |
             | South_Korea |
             | Serbia      |
+            | Romania     |
+            | Qatar       |

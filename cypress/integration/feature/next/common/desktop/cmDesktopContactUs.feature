@@ -33,3 +33,5 @@ Feature: Platform Mod International Contact Us
             | Spain       |
             | South_Korea |
             | Serbia      |
+            | Romania     |
+            | Qatar       |

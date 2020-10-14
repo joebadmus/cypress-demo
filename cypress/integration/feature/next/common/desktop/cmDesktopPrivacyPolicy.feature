@@ -33,3 +33,5 @@ Feature: Platform Mod International Privacy Policy
             | Spain       |
             | South_Korea |
             | Serbia      |
+            | Romania     |
+            | Qatar       |

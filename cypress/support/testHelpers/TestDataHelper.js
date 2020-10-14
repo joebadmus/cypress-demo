@@ -55,7 +55,9 @@ class TestDataHelper {
       UKRAINE: "UA",
       SPAIN: "ES",
       SOUTH_KOREA: "KR",
-      SERBIA: "RS"
+      SERBIA: "RS",
+      ROMANIA: "RO",
+      QATAR: "QA"
     };
 
     var keys = Object.keys(dictionary);
