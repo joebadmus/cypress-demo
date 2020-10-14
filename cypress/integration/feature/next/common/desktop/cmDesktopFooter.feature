@@ -6,7 +6,7 @@ Feature: International Footer Links
 
 
     Scenario Outline: Platform Mod enabled footer content are displayed correctly
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -17,39 +17,24 @@ Feature: International Footer Links
 
 
         Examples:
-            | domain      | page      |
-            | Austria     | Home      |
-            | Austria     | Quickshop |
-            | Canada      | Home      |
-            | Canada      | Quickshop |
-            | Czech      | Home |
-            | Czech      | Quickshop |
-            | Mexico      | Home      |
-            | Mexico      | Quickshop |
-            | Bulgaria    | Home      |
-            | Bulgaria    | Quickshop |
-            | Bahrain     | Home      |
-            | Bahrain     | Quickshop |
-            | Croatia     | Home      |
-            | Croatia     | Quickshop |
-            | Turkey      | Home      |
-            | Turkey      | Quickshop |
-            | Thailand    | Home      |
-            | Thailand    | Quickshop |
-            | Taiwan      | Home      |
-            | Taiwan      | Quickshop |
-            | USA         | Home      |
-            | USA         | Quickshop |
-            | Sweden      | Home      |
-            | Sweden      | Quickshop |
-            | Switzerland | Home      |
-            | Switzerland | Quickshop |
-
-
+            | domain      |
+            | Austria     |
+            | Canada      |
+            | Czech       |
+            | Mexico      |
+            | Bulgaria    |
+            | Bahrain     |
+            | Croatia     |
+            | Turkey      |
+            | Thailand    |
+            | Taiwan      |
+            | USA         |
+            | Sweden      |
+            | Switzerland |
 
 
     Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -60,12 +45,12 @@ Feature: International Footer Links
 
 
         Examples:
-            | domain  | page |
-            | Canada  | Home |
-            | Austria | Home |
-            | Bahrain | Home |
-            | Bulgaria | Home |
-            | Czech | Home |
+            | domain   |
+            | Canada   |
+            | Austria  |
+            | Bahrain  |
+            | Bulgaria |
+            | Czech    |
 
 
 
