@@ -4,7 +4,7 @@ class FooterSection {
   }
 
   closeCookieConsent() {
-    cy.get('div[class*="CookieConsentCross"]').click();
+    // cy.get('div[class*="CookieConsentCross"]').click();
   }
 
   getFooterLinks() {

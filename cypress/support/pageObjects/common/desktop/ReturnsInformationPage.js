@@ -1,5 +1,7 @@
 import FooterSection from "../../../pageSections/FooterSection";
 import StorefrontContentSection from "../../../pageSections/StorefrontContentSection";
+import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
+
 class ReturnsInformationPage {
   constructor() {
     cy.log(
@@ -7,6 +9,10 @@ class ReturnsInformationPage {
     );
   }
 
+  headerTopBarSection(){
+    return new HeaderTopBarSection();
+  }
+  
   storefrontContentSection() {
     return new StorefrontContentSection();
   }

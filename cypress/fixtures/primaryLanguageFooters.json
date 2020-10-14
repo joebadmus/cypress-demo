@@ -1,10 +1,6 @@
 {
     "MX": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/mx/Section.aspx?ItemId=13693"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.next.mx/en/faqs#returnskeyinformation"
         },
@@ -93,10 +89,6 @@
     ],
     "CA": [
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/ca/Section.aspx?ItemId=17528"
-        },
-        {
             "linkText": "Returns Information",
             "linkHref": "https://www.nextdirect.com/ca/en/faqs#returnskeyinformation"
         },
@@ -137,6 +129,49 @@
             "linkHref": "https://www.nextdirect.com/ca/en/franchise"
         }
     ],
+    "CZ": [
+        {
+            "linkText": "Informace o vrácení zboží",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Informace o poštovném",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Kontaktujte nás",
+            "linkHref": "https://www.nextdirect.com/cz/cs/faqs#contactus"
+        },
+        {
+            "linkText": "Mapa stránek",
+            "linkHref": "https://www.nextdirect.com/cz/cs/sitemap"
+        },
+        {
+            "linkText": "Zásady ochrany osobních údajů",
+            "linkHref": "https://www.nextdirect.com/cz/cs/privacypolicy"
+        },
+        {
+            "linkText": "Podmínky",
+            "linkHref": "https://www.nextdirect.com/cz/cs/terms"
+        },
+        {
+            "linkText": "Média a tisk",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Společnost",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Kariéra s Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franšíza Next",
+            "linkHref": "https://www.nextdirect.com/cz/cs/franchise"
+        }
+    ],
+
     "HR": [
         {
             "linkText": "Size Guide",
@@ -375,61 +410,49 @@
             "linkHref": "https://www.nextdirect.com/th/en/franchise/"
         }
     ],
-    "AT": [
-        
+    "AT": [  
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/at/Section.aspx?ItemId=30781"
-        },
-
-        {
-            "linkText": "Returns Information",
-            "linkHref": "https://www.next.at/en/faqs#returnskeyinformation"
+            "linkText": "Rücksendungsinformationen",
+            "linkHref": "https://www.next.at/de/faqs#returnskeyinformation"
         },
         {
-            "linkText": "Shipping Information",
-            "linkHref": "https://www.next.at/en/faqs#deliverykeyinformation"
+            "linkText": "Versandinformationen",
+            "linkHref": "https://www.next.at/de/faqs#deliverykeyinformation"
         },
         {
-            "linkText": "Contact Us",
-            "linkHref": "https://www.next.at/en/faqs#contactus"
+            "linkText": "Kontakt",
+            "linkHref": "https://www.next.at/de/faqs#contactus"
         },
         {
             "linkText": "Sitemap",
-            "linkHref": "https://www.next.at/en/sitemap"
+            "linkHref": "https://www.next.at/de/sitemap"
         },
         {
-            "linkText": "Privacy Policy",
-            "linkHref": "https://www.next.at/en/privacypolicy"
+            "linkText": "Datenschutzrichtlinie",
+            "linkHref": "https://www.next.at/de/privacypolicy"
         },
         {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.next.at/en/terms"
+            "linkText": "Geschäftsbedingungen",
+            "linkHref": "https://www.next.at/de/terms"
         },
         {
-            "linkText": "Media & Press",
+            "linkText": "Medien & Presse",
             "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
         },
         {
-            "linkText": "The Company",
+            "linkText": "Das Unternehmen",
             "linkHref": "https://www.nextplc.co.uk/"
         },
         {
-            "linkText": "Careers@next",
+            "linkText": "Karriere bei Next",
             "linkHref": "https://careers.next.co.uk/"
         },
         {
-            "linkText": "Next Franchise",
-            "linkHref": "https://www.next.at/en/franchise"
+            "linkText": "Next-Franchise",
+            "linkHref": "https://www.next.at/de/franchise"
         } 
     ],
     "AZ": [
-        
-        {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/az/Section.aspx?ItemId=28366"
-        },
-
         {
             "linkText": "Returns Information",
             "linkHref": "https://www.next.com.az/en/faqs#returnskeyinformation"
@@ -472,51 +495,45 @@
         } 
     ],
     "BH": [
-        
         {
-            "linkText": "Size Guide",
-            "linkHref": "https://www.nextdirect.com/help/en/bh/Section.aspx?ItemId=31534"
-        },
-
-        {
-            "linkText": "Returns Information",
-            "linkHref": "https://www.nextdirect.com/bh/en/faqs#returnskeyinformation"
+            "linkText": "معلومات المرتجعات",
+            "linkHref": "https://www.nextdirect.com/bh/ar/faqs#returnskeyinformation"
         },
         {
-            "linkText": "Shipping Information",
-            "linkHref": "https://www.nextdirect.com/bh/en/faqs#deliverykeyinformation"
+            "linkText": "معلومات الشحن",
+            "linkHref": "https://www.nextdirect.com/bh/ar/faqs#deliverykeyinformation"
         },
         {
-            "linkText": "Contact Us",
-            "linkHref": "https://www.nextdirect.com/bh/en/faqs#contactus"
+            "linkText": "اتصل بنا",
+            "linkHref": "https://www.nextdirect.com/bh/ar/faqs#contactus"
         },
         {
-            "linkText": "Sitemap",
-            "linkHref": "https://www.nextdirect.com/bh/en/sitemap"
+            "linkText": "خريطة الموقع",
+            "linkHref": "https://www.nextdirect.com/bh/ar/sitemap"
         },
         {
-            "linkText": "Privacy Policy",
-            "linkHref": "https://www.nextdirect.com/bh/en/privacypolicy"
+            "linkText": "سياسة الخصوصية",
+            "linkHref": "https://www.nextdirect.com/bh/ar/privacypolicy"
         },
         {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.nextdirect.com/bh/en/terms"
+            "linkText": "الشروط والأحكام",
+            "linkHref": "https://www.nextdirect.com/bh/ar/terms"
         },
         {
-            "linkText": "Media & Press",
+            "linkText": "الإعلام والصحافة",
             "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
         },
         {
-            "linkText": "The Company",
+            "linkText": "الشركة",
             "linkHref": "https://www.nextplc.co.uk/"
         },
         {
-            "linkText": "Careers@next",
+            "linkText": "وظائف لدى Next",
             "linkHref": "https://careers.next.co.uk/"
         },
         {
-            "linkText": "Next Franchise",
-            "linkHref": "https://www.nextdirect.com/bh/en/franchise"
+            "linkText": "امتياز Next",
+            "linkHref": "https://www.nextdirect.com/bh/ar/franchise"
         } 
     ],
     "DK": [
