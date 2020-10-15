@@ -2,3 +2,6 @@ node_modules
 cypress/screenshots/
 cypress/videos/
 debug.log
+cypress/results/
+mochawesome-report/
+ mochawesome.json
