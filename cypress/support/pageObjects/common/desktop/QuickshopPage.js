@@ -1,22 +1,25 @@
 import FooterSection from "../../../pageSections/FooterSection";
 import QuickshopContentSection from "../../../pageSections/QuickshopContentSection";
+import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
 class QuickshopPage {
+  constructor() {
+    cy.visit(globalThis.countryUnderTest);
+    cy.get('[data-testid*="footer-quick-links-link"]').click();
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Quickshop page`);
+  }
 
-    constructor(){
-        cy.visit(globalThis.countryUnderTest);
-        cy.get('[title="Quickshop"]').click();
-        cy.log(`Application on ${globalThis.countryUnderTest.name} Quickshop page`);
-    }
-    
-    QuickshopContentSection(){
-        return new QuickshopContentSection();
-    }
-    
-    footerSection(){
-        return new FooterSection();
-    }
+  headerTopBarSection() {
+    return new HeaderTopBarSection();
+  }
+
+  QuickshopContentSection() {
+    return new QuickshopContentSection();
+  }
+
+  footerSection() {
+    return new FooterSection();
+  }
 }
 
-  export default QuickshopPage;
-  
+export default QuickshopPage;

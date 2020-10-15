@@ -1,15 +1,14 @@
 class FooterSection {
   gotoFooter() {
     cy.scrollTo("bottom");
+    //cy.get("#platform_modernisation_footer").scrollIntoView();
+    
   }
 
   closeCookieConsent() {
     cy.get('div[class*="CookieConsentCross"]').click();
   }
 
-  getFooterLinks() {
-    return cy.get(".footer153").children("div");
-  }
 
   validateLinkIsPresent(linkText) {
     cy.get(".footer153").contains("a", linkText).should("be.visible");
@@ -19,12 +18,6 @@ class FooterSection {
     cy.get('[data-testid="footer-container"]')
       .find('[class*="footer104"]')
       .should("be.visible");
-  }
-
-  validateQuickLinkLanguageSelectorPresent() {
-    cy.get('[data-testid="footer-quick-links-language-selector"]').should(
-      "be.visible"
-    );
   }
 
   validateQuickLinkQuickPresent() {

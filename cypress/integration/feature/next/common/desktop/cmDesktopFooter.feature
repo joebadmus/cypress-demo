@@ -18,12 +18,18 @@ Feature: International Footer Links
 
         Examples:
             | domain      | page      |
+            | Austria     | Home      |
+            | Austria     | Quickshop |
             | Canada      | Home      |
             | Canada      | Quickshop |
+            | Czech       | Home      |
+            | Czech       | Quickshop |
             | Mexico      | Home      |
             | Mexico      | Quickshop |
             | Bulgaria    | Home      |
             | Bulgaria    | Quickshop |
+            | Bahrain     | Home      |
+            | Bahrain     | Quickshop |
             | Croatia     | Home      |
             | Croatia     | Quickshop |
             | Turkey      | Home      |
@@ -38,4 +44,46 @@ Feature: International Footer Links
             | Sweden      | Quickshop |
             | Switzerland | Home      |
             | Switzerland | Quickshop |
+            | South_Korea | Home      |
+            | Serbia      | Home      |
+            | Serbia      | Quickshop |
+            | Romania     | Home      |
+            | Romania     | Quickshop |
+            | Qatar       | Home      |
+            | Qatar       | Quickshop |
+            | Singapore   | Home      |
+            | Singapore   | Quickshop |
+
+
+
+
+    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "<page>".
+        When I am viewing the footer of the page for the second language
+        Then I should see all footer content are displayed correctly
+            | footer_content |
+            | Social Media   |
+            | MyAccount      |
+            | Quickshop      |
+            | LinkLists      |
+
+
+        Examples:
+            | domain      | page      |
+            | Canada      | Home      |
+            | Austria     | Home      |
+            | Bahrain     | Home      |
+            | Bulgaria    | Home      |
+            | Czech       | Home      |
+            | Canada      | Quickshop |
+            | Bulgaria    | Home      |
+            | Bulgaria    | Quickshop |
+            | South_Korea | Home      |
+            | South_Korea | Quickshop |
+            | Spain       | Home      |
+            | Spain       | Quickshop |
+            | Romania     | Home      |
+            | Romania     | Quickshop |
+            | Qatar       | Home      |
+            | Qatar       | Quickshop |
 

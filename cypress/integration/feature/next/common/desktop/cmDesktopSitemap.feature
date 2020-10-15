@@ -14,7 +14,7 @@ Feature: Platform Mod International Site Map
             | domain      |
             | Armenia     |
             | Australia   |
-            #| Austria     |
+            | Austria     |
             | Azerbaijan  |
             | Bulgaria    |
             | Bahrain     |
@@ -30,3 +30,9 @@ Feature: Platform Mod International Site Map
             # | UAE         |
             #| Ukraine     |
             | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |

@@ -14,15 +14,25 @@ Feature: Platform Mod International Shipping information
             | domain      |   
             | Armenia     |
             | Australia   |
-           #| Austria     |
+            | Austria     |
             | Azerbaijan  |
-            | Canada      | 
-            | Mexico      | 
-            | Bulgaria    | 
-            | Croatia     | 
-            | Turkey      | 
-            | Thailand    | 
-            | Taiwan      | 
-            | USA         | 
+            | Bulgaria    |
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
             | Sweden      |
-            | Switzerland | 
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            # | UAE         |
+            # | Ukraine     |
+            | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |

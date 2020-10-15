@@ -30,3 +30,10 @@ Feature: Platform Mod International Site Guide
             # | UAE         |
             # | Ukraine     |
             | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
+            
