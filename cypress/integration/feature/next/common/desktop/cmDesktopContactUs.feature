@@ -12,24 +12,25 @@ Feature: Platform Mod International Contact Us
 
         Examples:
             | domain       | 
-            | Armenia      |
-            | Australia    |
-            | Austria      |
-            | Azerbaijan   |
-            | Bulgaria     |
-            | Bahrain      |
-            | Canada       |
-            | Croatia      |
-            | Denmark      |
-            | Mexico       |
-            | Sweden       |
-            | Switzerland  |
-            | Taiwan       |
-            | Thailand     |
-            | Turkey       |
-            #| UAE          |
-            #| Ukraine      |
-            | USA          |
-            | Spain        |
-            | South_Korea  |
-            | South_Africa |
+            # | Armenia      |
+            # | Australia    |
+            # | Austria      |
+            # | Azerbaijan   |
+            # | Bulgaria     |
+            # | Bahrain      |
+            # | Canada       |
+            # | Croatia      |
+            # | Denmark      |
+            # | Mexico       |
+            # | Sweden       |
+            # | Switzerland  |
+            # | Taiwan       |
+            # | Thailand     |
+            # | Turkey       |
+            # #| UAE          |
+            # #| Ukraine      |
+            # | USA          |
+            # | Spain        |
+            # | South_Korea  |
+            # | South_Africa |
+            | Singapore    |
