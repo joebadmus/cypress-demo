@@ -167,7 +167,7 @@
             "linkHref": "https://www.nextdirect.com/cz/cs/franchise"
         }
     ],
-
+    
     "HR": [
         {
             "linkText": "Returns Information",
@@ -818,6 +818,90 @@
         {
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.se/sv/franchise"
+        }
+    ],
+    "ES": [
+        {
+            "linkText": "Información sobre devoluciones",
+            "linkHref": "https://www.next.es/es/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Información de envío",
+            "linkHref": "https://www.next.es/es/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contáctanos",
+            "linkHref": "https://www.next.es/es/faqs#contactus"
+        },
+        {
+            "linkText": "Mapa del sitio",
+            "linkHref": "https://www.next.es/es/sitemap"
+        },
+        {
+            "linkText": "Política de privacidad",
+            "linkHref": "https://www.next.es/es/privacypolicy"
+        },
+        {
+            "linkText": "Términos y condiciones",
+            "linkHref": "https://www.next.es/es/terms"
+        },
+        {
+            "linkText": "Medios y prensa",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "La empresa",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Trabajos en NEXT",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franquicia de Next",
+            "linkHref": "https://www.next.es/es/franchise"
+        }
+    ],
+    "KR": [
+        {
+            "linkText": "반품 정보",
+            "linkHref": "https://www.nextdirect.com/kr/ko/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "배송 정보",
+            "linkHref": "https://www.nextdirect.com/kr/ko/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "연락처",
+            "linkHref": "https://www.nextdirect.com/kr/ko/faqs#contactus"
+        },
+        {
+            "linkText": "사이트맵",
+            "linkHref": "https://www.nextdirect.com/kr/ko/sitemap"
+        },
+        {
+            "linkText": "개인정보보호정책",
+            "linkHref": "https://www.nextdirect.com/kr/ko/privacypolicy"
+        },
+        {
+            "linkText": "이용약관",
+            "linkHref": "https://www.nextdirect.com/kr/ko/terms"
+        },
+        {
+            "linkText": "미디어 및 홍보자료",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Next PLC",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Next 채용정보",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next 프랜차이즈",
+            "linkHref": "https://www.nextdirect.com/kr/ko/franchise"
         }
     ]
 }

@@ -31,6 +31,7 @@ Feature: International Footer Links
             | USA         |
             | Sweden      |
             | Switzerland |
+            | South_Korea |
 
 
     Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
@@ -43,7 +44,6 @@ Feature: International Footer Links
             | Quickshop      |
             | LinkLists      |
 
-
         Examples:
             | domain   |
             | Canada   |
@@ -55,24 +55,112 @@ Feature: International Footer Links
 
 
 
-# | Canada      | Quickshop |
-# | Mexico      | Home      |
-# | Mexico      | Quickshop |
-# | Bulgaria    | Home      |
-# | Bulgaria    | Quickshop |
-# | Croatia     | Home      |
-# | Croatia     | Quickshop |
-# | Turkey      | Home      |
-# | Turkey      | Quickshop |
-# | Thailand    | Home      |
-# | Thailand    | Quickshop |
-# | Taiwan      | Home      |
-# | Taiwan      | Quickshop |
-# | USA         | Home      |
-# | USA         | Quickshop |
-# | Sweden      | Home      |
-# | Sweden      | Quickshop |
-# | Switzerland | Home      |
-# | Switzerland | Quickshop |
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Scenario Outline: PlatMod enabled footer all pages
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        When I navigate to the pages from home
+            | page                |
+            | Login               |
+            | Favourites          |
+            | Quickshop           |
+            | ReturnsInformation  |
+            | ShippingInformation |
+            | TermsAndConditions  |
+            | NextFranchise       |
+            | PrivacyPolicy       |
+            | ContactUs           |
+            | Sitemap             |
+            # | AccountSummary      |
+            # | ProductList         |
+            # | ShoppingBag         |
+        Then I should see that the new platform mod footer is present
+
+        Examples:
+            | domain   |
+            | Canada   |
+            | Austria  |
+            | Bahrain  |
+            | Bulgaria |
+            | Czech    |
 

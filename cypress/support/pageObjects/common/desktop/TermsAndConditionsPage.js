@@ -9,6 +9,10 @@ class TermsAndConditionsPage {
     );
   }
 
+  goto(){
+    cy.get('[aria-label="Terms & Conditions"]').first().click();
+  }
+
   headerTopBarSection(){
     return new HeaderTopBarSection();
   }

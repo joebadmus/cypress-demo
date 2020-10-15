@@ -9,6 +9,10 @@ class PrivacyPolicyPage {
     );
   }
 
+  goto(){
+    cy.get('[aria-label="Privacy Policy"]').first().click();
+  }
+
   headerTopBarSection() {
     return new HeaderTopBarSection();
   }

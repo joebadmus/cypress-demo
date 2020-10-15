@@ -2,23 +2,18 @@ import FooterSection from "../../../pageSections/FooterSection";
 import StorefrontContentSection from "../../../pageSections/StorefrontContentSection";
 import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
-class ReturnsInformationPage {
+class LoginPage {
+ 
   constructor() {
-    cy.log(
-      `Application on ${globalThis.countryUnderTest.name} Returns Information Page`
-    );
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Login Page`);
   }
 
   goto(){
-    cy.get('[aria-label="Returns Information"]').first().click();
+    cy.get('[data-link-id="DataLinkId"]',{force: true}).click();
   }
 
   headerTopBarSection(){
     return new HeaderTopBarSection();
-  }
-  
-  storefrontContentSection() {
-    return new StorefrontContentSection();
   }
 
   footerSection() {
@@ -26,4 +21,4 @@ class ReturnsInformationPage {
   }
 }
 
-export default ReturnsInformationPage;
+export default LoginPage;

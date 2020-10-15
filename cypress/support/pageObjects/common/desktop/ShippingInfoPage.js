@@ -3,6 +3,15 @@ import StorefrontContentSection from "../../../pageSections/StorefrontContentSec
 import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
 class ShippingInfoPage {
+  
+  constructor() {
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Shipping Info Page`);
+  }
+
+  goto(){
+    cy.get('[aria-label="Shipping Information"]').first().click();
+  }
+
   headerTopBarSection() {
     return new HeaderTopBarSection();
   }
