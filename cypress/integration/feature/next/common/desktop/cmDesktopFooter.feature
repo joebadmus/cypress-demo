@@ -15,7 +15,6 @@ Feature: International Footer Links
             | Quickshop      |
             | LinkLists      |
 
-
         Examples:
             | domain      |
             | Austria     |
@@ -32,6 +31,11 @@ Feature: International Footer Links
             | Sweden      |
             | Switzerland |
             | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
+
 
 
     Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
@@ -45,99 +49,20 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain   |
-            | Canada   |
-            | Austria  |
-            | Bahrain  |
-            | Bulgaria |
-            | Czech    |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Scenario Outline: PlatMod enabled footer all pages
+            | domain      | 
+            | Canada      | 
+            | Austria     | 
+            | Bahrain     | 
+            | Czech       | 
+            | Bulgaria    | 
+            | South_Korea | 
+            | Spain       | 
+            | Romania     | 
+            | Qatar       | 
+
+
+
+   Scenario Outline: PlatMod enabled footer all pages
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I navigate to the pages from home
             | page                |

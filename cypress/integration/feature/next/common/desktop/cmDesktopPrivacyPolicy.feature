@@ -17,15 +17,22 @@ Feature: Platform Mod International Privacy Policy
             | Austria     |
             | Azerbaijan  |
             | Bulgaria    |
-            | Bahrain     | 
-            | Canada      | 
-            | Mexico      |          
-            | Croatia     | 
-            | Turkey      | 
-            | Thailand    | 
-            | Taiwan      | 
-            | USA         | 
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
             | Sweden      |
-            | Switzerland | 
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            # | UAE         |
+            # | Ukraine     |
+            | USA         |
             | Spain       |
             | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
