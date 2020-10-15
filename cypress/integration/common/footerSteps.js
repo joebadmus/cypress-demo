@@ -9,9 +9,9 @@ Given(
   "I am an {string} user {string} on {string} viewing {string}.",
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
-    if (currentPage === "HomePage"){
-    globalThis.page = PageHelper.createPagewith(currentPage + "Page");
-    }else{
+    if (currentPage === "HomePage") {
+      globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+    } else {
       PageHelper.createPagewith("HomePage");
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
       page.goto();
@@ -104,17 +104,13 @@ When("I navigate to the pages from home", (dataTable) => {
 });
 
 Then("I should see that the new platform mod footer is present", () => {
-  // for (let testPage in testPages) {
-
-    testPages.forEach(testPage => {
-      debugger;
-      let page = PageHelper.createPagewith(testPage + "Page");
-      page.goto();
-      page.footerSection().validateQuickLinkQuickPresent();
-      page.footerSection().validateMyAccountIsPresent();
-      page.footerSection().validateFootLinkSectionIsDisplayed();
-      PageHelper.createPagewith("HomePage");
-    });
-    
-  // }
+  testPages.forEach((testPage) => {
+    debugger;
+    let page = PageHelper.createPagewith(testPage + "Page");
+    page.goto();
+    page.footerSection().validateQuickLinkQuickPresent();
+    page.footerSection().validateMyAccountIsPresent();
+    page.footerSection().validateFootLinkSectionIsDisplayed();
+    PageHelper.createPagewith("HomePage");
+  });
 });
