@@ -32,5 +32,11 @@
       "Romania": "https://www.next.ro/ro/",
       "Qatar": "https://www.next.qa/en/",
       "Careers@next": "https://careers.next.co.uk/"
-    }
+    },
+
+      "reporter": "cypress-multi-reporters",
+      "reporterOptions": {
+        "configFile": "reporter-config.json"
+      }
+
 }

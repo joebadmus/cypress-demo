@@ -12,6 +12,7 @@
     "cypress-file-upload": "^4.1.1",
     "cypress-multi-reporters": "^1.4.0",
     "mocha": "^8.1.3",
+    "mocha-junit-reporter": "^2.0.0",
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0"
@@ -21,7 +22,13 @@
   },
   "scripts": {
     "runfootertests": "npx cypress-tags run -e TAGS=@footer",
-    "opencypress": "npx cypress open"
+    "opencypress": "npx cypress open",
+    "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
+    "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
+    "delete-results": "rm -rf cypress/results/* || true",
+    "mochawesome-merge": "npx mochawesome-merge cypress/results/mochawesome/*.json > mochawesome.json && npx marge mochawesome.json",
+    "delete-mochawesome-report": "rm -rf mochawesome-report/* || true",
+    "cypress-regression-pack": "npm run delete-results && npm run delete-mochawesome-report && npm run runfootertests && npm run mochawesome-merge"
   },
   "author": "",
   "license": "ISC"
