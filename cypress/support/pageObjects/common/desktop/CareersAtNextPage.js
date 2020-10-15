@@ -6,7 +6,7 @@ class CareersAtNextPage {
         cy.log(`Application on ${globalThis.countryUnderTest.name} Careers@next page`);
     }
 
-    CareersAtNextContentSection() {
+    careersAtNextContentSection() {
         return new CareersAtNextContentSection();
     }
 
