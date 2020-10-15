@@ -10,26 +10,30 @@ Feature: Platform Mod International Site Guide
         And I select the "Next Franchise" from the footer
         Then I should be taken to Next Franchise page
 
-        Examples: 
-            | domain       |
-            | Armenia      |
-            | Australia    |
-            | Austria      |
-            | Azerbaijan   |
-            | Bulgaria     |
-            | Bahrain      |
-            | Canada       |
-            | Croatia      |
-            | Denmark      |
-            | Mexico       |
-            | Sweden       |
-            | Switzerland  |
-            | Taiwan       |
-            | Thailand     |
-            | Turkey       |
-            # | UAE          |
-            # | Ukraine      |
-            | USA          |
-            | Spain        |
-            | South_Korea  |
-            | South_Africa |
+        Examples:
+            | domain      |
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
+            | Bulgaria    |
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
+            | Sweden      |
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            # | UAE         |
+            # | Ukraine     |
+            | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
+            

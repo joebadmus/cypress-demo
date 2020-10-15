@@ -11,22 +11,28 @@ Feature: Platform Mod International Privacy Policy
         Then I should be taken to Privacy Policy page
 
         Examples:
-            | domain       |   
-            | Armenia      |
-            | Australia    |
-            | Austria      |
-            | Azerbaijan   |
-            | Bulgaria     |
-            | Bahrain      | 
-            | Canada       | 
-            | Mexico       |          
-            | Croatia      | 
-            | Turkey       | 
-            | Thailand     | 
-            | Taiwan       | 
-            | USA          | 
-            | Sweden       |
-            | Switzerland  | 
-            | Spain        |
-            | South_Korea  |
-            | South_Africa |
+            | domain      |   
+            | Armenia     |
+            | Australia   |
+            | Austria     |
+            | Azerbaijan  |
+            | Bulgaria    |
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
+            | Sweden      |
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            # | UAE         |
+            # | Ukraine     |
+            | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
