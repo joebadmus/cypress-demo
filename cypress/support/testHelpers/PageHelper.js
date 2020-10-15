@@ -4,7 +4,7 @@ import ReturnsInformationPage from "../pageObjects/common/desktop/ReturnsInforma
 import SitemapPage from "../pageObjects/common/desktop/SitemapPage";
 import NextFranchisePage from "../pageObjects/common/desktop/NextFranchisePage";
 import PrivacyPolicyPage from "../pageObjects/common/desktop/PrivacyPolicyPage";
-import ShippingInfoPage from "../pageObjects/common/desktop/ShippingInfoPage";
+import ShippingInformationPage from "../pageObjects/common/desktop/ShippingInformationPage";
 import HomePage from "../pageObjects/common/desktop/HomePage";
 import QuickshopPage from "../pageObjects/common/desktop/QuickshopPage";
 import LoginPage from "../pageObjects/common/desktop/LoginPage";
@@ -21,7 +21,7 @@ class PageHelper {
       case "SitemapPage":  return new SitemapPage();
       case "NextFranchisePage":  return new NextFranchisePage();
       case "PrivacyPolicyPage":  return new PrivacyPolicyPage();
-      case "ShippingInformationPage":  return new ShippingInfoPage();
+      case "ShippingInformationPage":  return new ShippingInformationPage();
       case "HomePage":  return new HomePage();
       case "QuickshopPage":  return new QuickshopPage();
       case "LoginPage":  return new LoginPage();
