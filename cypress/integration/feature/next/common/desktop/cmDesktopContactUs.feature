@@ -35,3 +35,4 @@ Feature: Platform Mod International Contact Us
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |

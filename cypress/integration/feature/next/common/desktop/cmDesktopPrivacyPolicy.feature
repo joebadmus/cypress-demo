@@ -35,3 +35,4 @@ Feature: Platform Mod International Privacy Policy
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |

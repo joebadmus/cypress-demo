@@ -35,3 +35,4 @@ Feature: Platform Mod International Site Map
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |

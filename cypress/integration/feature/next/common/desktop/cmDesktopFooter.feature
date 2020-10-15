@@ -51,6 +51,8 @@ Feature: International Footer Links
             | Romania     | Quickshop |
             | Qatar       | Home      |
             | Qatar       | Quickshop |
+            | Singapore   | Home      |
+            | Singapore   | Quickshop |
 
 
 

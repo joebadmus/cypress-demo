@@ -35,3 +35,4 @@ Feature: Platform Mod International Shipping information
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |

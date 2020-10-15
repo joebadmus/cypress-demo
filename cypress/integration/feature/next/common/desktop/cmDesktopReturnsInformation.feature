@@ -35,3 +35,4 @@ Feature: Platform Mod International Site Guide
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |

@@ -35,3 +35,4 @@ Feature: Platform Mod International Terms and Conditions
             | Serbia      |
             | Romania     |
             | Qatar       |
+            | Singapore   |
