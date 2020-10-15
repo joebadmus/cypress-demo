@@ -10,12 +10,12 @@ Given(
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
     if (currentPage === "Home") {
-    globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+      globalThis.page = PageHelper.createPagewith(currentPage + "Page");
     }
-    else if (currentPage in ["Careers@Next", "Media and Press", "The company"]){
-      // globalThis.page = PageHelper.createPagewith(currentPage + "Page");
-      // page.goto();
-    }else {
+    else if (currentPage in ["Careers@Next", "Media & Press", "The Company"]) {
+      globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+      page.goto();
+    } else {
       PageHelper.createPagewith(currentPage + "Page");
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
       page.goto();
@@ -43,11 +43,11 @@ Then("I should see all footer content are displayed correctly", (dataTable) => {
 
   testPageFooters = !isSecondLanguage
     ? TestDataHelper.getPrimaryLanguageFooterLinks(
-        globalThis.countryUnderTest.code
-      )
+      globalThis.countryUnderTest.code
+    )
     : TestDataHelper.getSecondLanguageFooterLinks(
-        globalThis.countryUnderTest.code
-      );
+      globalThis.countryUnderTest.code
+    );
 
   testPageFooters.forEach((footer) => {
     page.footerSection().validateFootLinkFor(footer.linkText, footer.linkHref);
