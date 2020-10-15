@@ -40,6 +40,10 @@ class FooterSection {
     );
   }
 
+  validateFootLinkSectionIsDisplayed(){
+    cy.get('[class="footer153"]').should('be.visible');
+  }
+
   selectFootByText(linkText) {
     cy.get("div.footer153 a").each(($el) => {
       if ($el.text() === linkText) {

@@ -4,7 +4,17 @@ import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
 
 class NextFranchisePage {
+  constructor(){
+    cy.log(
+      `Application on ${globalThis.countryUnderTest.name} Next Franchise Page`
+    );
+  }
+  
  
+  goto(){
+    cy.get('[aria-label="Next Franchise"').first().click();
+  }
+
   headerTopBarSection(){
     return new HeaderTopBarSection();
   }
