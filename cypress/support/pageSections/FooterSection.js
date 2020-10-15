@@ -1,8 +1,6 @@
 class FooterSection {
   gotoFooter() {
     cy.scrollTo("bottom");
-    //cy.get("#platform_modernisation_footer").scrollIntoView();
-    
   }
 
   closeCookieConsent() {
@@ -38,6 +36,10 @@ class FooterSection {
     cy.get('[data-testid="footer-copyright-switcher-mobiletoggle"]').should(
       "be.visible"
     );
+  }
+
+  validateFootLinkSectionIsDisplayed(){
+    cy.get('[class="footer153"]').should('be.visible');
   }
 
   selectFootByText(linkText) {

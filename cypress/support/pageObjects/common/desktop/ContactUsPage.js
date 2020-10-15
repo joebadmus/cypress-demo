@@ -7,6 +7,10 @@ class ContactUsPage {
   constructor() {
     cy.log(`Application on ${globalThis.countryUnderTest.name} Contact Us Page`);
   }
+
+  goto(){
+    cy.get('[aria-label="Contact Us"]').first().click();
+  }
   headerTopBarSection(){
     return new HeaderTopBarSection();
   }

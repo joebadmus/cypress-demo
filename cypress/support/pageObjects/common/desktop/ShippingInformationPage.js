@@ -2,7 +2,16 @@ import FooterSection from "../../../pageSections/FooterSection";
 import StorefrontContentSection from "../../../pageSections/StorefrontContentSection";
 import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 
-class ShippingInfoPage {
+class ShippingInformationPage {
+  
+  constructor() {
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Shipping Info Page`);
+  }
+
+  goto(){
+    cy.get('[aria-label="Shipping Information"]').first().click();
+  }
+
   headerTopBarSection() {
     return new HeaderTopBarSection();
   }
@@ -15,4 +24,4 @@ class ShippingInfoPage {
   }
 }
 
-export default ShippingInfoPage;
+export default ShippingInformationPage;

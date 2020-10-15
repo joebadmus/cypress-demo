@@ -15,7 +15,6 @@ class TestDataHelper {
     throw `The link '${linkText}' does not exist`;
   }
 
-  //Two digits country code is accepted
   static getPrimaryLanguageFooterLinks(countryCode) {
     debugger;
     let marketFooters = primaryLanguageFooters[countryCode];
