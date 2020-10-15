@@ -11,7 +11,7 @@ Feature: Platform Mod International Contact Us
         Then I should be taken to Contact Us page
 
         Examples:
-            | domain      | 
+            | domain      |
             | Armenia     |
             | Australia   |
             | Austria     |
@@ -32,3 +32,6 @@ Feature: Platform Mod International Contact Us
             | USA         |
             | Spain       |
             | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
