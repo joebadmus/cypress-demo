@@ -13,6 +13,10 @@ class CareersAtNextPage {
     footerSection() {
         return new FooterSection();
     }
+
+    goto(){
+        cy.visit("https://careers.next.co.uk/");
+    }
 }
 
 export default CareersAtNextPage;

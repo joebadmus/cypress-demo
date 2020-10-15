@@ -9,22 +9,16 @@ Given(
   "I am an {string} user {string} on {string} viewing {string}.",
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
-    if (currentPage === "HomePage") {
+    if (currentPage === "Home") {
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
     } else {
-      PageHelper.createPagewith("HomePage");
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
       page.goto();
     }
   }
 );
 
-<<<<<<< HEAD
-When("I am viewing the footer of the page", function(){
-  debugger;
-=======
 When("I am viewing the footer of the page", function () {
->>>>>>> master
   page.footerSection().gotoFooter();
 });
 

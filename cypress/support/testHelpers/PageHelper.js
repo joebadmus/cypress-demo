@@ -10,6 +10,7 @@ import QuickshopPage from "../pageObjects/common/desktop/QuickshopPage";
 import LoginPage from "../pageObjects/common/desktop/LoginPage";
 import FavouritesPage from "../pageObjects/common/desktop/FavouritesPage";
 import ShoppingBagPage from "../pageObjects/common/desktop/ShoppingBagPage";
+import CareersAtNextPage from "../pageObjects/common/desktop/CareersAtNextPage";
 
 
 class PageHelper {
@@ -27,6 +28,7 @@ class PageHelper {
       case "LoginPage":  return new LoginPage();
       case "FavouritesPage":  return new FavouritesPage();
       case "ShoppingBagPage":  return new ShoppingBagPage();
+      case "CareersAtNextPage":  return new CareersAtNextPage();
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }

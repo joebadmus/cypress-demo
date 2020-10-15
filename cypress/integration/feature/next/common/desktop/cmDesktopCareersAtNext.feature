@@ -5,25 +5,33 @@ Feature: Platform Mod International Careers@next
     I want to be taken to the correct location from the footer links
 
     Scenario Outline: Platform Mod Check Careers@next Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "CareersAtNext".
         When I am viewing the footer of the page
-        And I select the "Careers@next" from the footer
         Then I should be taken to Careers at next page
 
         Examples:
-            | domain      |   
+           | domain      |
             | Armenia     |
             | Australia   |
             | Austria     |
             | Azerbaijan  |
             | Bulgaria    |
-            | Bahrain     | 
-            | Canada      | 
-            | Mexico      |          
-            | Croatia     | 
-            | Turkey      | 
-            | Thailand    | 
-            | Taiwan      | 
-            | USA         | 
+            | Bahrain     |
+            | Canada      |
+            | Croatia     |
+            | Denmark     |
+            | Mexico      |
             | Sweden      |
-            | Switzerland | 
+            | Switzerland |
+            | Taiwan      |
+            | Thailand    |
+            | Turkey      |
+            #| UAE         |
+            #| Ukraine     |
+            | USA         |
+            | Spain       |
+            | South_Korea |
+            | Serbia      |
+            | Romania     |
+            | Qatar       |
+            | Singapore   |
