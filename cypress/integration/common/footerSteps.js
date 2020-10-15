@@ -9,7 +9,13 @@ Given(
   "I am an {string} user {string} on {string} viewing {string}.",
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
-    globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+    if (currentPage === "HomePage") {
+      globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+    } else {
+      PageHelper.createPagewith("HomePage");
+      globalThis.page = PageHelper.createPagewith(currentPage + "Page");
+      page.goto();
+    }
   }
 );
 
@@ -86,9 +92,25 @@ And("I should see that the view mobile site link is present", () => {
 
 When("I am viewing the footer of the page for the second language", () => {
   page.headerTopBarSection().changeCountryLanguage();
-
-  page.footerSection().gotoFooter();
-
-  // page.footerSection().closeCookieConsent();
   isSecondLanguage = true;
+  page.footerSection().gotoFooter();
+});
+
+let testPages = [];
+When("I navigate to the pages from home", (dataTable) => {
+  dataTable.hashes().forEach((country) => {
+    testPages.push(country.page);
+  });
+});
+
+Then("I should see that the new platform mod footer is present", () => {
+  testPages.forEach((testPage) => {
+    debugger;
+    let page = PageHelper.createPagewith(testPage + "Page");
+    page.goto();
+    page.footerSection().validateQuickLinkQuickPresent();
+    page.footerSection().validateMyAccountIsPresent();
+    page.footerSection().validateFootLinkSectionIsDisplayed();
+    PageHelper.createPagewith("HomePage");
+  });
 });

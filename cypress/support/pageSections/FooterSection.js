@@ -40,6 +40,10 @@ class FooterSection {
     );
   }
 
+  validateFootLinkSectionIsDisplayed(){
+    cy.get('[class="footer153"]').should('be.visible');
+  }
+
   selectFootByText(linkText) {
     cy.get(".footer153").contains("a", linkText).should("be.visible").click();
   }
