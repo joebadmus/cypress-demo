@@ -38,4 +38,7 @@ Feature: Platform Mod International Site Guide
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
             

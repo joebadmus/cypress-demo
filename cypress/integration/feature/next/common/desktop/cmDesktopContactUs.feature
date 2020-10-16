@@ -39,3 +39,6 @@ Feature: Platform Mod International Contact Us
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |

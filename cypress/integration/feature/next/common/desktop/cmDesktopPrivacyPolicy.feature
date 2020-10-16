@@ -39,3 +39,6 @@ Feature: Platform Mod International Privacy Policy
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |

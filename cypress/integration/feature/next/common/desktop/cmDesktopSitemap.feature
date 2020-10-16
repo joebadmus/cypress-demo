@@ -39,3 +39,6 @@ Feature: Platform Mod International Site Map
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |

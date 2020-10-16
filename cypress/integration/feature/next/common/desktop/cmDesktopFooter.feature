@@ -37,10 +37,13 @@ Feature: International Footer Links
             | Singapore   |
             | Philippines |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
 
 
 
-        Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
@@ -62,6 +65,8 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Oman        |
+            | Malaysia    |
+
 
 
 

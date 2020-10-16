@@ -38,3 +38,6 @@ Feature: Platform Mod International Terms and Conditions
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |

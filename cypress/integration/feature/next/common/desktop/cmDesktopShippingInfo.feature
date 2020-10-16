@@ -38,3 +38,6 @@ Feature: Platform Mod International Shipping information
             | Singapore   |
             |Philippines  |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
