@@ -1140,5 +1140,47 @@
             "linkText": "Next Franchise",
             "linkHref": "https://www.nextdirect.com/ph/en/franchise"
         }
+    ],
+    "OM": [
+        {
+            "linkText": "معلومات المرتجعات",
+            "linkHref": "https://www.next.om/ar/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "معلومات الشحن",
+            "linkHref": "https://www.next.om/ar/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "اتصل بنا",
+            "linkHref": "https://www.next.om/ar/faqs#contactus"
+        },
+        {
+            "linkText": "خريطة الموقع",
+            "linkHref": "https://www.next.om/ar/sitemap"
+        },
+        {
+            "linkText": "سياسة الخصوصية",
+            "linkHref": "https://www.next.om/ar/privacypolicy" 
+        }, 
+        {
+            "linkText": "الشروط والأحكام",
+            "linkHref": "https://www.next.om/ar/terms"
+        },       
+        {
+            "linkText": "الإعلام والصحافة",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "الشركة",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "وظائف لدى Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "امتياز Next",
+            "linkHref": "https://www.next.om/ar/franchise"
+        }
     ]
 }

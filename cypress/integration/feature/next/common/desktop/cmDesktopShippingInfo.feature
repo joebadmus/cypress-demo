@@ -37,3 +37,4 @@ Feature: Platform Mod International Shipping information
             | Qatar       |
             | Singapore   |
             |Philippines  |
+            | Oman        |

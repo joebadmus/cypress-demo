@@ -37,4 +37,5 @@ Feature: Platform Mod International Site Guide
             | Qatar       |
             | Singapore   |
             |Philippines  |
+            | Oman        |
             

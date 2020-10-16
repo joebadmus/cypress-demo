@@ -37,3 +37,4 @@ Feature: Platform Mod International Contact Us
             | Qatar       |
             | Singapore   |
             |Philippines  |
+            | Oman        |

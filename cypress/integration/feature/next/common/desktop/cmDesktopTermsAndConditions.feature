@@ -37,3 +37,4 @@ Feature: Platform Mod International Terms and Conditions
             | Qatar       |
             | Singapore   |
             |Philippines  |
+            | Oman        |
