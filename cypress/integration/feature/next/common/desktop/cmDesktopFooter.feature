@@ -36,6 +36,7 @@ Feature: International Footer Links
             | Qatar       |
             | Singapore   |
             | Portugal    |
+            | Norway      |
 
 
 
