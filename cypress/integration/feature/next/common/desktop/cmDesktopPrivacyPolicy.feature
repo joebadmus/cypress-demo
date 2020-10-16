@@ -40,3 +40,5 @@ Feature: Platform Mod International Privacy Policy
             | Portugal    |
             | Norway      |
             | Lithuania   |
+            | Philippines |
+            | Oman        |

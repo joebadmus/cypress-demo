@@ -39,3 +39,5 @@ Feature: Platform Mod International Shipping information
             | Portugal    |
             | Norway      |
             | Lithuania   |
+            | Philippines |
+            | Oman        |

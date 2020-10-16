@@ -40,3 +40,5 @@ Feature: Platform Mod International Contact Us
             | Portugal    |
             | Norway      |
             | Lithuania   |
+            | Philippines |
+            | Oman        |

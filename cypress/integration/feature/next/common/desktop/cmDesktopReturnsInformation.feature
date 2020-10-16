@@ -39,3 +39,5 @@ Feature: Platform Mod International Site Guide
             | Portugal    |
             | Norway      |
             | Lithuania   |
+            | Philippines |
+            | Oman        |

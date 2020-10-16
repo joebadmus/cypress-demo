@@ -1098,6 +1098,134 @@
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.qa/en/franchise"
         }
+
+    ],      
+    "PH": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/ph/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/ph/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/ph/en/terms"
+        },
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/ph/en/franchise"
+        }      
+    ],
+    "LT": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.lt/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.lt/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.lt/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.lt/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.lt/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.lt/en/terms"
+        },       
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.lt/en/franchise"
+            
+        }
+    ],
+    "OM": [
+        {
+            "linkText": "معلومات المرتجعات",
+            "linkHref": "https://www.next.om/ar/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "معلومات الشحن",
+            "linkHref": "https://www.next.om/ar/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "اتصل بنا",
+            "linkHref": "https://www.next.om/ar/faqs#contactus"
+        },
+        {
+            "linkText": "خريطة الموقع",
+            "linkHref": "https://www.next.om/ar/sitemap"
+        },
+        {
+            "linkText": "سياسة الخصوصية",
+            "linkHref": "https://www.next.om/ar/privacypolicy" 
+        }, 
+        {
+            "linkText": "الشروط والأحكام",
+            "linkHref": "https://www.next.om/ar/terms"
+        },       
+        {
+            "linkText": "الإعلام والصحافة",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "الشركة",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "وظائف لدى Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "امتياز Next",
+            "linkHref": "https://www.next.om/ar/franchise"
+        }
     ],
     "PT": [
         {
@@ -1167,62 +1295,9 @@
             "linkHref": "https://www.next.no/en/terms"
         },       
         {
-            "linkText": "Media & Press",
-            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
-        },
-        {
-            "linkText": "The Company",
-            "linkHref": "https://www.nextplc.co.uk/"
-        },
-        {
-            "linkText": "Careers@next",
-            "linkHref": "https://careers.next.co.uk/"
-        },
-        {
             "linkText": "Next Franchise",
+
             "linkHref": "https://www.next.no/en/franchise"
-        }
-    ],
-    "LT": [
-        {
-            "linkText": "Returns Information",
-            "linkHref": "https://www.next.lt/en/faqs#returnskeyinformation"
-        },
-        {
-            "linkText": "Shipping Information",
-            "linkHref": "https://www.next.lt/en/faqs#deliverykeyinformation"
-        },
-        {
-            "linkText": "Contact Us",
-            "linkHref": "https://www.next.lt/en/faqs#contactus"
-        },
-        {
-            "linkText": "Sitemap",
-            "linkHref": "https://www.next.lt/en/sitemap"
-        },
-        {
-            "linkText": "Privacy Policy",
-            "linkHref": "https://www.next.lt/en/privacypolicy" 
-        }, 
-        {
-            "linkText": "Terms & Conditions",
-            "linkHref": "https://www.next.lt/en/terms"
-        },       
-        {
-            "linkText": "Media & Press",
-            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
-        },
-        {
-            "linkText": "The Company",
-            "linkHref": "https://www.nextplc.co.uk/"
-        },
-        {
-            "linkText": "Careers@next",
-            "linkHref": "https://careers.next.co.uk/"
-        },
-        {
-            "linkText": "Next Franchise",
-            "linkHref": "https://www.next.lt/en/franchise"
         }
     ]
 }

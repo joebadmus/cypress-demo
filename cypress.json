@@ -34,7 +34,9 @@
       "Lithuania": "https://www.next.lt/en/",
       "Careers@next": "https://careers.next.co.uk/",
       "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
-      "TheCompany": "https://www.nextplc.co.uk/"
+      "TheCompany": "https://www.nextplc.co.uk/",
+      "Philippines": "https://www.nextdirect.com/ph/en/",
+      "Oman": "https://www.next.om/ar/"
     },
       
   "reporter": "cypress-multi-reporters",
