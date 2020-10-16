@@ -65,7 +65,6 @@ Feature: International Footer Links
             | Romania     | 
             | Qatar       | 
             | Lithuania   |
-            | domain      |
             | Canada      |
             | Austria     |
             | Bahrain     |
