@@ -37,5 +37,8 @@ Feature: Platform Mod International Privacy Policy
             | Romania     |
             | Qatar       |
             | Singapore   |
-            |Philippines  |
+            | Portugal    |
+            | Norway      |
+            | Lithuania   |
+            | Philippines |
             | Oman        |

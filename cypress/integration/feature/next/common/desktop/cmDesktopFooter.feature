@@ -35,6 +35,9 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Singapore   |
+            | Portugal    |
+            | Norway      |
+            | Lithuania   |
             | Philippines |
             | Oman        |
 
@@ -51,7 +54,17 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      |
+            | domain      | 
+            | Canada      | 
+            | Austria     | 
+            | Bahrain     | 
+            | Czech       | 
+            | Bulgaria    | 
+            | South_Korea | 
+            | Spain       | 
+            | Romania     | 
+            | Qatar       | 
+            | Lithuania   |
             | Canada      |
             | Austria     |
             | Bahrain     |

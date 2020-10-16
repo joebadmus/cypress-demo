@@ -59,6 +59,9 @@ class TestDataHelper {
       SERBIA: "RS",
       ROMANIA: "RO",
       QATAR: "QA",
+      PORTUGAL: "PT",
+      NORWAY: "NO",
+      LITHUANIA: "LT",
       PHILIPPINES: "PH",
       OMAN: "OM"
     };
