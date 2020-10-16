@@ -12,32 +12,36 @@ Feature: Platform Mod International Terms and Conditions
 
         Examples:
             | domain      |
-            | Armenia     |
-            | Australia   |
-            | Austria     |
-            | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     |
-            | Canada      |
-            | Croatia     |
-            | Denmark     |
-            | Mexico      |
-            | Sweden      |
-            | Switzerland |
-            | Taiwan      |
-            | Thailand    |
-            | Turkey      |
-            # | UAE         |
-            #| Ukraine     |
-            | USA         |
-            | Spain       |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
-            |Philippines  |
-            | Oman        |
+            # | Armenia     |
+            # | Australia   |
+            # | Austria     |
+            # | Azerbaijan  |
+            # | Bulgaria    |
+            # | Bahrain     |
+            # | Canada      |
+            # | Croatia     |
+            # | Denmark     |
+            # | Mexico      |
+            # | Sweden      |
+            # | Switzerland |
+            # | Taiwan      |
+            # | Thailand    |
+            # | Turkey      |
+            # # | UAE         |
+            # #| Ukraine     |
+            # | USA         |
+            # | Spain       |
+            # | South_Korea |
+            # | Serbia      |
+            # | Romania     |
+            # | Qatar       |
+            # | Singapore   |
+            # |Philippines  |
+            # | Oman        |
             | New_Zealand |
             | Malaysia    |
             | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |

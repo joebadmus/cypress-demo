@@ -64,7 +64,11 @@ class TestDataHelper {
       NEW_ZEALAND: "NZ",
       MALAYSIA: "MY",
       MALTA: "MT",
-      LUXEMBOURG: "LU"
+      LUXEMBOURG: "LU",
+      LATVIA: "LV",
+      ITALY: "IT",
+      KUWAIT: "KW",
+      INDONESIA: "ID"
     };
 
     var keys = Object.keys(dictionary);

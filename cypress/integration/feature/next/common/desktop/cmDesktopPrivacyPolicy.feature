@@ -42,3 +42,7 @@ Feature: Platform Mod International Privacy Policy
             | New_Zealand |
             | Malaysia    |
             | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |

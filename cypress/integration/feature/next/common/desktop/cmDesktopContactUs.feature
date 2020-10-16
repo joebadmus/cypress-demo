@@ -42,3 +42,7 @@ Feature: Platform Mod International Contact Us
             | New_Zealand |
             | Malaysia    |
             | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |

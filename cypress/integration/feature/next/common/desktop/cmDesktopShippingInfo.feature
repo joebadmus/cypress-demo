@@ -41,3 +41,7 @@ Feature: Platform Mod International Shipping information
             | New_Zealand |
             | Malaysia    |
             | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |
