@@ -376,5 +376,47 @@
             "linkText": "امتياز Next",
             "linkHref": "https://www.next.qa/ar/franchise"
         }
+    ],
+    "OM": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.om/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.om/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.om/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.om/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.om/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.om/en/terms"
+        },       
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.om/en/franchise"
+        }
     ]
 }

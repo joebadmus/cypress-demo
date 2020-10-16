@@ -37,3 +37,5 @@ Feature: Platform Mod International Site Map
             | Romania     |
             | Qatar       |
             | Singapore   |
+            |Philippines  |
+            | Oman        |

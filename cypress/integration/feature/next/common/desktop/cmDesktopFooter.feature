@@ -35,10 +35,12 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Singapore   |
+            | Philippines |
+            | Oman        |
 
 
 
-    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+        Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
@@ -49,20 +51,21 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      | 
-            | Canada      | 
-            | Austria     | 
-            | Bahrain     | 
-            | Czech       | 
-            | Bulgaria    | 
-            | South_Korea | 
-            | Spain       | 
-            | Romania     | 
-            | Qatar       | 
+            | domain      |
+            | Canada      |
+            | Austria     |
+            | Bahrain     |
+            | Czech       |
+            | Bulgaria    |
+            | South_Korea |
+            | Spain       |
+            | Romania     |
+            | Qatar       |
+            | Oman        |
 
 
 
-   Scenario Outline: PlatMod enabled footer all pages
+    Scenario Outline: PlatMod enabled footer all pages
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I navigate to the pages from home
             | page                |
@@ -76,9 +79,9 @@ Feature: International Footer Links
             | PrivacyPolicy       |
             | ContactUs           |
             | Sitemap             |
-            # | AccountSummary      |
-            # | ProductList         |
-            # | ShoppingBag         |
+        # | AccountSummary      |
+        # | ProductList         |
+        # | ShoppingBag         |
         Then I should see that the new platform mod footer is present
 
         Examples:
