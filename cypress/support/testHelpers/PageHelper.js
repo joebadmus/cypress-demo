@@ -10,6 +10,11 @@ import QuickshopPage from "../pageObjects/common/desktop/QuickshopPage";
 import LoginPage from "../pageObjects/common/desktop/LoginPage";
 import FavouritesPage from "../pageObjects/common/desktop/FavouritesPage";
 import ShoppingBagPage from "../pageObjects/common/desktop/ShoppingBagPage";
+import CareersAtNextPage from "../pageObjects/common/desktop/CareersAtNextPage";
+import MediaAndPressPage from "../pageObjects/common/desktop/MediaAndPressPage";
+import TheCompanyPage from "../pageObjects/common/desktop/TheCompanyPage";
+
+
 
 
 class PageHelper {
@@ -27,6 +32,11 @@ class PageHelper {
       case "LoginPage":  return new LoginPage();
       case "FavouritesPage":  return new FavouritesPage();
       case "ShoppingBagPage":  return new ShoppingBagPage();
+      case "Careers@NextPage":  return new CareersAtNextPage();
+      case "Media&PressPage":  return new MediaAndPressPage();
+      case "TheCompanyPage":  return new TheCompanyPage();
+
+
       default : throw `Page ${marketType} is not defined in the page helper`;
     }
   }
