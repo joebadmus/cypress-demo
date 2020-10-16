@@ -12,11 +12,11 @@ Given(
     if (currentPage === "Home") {
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
     }
-    else if (currentPage in ["Careers@Next", "Media & Press", "The Company"]) {
+    else if (["Careers@Next", "Media&Press", "TheCompany"].includes(currentPage)) {
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
       page.goto();
     } else {
-      PageHelper.createPagewith(currentPage + "Page");
+      PageHelper.createPagewith("HomePage");
       globalThis.page = PageHelper.createPagewith(currentPage + "Page");
       page.goto();
     }
