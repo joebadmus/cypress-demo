@@ -2,6 +2,9 @@ node_modules
 cypress/screenshots/
 cypress/videos/
 debug.log
-cypress/results/
 mochawesome-report/
- mochawesome.json
+mochawesome.json
+cypress/results/
+allure-report/
+allure-results/
+mochawesome-report/mochawesome.html
