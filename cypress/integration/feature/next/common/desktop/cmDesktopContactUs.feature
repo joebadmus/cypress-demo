@@ -39,3 +39,4 @@ Feature: Platform Mod International Contact Us
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

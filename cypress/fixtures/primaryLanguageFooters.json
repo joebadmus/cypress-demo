@@ -1182,5 +1182,47 @@
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.no/en/franchise"
         }
+    ],
+    "LT": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.lt/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.lt/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.lt/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.lt/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.lt/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.lt/en/terms"
+        },       
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.lt/en/franchise"
+        }
     ]
 }

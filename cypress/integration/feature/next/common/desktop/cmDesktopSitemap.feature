@@ -39,3 +39,4 @@ Feature: Platform Mod International Site Map
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

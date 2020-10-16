@@ -38,3 +38,4 @@ Feature: Platform Mod International Terms and Conditions
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

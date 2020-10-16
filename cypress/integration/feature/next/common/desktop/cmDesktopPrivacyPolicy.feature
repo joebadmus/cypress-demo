@@ -39,3 +39,4 @@ Feature: Platform Mod International Privacy Policy
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

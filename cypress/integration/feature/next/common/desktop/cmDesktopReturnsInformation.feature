@@ -38,3 +38,4 @@ Feature: Platform Mod International Site Guide
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

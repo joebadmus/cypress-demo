@@ -38,3 +38,4 @@ Feature: Platform Mod International Shipping information
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |

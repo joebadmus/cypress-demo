@@ -37,6 +37,7 @@ Feature: International Footer Links
             | Singapore   |
             | Portugal    |
             | Norway      |
+            | Lithuania   |
 
 
 
@@ -61,6 +62,7 @@ Feature: International Footer Links
             | Spain       | 
             | Romania     | 
             | Qatar       | 
+            | Lithuania   |
 
 
 
