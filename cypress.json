@@ -1,8 +1,6 @@
 {
-  
   "testFiles": "**/*.feature",
   "video": false,
-
   "env":{
       "Uk": "https://www.next.co.uk/",
       "Mexico": "https://www.next.mx/en/",
@@ -36,5 +34,11 @@
       "TheCompany": "https://www.nextplc.co.uk/",
       "Philippines": "https://www.nextdirect.com/ph/en/",
       "Oman": "https://www.next.om/ar/"
-    }
+    },
+      
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "projectId": "aubnhd"
 }
