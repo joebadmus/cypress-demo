@@ -1,8 +1,6 @@
 {
-  
   "testFiles": "**/*.feature",
   "video": false,
-
   "env":{
       "Uk": "https://www.next.co.uk/",
       "Mexico": "https://www.next.mx/en/",
@@ -34,5 +32,11 @@
       "Careers@next": "https://careers.next.co.uk/",
       "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
       "TheCompany": "https://www.nextplc.co.uk/"
-    }
+    },
+      
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "projectId": "aubnhd"
 }
