@@ -36,4 +36,5 @@ Feature: Platform Mod International Site Guide
             | Romania     |
             | Qatar       |
             | Singapore   |
+            | Portugal    |
             
