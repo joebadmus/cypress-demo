@@ -32,6 +32,11 @@
       "Romania": "https://www.next.ro/ro/",
       "Qatar": "https://www.next.qa/en/",
       "Careers@next": "https://careers.next.co.uk/",
+<<<<<<< HEAD
       "Philippines": "https://www.nextdirect.com/ph/en/"
+=======
+      "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
+      "TheCompany": "https://www.nextplc.co.uk/"
+>>>>>>> master
     }
 }
