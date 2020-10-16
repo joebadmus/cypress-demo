@@ -377,6 +377,48 @@
             "linkHref": "https://www.next.qa/ar/franchise"
         }
     ],
+    "LT": [
+        {
+            "linkText": "Возврат товаров",
+            "linkHref": "https://www.next.lt/ru/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Доставка товаров",
+            "linkHref": "https://www.next.lt/ru/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Свяжитесь с нами",
+            "linkHref": "https://www.next.lt/ru/faqs#contactus"
+        },
+        {
+            "linkText": "Карта сайта",
+            "linkHref": "https://www.next.lt/ru/sitemap"
+        },
+        {
+            "linkText": "Политика конфиденциальности",
+            "linkHref": "https://www.next.lt/ru/privacypolicy" 
+        }, 
+        {
+            "linkText": "Условия использования",
+            "linkHref": "https://www.next.lt/ru/terms"
+        },       
+        {
+            "linkText": "Новости и события",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "О компании",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Карьера в Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Франшиза Next",
+            "linkHref": "https://www.next.lt/ru/franchise"
+        }
+    ],
     "OM": [
         {
             "linkText": "Returns Information",
@@ -633,4 +675,5 @@
             "linkHref": "https://www.nextdirect.com/kw/en/franchise"
         } 
     ]
+   
 }

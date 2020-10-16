@@ -36,7 +36,10 @@ Feature: Platform Mod International Terms and Conditions
             | Romania     |
             | Qatar       |
             | Singapore   |
-            |Philippines  |
+            | Portugal    |
+            | Norway      |
+            | Lithuania   |
+            | Philippines |
             | Oman        |
             | New_Zealand |
             | Malaysia    |
