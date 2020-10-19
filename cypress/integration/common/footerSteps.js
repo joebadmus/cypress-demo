@@ -6,7 +6,7 @@ let isSecondLanguage = false;
 let testPageFooters;
 
 Given(
-  "I am an {string} user on {string} visiting {string} viewing {string}.",
+  "I am an {string} user on {string} visiting {string} viewing {string} page",
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
     if (currentPage === "Home") {

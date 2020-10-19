@@ -6,7 +6,7 @@ Feature: International Footer Links
 
 
     Scenario Outline: Platform Mod Footer Content Is Displayed Correctly
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -46,7 +46,7 @@ Feature: International Footer Links
 
 
         Scenario Outline: Platform Mod Footer Content is Displayed Correctly for both languages
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -82,7 +82,7 @@ Feature: International Footer Links
 
 
     Scenario Outline: Platform Mod Footer Check All Expected Footer Enabled Pages
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I navigate to the pages from home
             | page                |
             | Login               |

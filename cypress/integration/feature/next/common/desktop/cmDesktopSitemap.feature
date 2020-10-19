@@ -6,7 +6,7 @@ Feature: Platform Mod International Site Map
 
 @allure
     Scenario Outline: Platform Mod Footer Check Sitemap Page is Displayed
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
         And I select the "Sitemap" link from the footer
         Then I should be taken to the sitemap page

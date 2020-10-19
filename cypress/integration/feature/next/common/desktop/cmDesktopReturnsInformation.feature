@@ -5,7 +5,7 @@ Feature: Platform Mod International Site Guide
     I want to be taken to the correct location from the footer links
 
     Scenario Outline: Platform Mod Footer Check Returns Information Page is Displayed
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
         And I select the "Returns Information" link from the footer
         Then I should be taken to the Returns Information page

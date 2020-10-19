@@ -6,7 +6,7 @@ Feature: Platform Mod International Contact Us
  
  @contactus
     Scenario Outline: Platform Mod Footer Check Contact Us Page is Displayed
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
         And I select the "Contact Us" link from the footer
         Then I should be taken to the Contact Us page
