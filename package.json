@@ -36,6 +36,6 @@
     "test:allure" : "npm run runalluretests && npm run report:allure"
 
   },
-  "author": "",
+  "author": "NEXT Group Platform Mod",
   "license": "ISC"
 }

@@ -92,30 +92,32 @@ Feature: International Footer Links
 
 
 
-Scenario Outline: PlatMod enabled footer all pages
-    Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
-    When I navigate to the pages from home
-        | page                |
-        | Login               |
-        | Favourites          |
-        | Quickshop           |
-        | ReturnsInformation  |
-        | ShippingInformation |
-        | TermsAndConditions  |
-        | NextFranchise       |
-        | PrivacyPolicy       |
-        | ContactUs           |
-        | Sitemap             |
-    # | AccountSummary      |
-    # | ProductList         |
-    # | ShoppingBag         |
-    Then I should see that the new platform mod footer is present
+ Scenario Outline: PlatMod enabled footer all pages
+        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        When I navigate to the pages from home
+            | page                |
+            | Landing               |
+            | Login               |
+            | Favourites          |
+            | Quickshop           |
+            | ReturnsInformation  |
+            | ShippingInformation |
+            | TermsAndConditions  |
+            | NextFranchise       |
+            | PrivacyPolicy       |
+            | ContactUs           |
+            | Sitemap             |
+            | ShoppingBag         |
+            | ProductList         |
+            # | AccountSummary      |
+            
+        Then I should see that the new platform mod footer is present
 
-    Examples:
-        | domain   |
-        | Canada   |
-        | Austria  |
-        | Bahrain  |
-        | Bulgaria |
-        | Czech    |
+        Examples:
+            | domain   |
+            | Canada   |
+            | Austria  |
+            | Bahrain  |
+            | Bulgaria |
+            | Czech    |
 
