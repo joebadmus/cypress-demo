@@ -1098,5 +1098,533 @@
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.qa/en/franchise"
         }
+
+    ],      
+    "PH": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/ph/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/ph/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/ph/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/ph/en/terms"
+        },
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/ph/en/franchise"
+        }      
+    ],
+    "LT": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.lt/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.lt/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.lt/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.lt/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.lt/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.lt/en/terms"
+        },       
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.lt/en/franchise"
+            
+        }
+    ],
+    "OM": [
+        {
+            "linkText": "معلومات المرتجعات",
+            "linkHref": "https://www.next.om/ar/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "معلومات الشحن",
+            "linkHref": "https://www.next.om/ar/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "اتصل بنا",
+            "linkHref": "https://www.next.om/ar/faqs#contactus"
+        },
+        {
+            "linkText": "خريطة الموقع",
+            "linkHref": "https://www.next.om/ar/sitemap"
+        },
+        {
+            "linkText": "سياسة الخصوصية",
+            "linkHref": "https://www.next.om/ar/privacypolicy" 
+        }, 
+        {
+            "linkText": "الشروط والأحكام",
+            "linkHref": "https://www.next.om/ar/terms"
+        },       
+        {
+            "linkText": "الإعلام والصحافة",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "الشركة",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "وظائف لدى Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "امتياز Next",
+            "linkHref": "https://www.next.om/ar/franchise"
+        }
+    ],
+    "PT": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/pt/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/pt/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/pt/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/pt/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/pt/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/pt/en/terms"
+        },       
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/pt/en/franchise"
+        }
+    ],
+    "NO": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.no/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.no/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.no/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.no/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.no/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.no/en/terms"
+        },       
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.no/en/franchise"
+        }
+    ], 
+    "NZ": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/nz/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/nz/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/nz/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/nz/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/nz/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/nz/en/terms"
+        },
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/nz/en/franchise"
+        }
+    ],
+    "MY": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/my/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/my/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/my/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/my/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/my/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/my/en/terms"
+        },
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/my/en/franchise"
+        }
+    ],
+    "MT": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.next.com.mt/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.next.com.mt/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.next.com.mt/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.next.com.mt/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.next.com.mt/en/privacypolicy" 
+        }, 
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.next.com.mt/en/terms"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.next.com.mt/en/franchise"
+        }
+    ],
+    "LU": [
+        {
+            "linkText": "Informations de retour",
+            "linkHref": "https://www.next.lu/fr/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Expédition",
+            "linkHref": "https://www.next.lu/fr/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Nous contacter",
+            "linkHref": "https://www.next.lu/fr/faqs#contactus"
+        },
+        {
+            "linkText": "Plan du site",
+            "linkHref": "https://www.next.lu/fr/sitemap"
+        },
+        {
+            "linkText": "Livraison DPD",
+            "linkHref": "https://www.next.lu/24/_www_nextdirect_com/help/fr/lu/Section.aspx?ItemId=26051"
+        },
+        {
+            "linkText": "Politique de confidentialité",
+            "linkHref": "https://www.next.lu/fr/privacypolicy" 
+        }, 
+        {
+            "linkText": "Conditions générales",
+            "linkHref": "https://www.next.lu/fr/terms"
+        },       
+        {
+            "linkText": "Presse et médias",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "L'entreprise",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Carrières chez Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franchise Next",
+            "linkHref": "https://www.next.lu/fr/franchise"
+        }
+    ],
+    "LV": [
+        {
+            "linkText": "Возврат товаров",
+            "linkHref": "https://www.next.com.lv/ru/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Доставка товаров",
+            "linkHref": "https://www.next.com.lv/ru/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Свяжитесь с нами",
+            "linkHref": "https://www.next.com.lv/ru/faqs#contactus"
+        },
+        {
+            "linkText": "Карта сайта",
+            "linkHref": "https://www.next.com.lv/ru/sitemap"
+        },
+        {
+            "linkText": "Политика конфиденциальности",
+            "linkHref": "https://www.next.com.lv/ru/privacypolicy" 
+        }, 
+        {
+            "linkText": "Условия использования",
+            "linkHref": "https://www.next.com.lv/ru/terms"
+        },       
+        {
+            "linkText": "Новости и события",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "О компании",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Карьера в Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Франшиза Next",
+            "linkHref": "https://www.next.com.lv/ru/franchise"
+        }
+    ],
+    "IT": [
+        {
+            "linkText": "Informazioni sui resi",
+            "linkHref": "https://www.nextdirect.com/it/it/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Informazioni sulla spedizione",
+            "linkHref": "https://www.nextdirect.com/it/it/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contattaci",
+            "linkHref": "https://www.nextdirect.com/it/it/faqs#contactus"
+        },
+        {
+            "linkText": "Mappa del sito",
+            "linkHref": "https://www.nextdirect.com/it/it/sitemap"
+        },
+        {
+            "linkText": "Normativa sulla privacy",
+            "linkHref": "https://www.nextdirect.com/it/it/privacypolicy"
+        },
+        {
+            "linkText": "Termini e condizioni",
+            "linkHref": "https://www.nextdirect.com/it/it/terms"
+        },
+        {
+            "linkText": "Media e stampa",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "La società",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Opportunità di lavoro",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franchising Next",
+            "linkHref": "https://www.nextdirect.com/it/it/franchise"
+        }
+    ],
+    "KW": [
+        {
+            "linkText": "معلومات المرتجعات",
+            "linkHref": "https://www.nextdirect.com/kw/ar/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "معلومات الشحن",
+            "linkHref": "https://www.nextdirect.com/kw/ar/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "اتصل بنا",
+            "linkHref": "https://www.nextdirect.com/kw/ar/faqs#contactus"
+        },
+        {
+            "linkText": "خريطة الموقع",
+            "linkHref": "https://www.nextdirect.com/kw/ar/sitemap"
+        },
+        {
+            "linkText": "سياسة الخصوصية",
+            "linkHref": "https://www.nextdirect.com/kw/ar/privacypolicy"
+        },
+        {
+            "linkText": "الشروط والأحكام",
+            "linkHref": "https://www.nextdirect.com/kw/ar/terms"
+        },
+        {
+            "linkText": "الإعلام والصحافة",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "الشركة",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "وظائف لدى Next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "امتياز Next",
+            "linkHref": "https://www.nextdirect.com/kw/ar/franchise"
+        }
+    ],
+    "ID": [
+        {
+            "linkText": "Returns Information",
+            "linkHref": "https://www.nextdirect.com/id/en/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "Shipping Information",
+            "linkHref": "https://www.nextdirect.com/id/en/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "Contact Us",
+            "linkHref": "https://www.nextdirect.com/id/en/faqs#contactus"
+        },
+        {
+            "linkText": "Sitemap",
+            "linkHref": "https://www.nextdirect.com/id/en/sitemap"
+        },
+        {
+            "linkText": "Privacy Policy",
+            "linkHref": "https://www.nextdirect.com/id/en/privacypolicy"
+        },
+        {
+            "linkText": "Terms & Conditions",
+            "linkHref": "https://www.nextdirect.com/id/en/terms"
+        },
+        {
+            "linkText": "Media & Press",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "The Company",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "Careers@next",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Next Franchise",
+            "linkHref": "https://www.nextdirect.com/id/en/franchise"
+        }
     ]
 }

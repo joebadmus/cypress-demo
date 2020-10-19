@@ -8,8 +8,7 @@
             "browser": "chrome",
             "os": "Windows 10",
             "versions": [
-                "84",
-                "85"
+                "86"
             ]
         }
     ],
@@ -19,7 +18,7 @@
         "build_name": "Cypress Test",
         "exclude": [],
         "parallels": 5,
-        "specs": ["./cypress/integration/*.feature"],
+        "specs": ["./cypress/integration/feature/next/common/desktop/*.feature"],
         "npm_dependencies": {
             "cypress": "^5.3.0",
             "cypress-cucumber-preprocessor": "^3.0.0",

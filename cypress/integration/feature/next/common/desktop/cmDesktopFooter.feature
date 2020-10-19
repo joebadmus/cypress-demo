@@ -35,6 +35,19 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Singapore   |
+            | Portugal    |
+            | Norway      |
+            | Lithuania   |
+            | Philippines |
+            | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |
+
 
 
 
@@ -59,10 +72,27 @@ Feature: International Footer Links
             | Spain       | 
             | Romania     | 
             | Qatar       | 
+            | Lithuania   |
+            | Canada      |
+            | Austria     |
+            | Bahrain     |
+            | Czech       |
+            | Bulgaria    |
+            | South_Korea |
+            | Spain       |
+            | Romania     |
+            | Qatar       |
+            | Oman        |
+            | Malaysia    |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
 
 
 
-   Scenario Outline: PlatMod enabled footer all pages
+
+
+ Scenario Outline: PlatMod enabled footer all pages
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I navigate to the pages from home
             | page                |
