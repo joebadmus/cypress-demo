@@ -2,16 +2,20 @@ import FooterSection from "../../../pageSections/FooterSection";
 import HeaderTopBarSection from "../../../pageSections/HeaderTopBarSection";
 import MainNavigationSection from "../../../pageSections/MainNavigationSection";
 
-class HomePage {
+class ProductListPage {
   constructor() {
-    cy.visit(globalThis.countryUnderTest.url);
-    cy.log(`Application on ${globalThis.countryUnderTest.name} Home page`);
+    cy.log(`Application on ${globalThis.countryUnderTest.name} Product List page`);
   }
 
+  goto(){
+      cy.get('#sli_search_1').type("Cap");
+      cy.get('[class="SearchButton"]').click();
+  }
 
   mainNavigationSection(){
     return MainNavigationSection();
   }
+  
   
   headerTopBarSection(){
     return new HeaderTopBarSection();
@@ -22,4 +26,4 @@ class HomePage {
   }
 }
 
-export default HomePage;
+export default ProductListPage;

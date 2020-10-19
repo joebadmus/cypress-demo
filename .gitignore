@@ -8,3 +8,4 @@ cypress/results/
 allure-report/
 allure-results/
 mochawesome-report/mochawesome.html
+package-lock.json
