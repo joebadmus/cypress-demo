@@ -64,19 +64,8 @@ class TestDataHelper {
       LITHUANIA: "LT",
       PHILIPPINES: "PH",
       OMAN: "OM",
-<<<<<<< HEAD
-
-
-
-
       GREECE: "GR",
-      GIBRALTAR: "GI"
-
-
-
-
-
-=======
+      GIBRALTAR: "GI",
       NEW_ZEALAND: "NZ",
       MALAYSIA: "MY",
       MALTA: "MT",
@@ -85,7 +74,6 @@ class TestDataHelper {
       ITALY: "IT",
       KUWAIT: "KW",
       INDONESIA: "ID"
->>>>>>> master
     };
 
     var keys = Object.keys(dictionary);
