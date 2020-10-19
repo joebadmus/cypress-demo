@@ -99,7 +99,7 @@ class TestDataHelper {
       if (footerText === "Contact Us") return 2;
       if (footerText === "Sitemap") return 3;
 
-    if(!["FR","LU"].includes(globalThis.countryUnderTest.code)){
+    if(!["FR","LU","IS"].includes(globalThis.countryUnderTest.code)){
       if (footerText === "Privacy Policy") return 4;
       if (footerText === "Terms & Conditions") return 5;
       if (footerText === "Media & Press") return 6;
@@ -114,6 +114,9 @@ class TestDataHelper {
       if(globalThis.countryUnderTest.code==="LU"){
         if (footerText === "Parcelshop") return 4;
       }
+      if(globalThis.countryUnderTest.code==="IS"){
+        if (footerText === "Find a Store") return 4;
+      }
       if (footerText === "Privacy Policy") return 5;
       if (footerText === "Terms & Conditions") return 6;
       if (footerText === "Media & Press") return 7;
@@ -124,9 +127,6 @@ class TestDataHelper {
       
       throw `The footer ${footerText} does not exist`;
     }
-    
-    
-    
   }
 
   static setTestCountry(value) {
