@@ -63,7 +63,15 @@ class TestDataHelper {
       NORWAY: "NO",
       LITHUANIA: "LT",
       PHILIPPINES: "PH",
-      OMAN: "OM"
+      OMAN: "OM",
+      NEW_ZEALAND: "NZ",
+      MALAYSIA: "MY",
+      MALTA: "MT",
+      LUXEMBOURG: "LU",
+      LATVIA: "LV",
+      ITALY: "IT",
+      KUWAIT: "KW",
+      INDONESIA: "ID"
     };
 
     var keys = Object.keys(dictionary);

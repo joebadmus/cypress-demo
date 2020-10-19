@@ -36,7 +36,15 @@
       "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
       "TheCompany": "https://www.nextplc.co.uk/",
       "Philippines": "https://www.nextdirect.com/ph/en/",
-      "Oman": "https://www.next.om/ar/"
+      "Oman": "https://www.next.om/ar/",
+      "New_Zealand": "https://www.nextdirect.com/nz/en/",
+      "Malaysia": "https://www.nextdirect.com/my/en/",
+      "Malta": "https://www.next.com.mt/en/",
+      "Luxembourg": "https://www.next.lu/fr/",
+      "Latvia": "https://www.next.com.lv/ru/",
+      "Italy": "https://www.nextdirect.com/it/it/",
+      "Kuwait": "https://www.nextdirect.com/kw/ar/",
+      "Indonesia": "https://www.nextdirect.com/id/en"
     },
       
   "reporter": "cypress-multi-reporters",

@@ -40,10 +40,18 @@ Feature: International Footer Links
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |
 
 
 
-        Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
+
+    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
@@ -75,33 +83,39 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Oman        |
+            | Malaysia    |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
 
 
 
-    Scenario Outline: PlatMod enabled footer all pages
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
-        When I navigate to the pages from home
-            | page                |
-            | Login               |
-            | Favourites          |
-            | Quickshop           |
-            | ReturnsInformation  |
-            | ShippingInformation |
-            | TermsAndConditions  |
-            | NextFranchise       |
-            | PrivacyPolicy       |
-            | ContactUs           |
-            | Sitemap             |
-        # | AccountSummary      |
-        # | ProductList         |
-        # | ShoppingBag         |
-        Then I should see that the new platform mod footer is present
 
-        Examples:
-            | domain   |
-            | Canada   |
-            | Austria  |
-            | Bahrain  |
-            | Bulgaria |
-            | Czech    |
+
+Scenario Outline: PlatMod enabled footer all pages
+    Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    When I navigate to the pages from home
+        | page                |
+        | Login               |
+        | Favourites          |
+        | Quickshop           |
+        | ReturnsInformation  |
+        | ShippingInformation |
+        | TermsAndConditions  |
+        | NextFranchise       |
+        | PrivacyPolicy       |
+        | ContactUs           |
+        | Sitemap             |
+    # | AccountSummary      |
+    # | ProductList         |
+    # | ShoppingBag         |
+    Then I should see that the new platform mod footer is present
+
+    Examples:
+        | domain   |
+        | Canada   |
+        | Austria  |
+        | Bahrain  |
+        | Bulgaria |
+        | Czech    |
 

@@ -41,3 +41,10 @@ Feature: Platform Mod International Site Guide
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |

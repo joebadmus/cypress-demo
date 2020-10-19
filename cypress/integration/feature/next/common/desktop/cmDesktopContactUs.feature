@@ -42,3 +42,10 @@ Feature: Platform Mod International Contact Us
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | New_Zealand |
+            | Malaysia    |
+            | Malta       |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+            | Indonesia   |
