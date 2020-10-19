@@ -17,31 +17,40 @@ Feature: International Footer Links
 
         Examples:
             | domain      |
-            | Austria     |
-            | Canada      |
-            | Czech       |
-            | Mexico      |
-            | Bulgaria    |
-            | Bahrain     |
-            | Croatia     |
-            | Turkey      |
-            | Thailand    |
-            | Taiwan      |
-            | USA         |
-            | Sweden      |
-            | Switzerland |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
-            | Portugal    |
-            | Norway      |
-            | Lithuania   |
+           | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Czech        |
+            | Denmark      |
+            | Gibraltar    |
+            | Greece       |
+            | Lithuania    |
+            | Mexico       |
+            | Norway       |
+            | Oman         |
             | Philippines |
-            | Oman        |
-            | Greece      |
-            | Gibraltar   |
+            | Portugal     |
+            | Qatar        |
+            | Romania      |
+            | Serbia       |
+            | Singapore    |
+            | South_Africa |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            | Thailand     |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |
 
 
 
@@ -101,10 +110,39 @@ Feature: International Footer Links
         Then I should see that the new platform mod footer is present
 
         Examples:
-            | domain   |
-            | Canada   |
-            | Austria  |
-            | Bahrain  |
-            | Bulgaria |
-            | Czech    |
+            | domain       |
+            | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Czech        |
+            | Denmark      |
+            | Gibraltar    |
+            | Greece       |
+            | Lithuania    |
+            | Mexico       |
+            | Norway       |
+            | Oman         |
+            | Philippines  |
+            | Portugal     |
+            | Qatar        |
+            | Romania      |
+            | Serbia       |
+            | Singapore    |
+            | South_Africa |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            | Thailand     |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |
 

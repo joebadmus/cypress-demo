@@ -12,36 +12,50 @@ Feature: Platform Mod International Contact Us
         Then I should be taken to the Contact Us page
 
         Examples:
-            | domain      |
-            | Armenia     |
-            | Australia   |
-            | Austria     |
-            | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     |
-            | Canada      |
-            | Croatia     |
-            | Denmark     |
-            | Mexico      |
-            | Sweden      |
-            | Switzerland |
-            | Taiwan      |
-            | Thailand    |
-            | Turkey      |
-            #| UAE         |
-            #| Ukraine     |
-            | USA         |
-            | Spain       |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
-            | Portugal    |
-            | Norway      |
-            | Lithuania   |
-            | Philippines |
-            | Oman        |
-            | Greece      |
-            | Gibraltar   |
+            | domain       |
+            | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Czech        |
+            | Denmark      |
+            | Gibraltar    |
+            | Greece       |
+            | Lithuania    |
+            | Mexico       |
+            | Norway       |
+            | Oman         |
+            | Philippines  |
+            | Portugal     |
+            | Qatar        |
+            | Romania      |
+            | Serbia       |
+            | Singapore    |
+            | South_Africa |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            | Thailand     |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |
+
+
+
+
+
+
+
+
+
+
+
 
