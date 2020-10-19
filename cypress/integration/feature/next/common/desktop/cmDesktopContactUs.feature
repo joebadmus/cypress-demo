@@ -5,11 +5,11 @@ Feature: Platform Mod International Contact Us
     I want to be taken to the correct location from the footer links
  
  @contactus
-    Scenario Outline: Platform Mod Check Contact Us Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Check Contact Us Page is Displayed
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
         When I am viewing the footer of the page
-        And I select the "Contact Us" from the footer
-        Then I should be taken to Contact Us page
+        And I select the "Contact Us" link from the footer
+        Then I should be taken to the Contact Us page
 
         Examples:
             | domain      |

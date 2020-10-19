@@ -4,11 +4,11 @@ Feature: Platform Mod International Site Guide
     As a user in all next international
     I want to be taken to the correct location from the footer links
 
-    Scenario Outline: Platform Mod Check Next Franchise Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Check Next Franchise Page is Displayed
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
         When I am viewing the footer of the page
-        And I select the "Next Franchise" from the footer
-        Then I should be taken to Next Franchise page
+        And I select the "Next Franchise" link from the footer
+        Then I should be taken to the Next Franchise page
 
         Examples:
             | domain      |

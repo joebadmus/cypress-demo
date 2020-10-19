@@ -4,11 +4,11 @@ Feature: Platform Mod International Terms and Conditions
     As a user in all next international
     I want to be taken to the correct location from the footer links
 
-    Scenario Outline: Platform Mod Check Terms and Conditions Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Check Terms and Conditions Page is Displayed
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
         When I am viewing the footer of the page
-        And I select the "Terms & Conditions" from the footer
-        Then I should be taken to the Terms and Conditions page
+        And I select the "Terms & Conditions" link from the footer
+        Then I should be taken to the the Terms and Conditions page
 
         Examples:
             | domain      |

@@ -5,11 +5,11 @@ Feature: Platform Mod International Site Map
     I want to be taken to the correct location from the footer links
 
 @allure
-    Scenario Outline: Platform Mod Check Sitemap Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Check Sitemap Page is Displayed
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home".
         When I am viewing the footer of the page
-        And I select the "Sitemap" from the footer
-        Then I should be taken to sitemap page
+        And I select the "Sitemap" link from the footer
+        Then I should be taken to the sitemap page
 
         Examples:
             | domain      |
