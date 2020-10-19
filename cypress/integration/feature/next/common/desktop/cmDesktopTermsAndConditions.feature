@@ -48,3 +48,12 @@ Feature: Platform Mod International Terms and Conditions
             | Italy       |
             | Kuwait      |
             | Indonesia   |
+            | Hungary     |
+            | Finland     |
+            | Georgia     |
+            | Cyprus      |
+            | Estonia     |
+            | Lebanon     |
+            | Iceland     |
+            | Luxembourg  |
+            | France      |

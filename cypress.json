@@ -44,7 +44,15 @@
       "Latvia": "https://www.next.com.lv/ru/",
       "Italy": "https://www.nextdirect.com/it/it/",
       "Kuwait": "https://www.nextdirect.com/kw/ar/",
-      "Indonesia": "https://www.nextdirect.com/id/en"
+      "Indonesia": "https://www.nextdirect.com/id/en/",
+      "Hungary": "https://www.nextdirect.com/hu/hu/",
+      "Finland":"https://www.next.fi/en/",
+      "Georgia": "https://www.nextdirect.com/ge/en/",
+      "Cyprus": "https://www.nextdirect.com/cy/en/",
+      "Estonia": "https://www.next.com.ee/en/",
+      "Lebanon": "https://www.nextdirect.com/lb/ar/",
+      "Iceland":"https://www.nextdirect.com/is/en/",
+      "France": "https://www.nextdirect.com/fr/fr/"
     },
       
   "reporter": "cypress-multi-reporters",
