@@ -1,4 +1,4 @@
-@international @footer  @desktop 
+@international @footer  @desktop
 Feature: Platform Mod International Shipping information
     In order to be taken to correct location on the Next site
     As a user in all next international
@@ -11,7 +11,7 @@ Feature: Platform Mod International Shipping information
         Then I should be taken to Shipping Information page
 
         Examples:
-            | domain      |   
+            | domain      |
             | Armenia     |
             | Australia   |
             | Austria     |
@@ -48,3 +48,12 @@ Feature: Platform Mod International Shipping information
             | Italy       |
             | Kuwait      |
             | Indonesia   |
+            | Hungary     |
+            | Finland     |
+            | Georgia     |
+            | Cyprus      |
+            | Estonia     |
+            | Lebanon     |
+            | Iceland     |
+            | Luxembourg  |
+            | France      |

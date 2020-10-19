@@ -1,4 +1,4 @@
-@international @footer  @desktop 
+@international @footer  @desktop
 Feature: Platform Mod International Site Guide
     In order to be taken to correct location on the Next site
     As a user in all next international
@@ -48,3 +48,12 @@ Feature: Platform Mod International Site Guide
             | Italy       |
             | Kuwait      |
             | Indonesia   |
+            | Hungary     |
+            | Finland     |
+            | Georgia     |
+            | Cyprus      |
+            | Estonia     |
+            | Lebanon     |
+            | Iceland     |
+            | Luxembourg  |
+            | France      |

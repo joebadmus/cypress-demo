@@ -47,6 +47,16 @@ Feature: International Footer Links
             | Italy       |
             | Kuwait      |
             | Indonesia   |
+            | Hungary     |
+            | Finland     |
+            | Georgia     |
+            | Cyprus      |
+            | Estonia     |
+            | Lebanon     |
+            | Iceland     |
+            | Luxembourg  |
+            | France      |
+
 
 
 
@@ -62,16 +72,16 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      | 
-            | Canada      | 
-            | Austria     | 
-            | Bahrain     | 
-            | Czech       | 
-            | Bulgaria    | 
-            | South_Korea | 
-            | Spain       | 
-            | Romania     | 
-            | Qatar       | 
+            | domain      |
+            | Canada      |
+            | Austria     |
+            | Bahrain     |
+            | Czech       |
+            | Bulgaria    |
+            | South_Korea |
+            | Spain       |
+            | Romania     |
+            | Qatar       |
             | Lithuania   |
             | Canada      |
             | Austria     |
@@ -87,6 +97,12 @@ Feature: International Footer Links
             | Latvia      |
             | Italy       |
             | Kuwait      |
+            | Hungary     |
+            | Estonia     |
+            | Lebanon     |
+            | Luxembourg  |
+            | France      |
+
 
 
 
