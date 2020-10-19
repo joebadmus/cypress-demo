@@ -10,8 +10,9 @@ class ShoppingBagPage {
 
   goto(){
     cy.get('[class*="BagSummary"]>a').click();
+    cy.get('[class=view_edit_bag]').click();
   }
- // [class*="BagSummary"]>a
+ 
   headerTopBarSection() {
     return new HeaderTopBarSection();
   }

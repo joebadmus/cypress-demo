@@ -24,8 +24,15 @@ Feature: Platform Mod International Shipping information
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
             | Philippines  |

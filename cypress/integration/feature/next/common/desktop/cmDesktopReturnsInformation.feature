@@ -11,7 +11,7 @@ Feature: Platform Mod International Site Guide
         Then I should be taken to the Returns Information page
 
         Examples:
-            | domain      |
+            | domain       |
             | Armenia      |
             | Australia    |
             | Austria      |
@@ -24,8 +24,15 @@ Feature: Platform Mod International Site Guide
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
             | Philippines  |

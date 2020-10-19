@@ -14,8 +14,16 @@
       "Denmark": "https://www.nextdirect.com/dk/en/",
       "Gibraltar": "https://www.nextdirect.com/gi/en/",
       "Greece": "https://www.nextdirect.com/gr/en/",
+      "Indonesia": "https://www.nextdirect.com/id/en",
+      "Italy": "https://www.nextdirect.com/it/it/",
+      "Kuwait": "https://www.nextdirect.com/kw/ar/",
+      "Latvia": "https://www.next.com.lv/ru/",
       "Lithuania": "https://www.next.lt/en/",
+      "Luxembourg": "https://www.next.lu/fr/",  
+      "Malaysia": "https://www.nextdirect.com/my/en/",
+      "Malta": "https://www.next.com.mt/en/",  
       "Mexico": "https://www.next.mx/en/",
+      "New_Zealand": "https://www.nextdirect.com/nz/en/",
       "Norway": "https://www.next.no/en/",
       "Oman": "https://www.next.om/ar/",
       "Philippines": "https://www.nextdirect.com/ph/en/",
@@ -40,7 +48,7 @@
       "Careers@next": "https://careers.next.co.uk/",
       "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
       "TheCompany": "https://www.nextplc.co.uk/"
- 
+
     },
       
   "reporter": "cypress-multi-reporters",

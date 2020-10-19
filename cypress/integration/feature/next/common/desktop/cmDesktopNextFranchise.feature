@@ -24,8 +24,15 @@ Feature: Platform Mod International Site Guide
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
             | Philippines  |
@@ -46,4 +53,3 @@ Feature: Platform Mod International Site Guide
             #| UK           |
             #| Ukraine      |
             | USA          |
-            

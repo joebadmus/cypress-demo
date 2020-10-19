@@ -25,8 +25,15 @@ Feature: Platform Mod International Contact Us
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
             | Philippines  |
@@ -47,15 +54,3 @@ Feature: Platform Mod International Contact Us
             #| UK           |
             #| Ukraine      |
             | USA          |
-
-
-
-
-
-
-
-
-
-
-
-

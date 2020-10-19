@@ -17,7 +17,7 @@ Feature: International Footer Links
 
         Examples:
             | domain      |
-           | Armenia      |
+            | Armenia      |
             | Australia    |
             | Austria      |
             | Azerbaijan   |
@@ -29,11 +29,18 @@ Feature: International Footer Links
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
-            | Philippines |
+            | Philippines  |
             | Portugal     |
             | Qatar        |
             | Romania      |
@@ -54,7 +61,11 @@ Feature: International Footer Links
 
 
 
-        Scenario Outline: Platform Mod Footer Content is Displayed Correctly for both languages
+
+
+
+
+    Scenario Outline: PlatMod enabled footer content are displayed correctly both languages
         Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
@@ -92,8 +103,20 @@ Feature: International Footer Links
 
     Scenario Outline: Platform Mod Footer Check All Expected Footer Enabled Pages
         Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
+            | Malaysia    |
+            | Latvia      |
+            | Italy       |
+            | Kuwait      |
+
+
+
+
+
+ Scenario Outline: PlatMod enabled footer all pages
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I navigate to the pages from home
             | page                |
+            | Landing               |
             | Login               |
             | Favourites          |
             | Quickshop           |
@@ -104,9 +127,10 @@ Feature: International Footer Links
             | PrivacyPolicy       |
             | ContactUs           |
             | Sitemap             |
-        # | AccountSummary      |
-        # | ProductList         |
-        # | ShoppingBag         |
+            | ShoppingBag         |
+            | ProductList         |
+            # | AccountSummary      |
+            
         Then I should see that the new platform mod footer is present
 
         Examples:
@@ -123,8 +147,15 @@ Feature: International Footer Links
             | Denmark      |
             | Gibraltar    |
             | Greece       |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
             | Lithuania    |
+            | Malaysia     |
+            | Malta        |
             | Mexico       |
+            | New_Zealand  |
             | Norway       |
             | Oman         |
             | Philippines  |
