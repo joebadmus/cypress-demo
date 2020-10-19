@@ -66,6 +66,7 @@ Feature: International Footer Links
         Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
         When I navigate to the pages from home
             | page                |
+            | Landing               |
             | Login               |
             | Favourites          |
             | Quickshop           |
@@ -76,9 +77,10 @@ Feature: International Footer Links
             | PrivacyPolicy       |
             | ContactUs           |
             | Sitemap             |
+            | ShoppingBag         |
+            | ProductList         |
             # | AccountSummary      |
-            # | ProductList         |
-            # | ShoppingBag         |
+            
         Then I should see that the new platform mod footer is present
 
         Examples:

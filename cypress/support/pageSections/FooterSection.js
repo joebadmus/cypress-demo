@@ -7,7 +7,6 @@ class FooterSection {
     cy.get('div[class*="CookieConsentCross"]').click();
   }
 
-
   validateLinkIsPresent(linkText) {
     cy.get(".footer153").contains("a", linkText).should("be.visible");
   }

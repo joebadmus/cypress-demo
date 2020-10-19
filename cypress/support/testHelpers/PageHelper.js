@@ -13,6 +13,8 @@ import ShoppingBagPage from "../pageObjects/common/desktop/ShoppingBagPage";
 import CareersAtNextPage from "../pageObjects/common/desktop/CareersAtNextPage";
 import MediaAndPressPage from "../pageObjects/common/desktop/MediaAndPressPage";
 import TheCompanyPage from "../pageObjects/common/desktop/TheCompanyPage";
+import LandingPage from "../pageObjects/common/desktop/LandingPage";
+import ProductListPage from "../pageObjects/common/desktop/ProductListPage";
 
 
 
@@ -35,6 +37,8 @@ class PageHelper {
       case "Careers@NextPage":  return new CareersAtNextPage();
       case "Media&PressPage":  return new MediaAndPressPage();
       case "TheCompanyPage":  return new TheCompanyPage();
+      case "LandingPage":  return new LandingPage();
+      case "ProductListPage":  return new ProductListPage();
 
 
       default : throw `Page ${marketType} is not defined in the page helper`;
