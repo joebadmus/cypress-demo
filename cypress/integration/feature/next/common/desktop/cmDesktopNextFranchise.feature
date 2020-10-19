@@ -41,4 +41,6 @@ Feature: Platform Mod International Site Guide
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | Greece      |
+            | Gibraltar   |
             

@@ -42,3 +42,6 @@ Feature: Platform Mod International Contact Us
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | Greece      |
+            | Gibraltar   |
+

@@ -41,3 +41,5 @@ Feature: Platform Mod International Terms and Conditions
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | Greece      |
+            | Gibraltar   |

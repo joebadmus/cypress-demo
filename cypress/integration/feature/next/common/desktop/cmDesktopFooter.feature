@@ -40,6 +40,8 @@ Feature: International Footer Links
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | Greece      |
+            | Gibraltar   |
 
 
 
@@ -75,6 +77,7 @@ Feature: International Footer Links
             | Romania     |
             | Qatar       |
             | Oman        |
+            | Greece      |
 
 
 

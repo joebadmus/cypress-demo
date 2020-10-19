@@ -460,6 +460,88 @@
             "linkText": "Next Franchise",
             "linkHref": "https://www.next.om/en/franchise"
         }
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "GR": [
+        {
+            "linkText": "ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΕΠΙΣΤΡΟΦΕΣ",
+            "linkHref": "https://www.nextdirect.com/gr/el/faqs#returnskeyinformation"
+        },
+        {
+            "linkText": "ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΑΠΟΣΤΟΛΕΣ",
+            "linkHref": "https://www.nextdirect.com/gr/el/faqs#deliverykeyinformation"
+        },
+        {
+            "linkText": "ΕΠΙΚΟΙΝΩΝΙΑ",
+            "linkHref": "https://www.nextdirect.com/gr/el/faqs#contactus"
+        },
+        {
+            "linkText": "ΧΑΡΤΗΣ ΙΣΤΟΤΟΠΟΥ",
+            "linkHref": "https://www.nextdirect.com/gr/el/sitemap"
+        },
+        {
+            "linkText": "ΠΟΛΙΤΙΚΗ ΑΠΟΡΡΗΤΟΥ",
+            "linkHref": "https://www.nextdirect.com/gr/el/privacypolicy" 
+        }, 
+        {
+            "linkText": "ΟΡΟΙ ΚΑΙ ΠΡΟΫΠΟΘΕΣΕΙΣ",
+            "linkHref": "https://www.nextdirect.com/gr/el/terms"
+        },       
+        {
+            "linkText": "ΜΕΣΑ ΚΑΙ ΤΥΠΟΣ",
+            "linkHref": "https://www.nextplc.co.uk/media/media-contacts"
+        },
+        {
+            "linkText": "Η ΕΤΑΙΡΕΙΑ",
+            "linkHref": "https://www.nextplc.co.uk/"
+        },
+        {
+            "linkText": "ΚΑΡΙΕΡΑ ΣΤΗ NEXT",
+            "linkHref": "https://careers.next.co.uk/"
+        },
+        {
+            "linkText": "Franchise της Next",
+            "linkHref": "https://www.nextdirect.com/gr/el/franchise"
+        }
     ]
    
 }

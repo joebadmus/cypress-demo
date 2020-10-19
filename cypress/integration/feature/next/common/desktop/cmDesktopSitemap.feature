@@ -42,3 +42,5 @@ Feature: Platform Mod International Site Map
             | Lithuania   |
             | Philippines |
             | Oman        |
+            | Greece      |
+            | Gibraltar   |

@@ -36,7 +36,13 @@
       "Media&Press": "https://www.nextplc.co.uk/media/media-contacts",
       "TheCompany": "https://www.nextplc.co.uk/",
       "Philippines": "https://www.nextdirect.com/ph/en/",
-      "Oman": "https://www.next.om/ar/"
+      "Oman": "https://www.next.om/ar/",
+
+
+
+
+      "Greece": "https://www.nextdirect.com/gr/en/",
+      "Gibraltar": "https://www.nextdirect.com/gi/en/"
     },
       
   "reporter": "cypress-multi-reporters",
