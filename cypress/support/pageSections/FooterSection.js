@@ -31,7 +31,7 @@ class FooterSection {
     cy.validateLinkHref(linkText, linkUrl);
   }
 
-  ValidateMobileViewLinkIsPrestn() {
+  validateMobileViewLinkIsPresent() {
     cy.get('[data-testid="footer-copyright-switcher-mobiletoggle"]').should(
       "be.visible"
     );
@@ -43,6 +43,20 @@ class FooterSection {
 
   selectFootByText(linkText) {
     cy.get(".footer153").contains("a", linkText).should("be.visible").click();
+  }
+
+  validateDesktopViewLinkIsPresent() {
+    cy.get('[data-testid="footer-copyright-switcher-desktoptoggle"]').should(
+      "be.visible"
+    );
+  }
+
+  clickMobileViewLink() {
+    cy.get('[data-testid="footer-copyright-switcher-mobiletoggle"]').click();
+  }
+
+  clickDesktopViewLink() {
+    cy.get('[data-testid="footer-copyright-switcher-desktoptoggle"]').click();
   }
 }
 

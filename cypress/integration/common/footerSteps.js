@@ -117,3 +117,15 @@ Then("I should see that the new platform mod footer is present", () => {
     PageHelper.createPagewith("HomePage");
   });
 });
+
+When("I select the View mobile site link", () => {
+  page.footerSection().gotoFooter();
+  page.footerSection().closeCookieConsent();
+  page.footerSection().validateMobileViewLinkIsPresent();
+  page.footerSection().clickMobileViewLink();
+});
+
+Then("I should be taken to the mobile site view mode", () => {
+  page.footerSection().gotoFooter();
+  page.footerSection().validateDesktopViewLinkIsPresent();
+});
