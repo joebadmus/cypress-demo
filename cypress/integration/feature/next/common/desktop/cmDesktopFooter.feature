@@ -16,50 +16,48 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      |
-            | Armenia      |
-            | Australia    |
-            | Austria      |
-            | Azerbaijan   |
-            | Bahrain      |           
-            | Bulgaria     |
-            | Canada       |
-            | Croatia      |
-            | Czech        |
-            | Denmark      |
-            | Gibraltar    |
-            | Greece       |
-            | Indonesia    |
-            | Italy        |
-            | Kuwait       |
-            | Latvia       |
-            | Lithuania    |
-            | Malaysia     |
-            | Malta        |
-            | Mexico       |
-            | New_Zealand  |
-            | Norway       |
-            | Oman         |
-            | Philippines  |
-            | Portugal     |
-            | Qatar        |
-            | Romania      |
-            | Serbia       |
-            | Singapore    |
-            | South_Africa |
-            | South_Korea  |
-            | Spain        |
-            | Sweden       |
-            | Switzerland  |
-            | Taiwan       |
-            | Thailand     |
-            | Turkey       |
-            #| UAE          |
-            #| UK           |
-            #| Ukraine      |
-            | USA          |
-
-
+             | domain      |
+             | Armenia      |
+             | Australia    |
+             | Austria      |
+             | Azerbaijan   |
+             | Bahrain      |           
+             | Bulgaria     |
+             | Canada       |
+             | Croatia      |
+             | Czech        |
+             | Denmark      |
+             | Gibraltar    |
+             | Greece       |
+             | Indonesia    |
+             | Italy        |
+             | Kuwait       |
+             | Latvia       |
+             | Lithuania    |
+             | Malaysia     |
+             | Malta        |
+             | Mexico       |
+             | New_Zealand  |
+             | Norway       |
+             | Oman         |
+             | Philippines  |
+             | Portugal     |
+             | Qatar        |
+             | Romania      |
+             | Serbia       |
+             | Singapore    |
+             | South_Africa |
+             | South_Korea  |
+             | Spain        |
+             | Sweden       |
+             | Switzerland  |
+             | Taiwan       |
+             | Thailand     |
+             | Turkey       |
+             #| UAE          |
+             #| UK           |
+             #| Ukraine      |
+             | USA          |
 
 
 
@@ -144,36 +142,4 @@ Feature: International Footer Links
             | Canada       |
             | Croatia      |
             | Czech        |
-            | Denmark      |
-            | Gibraltar    |
-            | Greece       |
-            | Indonesia    |
-            | Italy        |
-            | Kuwait       |
-            | Latvia       |
-            | Lithuania    |
-            | Malaysia     |
-            | Malta        |
-            | Mexico       |
-            | New_Zealand  |
-            | Norway       |
-            | Oman         |
-            | Philippines  |
-            | Portugal     |
-            | Qatar        |
-            | Romania      |
-            | Serbia       |
-            | Singapore    |
-            | South_Africa |
-            | South_Korea  |
-            | Spain        |
-            | Sweden       |
-            | Switzerland  |
-            | Taiwan       |
-            | Thailand     |
-            | Turkey       |
-            #| UAE          |
-            #| UK           |
-            #| Ukraine      |
-            | USA          |
-
+       

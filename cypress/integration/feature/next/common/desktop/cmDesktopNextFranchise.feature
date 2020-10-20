@@ -11,7 +11,7 @@ Feature: Platform Mod International Site Guide
         Then I should be taken to the Next Franchise page
 
         Examples:
-            | domain      |
+            | domain       |
             | Armenia      |
             | Australia    |
             | Austria      |

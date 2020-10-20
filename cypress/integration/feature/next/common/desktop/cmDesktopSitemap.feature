@@ -49,8 +49,8 @@ Feature: Platform Mod International Site Map
             | Switzerland  |
             | Taiwan       |
             | Thailand     |
-            | Turkey       |
-            #| UAE          |
-            #| UK           |
-            #| Ukraine      |
-            | USA          |
+            # | Turkey       |
+            # #| UAE          |
+            # #| UK           |
+            # #| Ukraine      |
+            # | USA          |
