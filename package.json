@@ -25,7 +25,7 @@
   "scripts": {
     "runalluretests": "npx cypress-tags run -e TAGS=@footer --reporter mocha-allure-reporter",
     "runfootertests": "npx cypress-tags run -e TAGS=@footer",
-    "runfeaturebranchtests": "npx cypress-tags run -e TAGS=@footer --record --key 98129ab3-48d3-44e9-b022-b42831d9d04a",
+    "runfeaturebranchtests": "npx cypress-tags run -e TAGS=@footer1 --record --key 98129ab3-48d3-44e9-b022-b42831d9d04a",
     "opencypress": "npx cypress open",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
