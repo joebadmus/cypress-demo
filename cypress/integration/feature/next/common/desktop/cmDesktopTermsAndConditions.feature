@@ -11,7 +11,7 @@ Feature: Platform Mod International Terms and Conditions
         Then I should be taken to the the Terms and Conditions page
 
         Examples:
-            | domain      |
+            | domain       |
             | Armenia      |
             | Australia    |
             | Austria      |
@@ -20,15 +20,24 @@ Feature: Platform Mod International Terms and Conditions
             | Bulgaria     |
             | Canada       |
             | Croatia      |
+            | Cyprus       |
             | Czech        |
             | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
             | Gibraltar    |
             | Greece       |
+            | Hungary      |
+            | Iceland      |
             | Indonesia    |
             | Italy        |
             | Kuwait       |
             | Latvia       |
+            | Lebanon      |
             | Lithuania    |
+            | Luxembourg   |
             | Malaysia     |
             | Malta        |
             | Mexico       |

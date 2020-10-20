@@ -1,4 +1,4 @@
-@international @footer  @desktop 
+@international @footer  @desktop
 Feature: Platform Mod International Privacy Policy
     In order to be taken to correct location on the Next site
     As a user in all next international
@@ -12,24 +12,33 @@ Feature: Platform Mod International Privacy Policy
         Then I should be taken to the Privacy Policy page
 
         Examples:
-            | domain       |   
+            | domain       |
             | Armenia      |
             | Australia    |
             | Austria      |
             | Azerbaijan   |
-            | Bahrain      |      
+            | Bahrain      |           
             | Bulgaria     |
             | Canada       |
             | Croatia      |
+            | Cyprus       |
             | Czech        |
             | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
             | Gibraltar    |
             | Greece       |
+            | Hungary      |
+            | Iceland      |
             | Indonesia    |
             | Italy        |
             | Kuwait       |
             | Latvia       |
+            | Lebanon      |
             | Lithuania    |
+            | Luxembourg   |
             | Malaysia     |
             | Malta        |
             | Mexico       |

@@ -1,4 +1,4 @@
-@international @footer  @desktop 
+@international @footer  @desktop
 Feature: Platform Mod International Site Map
     In order to be taken to correct location on the Next site
     As a user in all next international
@@ -11,8 +11,8 @@ Feature: Platform Mod International Site Map
         And I select the "Sitemap" link from the footer
         Then I should be taken to the sitemap page
 
-        Examples:
-            | domain      |
+        Examples:            
+            | domain       |
             | Armenia      |
             | Australia    |
             | Austria      |
@@ -21,15 +21,24 @@ Feature: Platform Mod International Site Map
             | Bulgaria     |
             | Canada       |
             | Croatia      |
+            | Cyprus       |
             | Czech        |
             | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
             | Gibraltar    |
             | Greece       |
+            | Hungary      |
+            | Iceland      |
             | Indonesia    |
             | Italy        |
             | Kuwait       |
             | Latvia       |
+            | Lebanon      |
             | Lithuania    |
+            | Luxembourg   |
             | Malaysia     |
             | Malta        |
             | Mexico       |
@@ -49,8 +58,8 @@ Feature: Platform Mod International Site Map
             | Switzerland  |
             | Taiwan       |
             | Thailand     |
-            # | Turkey       |
-            # #| UAE          |
-            # #| UK           |
-            # #| Ukraine      |
-            # | USA          |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |

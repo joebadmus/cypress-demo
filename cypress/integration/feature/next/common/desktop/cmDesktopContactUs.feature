@@ -1,4 +1,4 @@
-@international @footer @desktop 
+@international @footer @desktop
 Feature: Platform Mod International Contact Us
     In order to be taken to correct location on the Next site
     As a user in all next international
@@ -21,15 +21,24 @@ Feature: Platform Mod International Contact Us
             | Bulgaria     |
             | Canada       |
             | Croatia      |
+            | Cyprus       |
             | Czech        |
             | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
             | Gibraltar    |
             | Greece       |
+            | Hungary      |
+            | Iceland      |
             | Indonesia    |
             | Italy        |
             | Kuwait       |
             | Latvia       |
+            | Lebanon      |
             | Lithuania    |
+            | Luxembourg   |
             | Malaysia     |
             | Malta        |
             | Mexico       |
@@ -54,3 +63,4 @@ Feature: Platform Mod International Contact Us
             #| UK           |
             #| Ukraine      |
             | USA          |
+
