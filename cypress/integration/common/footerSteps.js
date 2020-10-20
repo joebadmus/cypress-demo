@@ -6,7 +6,7 @@ let isSecondLanguage = false;
 let testPageFooters;
 
 Given(
-  "I am an {string} user {string} on {string} viewing {string}.",
+  "I am an {string} user on {string} visiting {string} viewing {string} page",
   (userType, modeType, country, currentPage) => {
     TestDataHelper.setTestCountry(country);
     if (currentPage === "Home") {
@@ -27,7 +27,7 @@ When("I am viewing the footer of the page", function () {
   page.footerSection().gotoFooter();
 });
 
-When("I select the {string} from the footer", (footerOption) => {
+When("I select the {string} link from the footer", (footerOption) => {
   let footerLinks = TestDataHelper.getPrimaryLanguageFooterLinks(
     globalThis.countryUnderTest.code
   );

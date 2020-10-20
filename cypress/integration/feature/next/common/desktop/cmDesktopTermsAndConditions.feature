@@ -4,56 +4,61 @@ Feature: Platform Mod International Terms and Conditions
     As a user in all next international
     I want to be taken to the correct location from the footer links
 
-    Scenario Outline: Platform Mod Check Terms and Conditions Page is Displayed
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Check Terms and Conditions Page is Displayed
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
-        And I select the "Terms & Conditions" from the footer
-        Then I should be taken to the Terms and Conditions page
+        And I select the "Terms & Conditions" link from the footer
+        Then I should be taken to the the Terms and Conditions page
 
         Examples:
-            | domain      |
-            | Armenia     |
-            | Australia   |
-            | Austria     |
-            | Azerbaijan  |
-            | Bulgaria    |
-            | Bahrain     |
-            | Canada      |
-            | Croatia     |
-            | Denmark     |
-            | Mexico      |
-            | Sweden      |
-            | Switzerland |
-            | Taiwan      |
-            | Thailand    |
-            | Turkey      |
-            # | UAE         |
-            #| Ukraine     |
-            | USA         |
-            | Spain       |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
-            | Portugal    |
-            | Norway      |
-            | Lithuania   |
-            | Philippines |
-            | Oman        |
-            | New_Zealand |
-            | Malaysia    |
-            | Malta       |
-            | Latvia      |
-            | Italy       |
-            | Kuwait      |
-            | Indonesia   |
-            | Hungary     |
-            | Finland     |
-            | Georgia     |
-            | Cyprus      |
-            | Estonia     |
-            | Lebanon     |
-            | Iceland     |
-            | Luxembourg  |
-            | France      |
+            | domain       |
+            | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Cyprus       |
+            | Czech        |
+            | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
+            | Gibraltar    |
+            | Greece       |
+            | Hungary      |
+            | Iceland      |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
+            | Lebanon      |
+            | Lithuania    |
+            | Luxembourg   |
+            | Malaysia     |
+            | Malta        |
+            | Mexico       |
+            | New_Zealand  |
+            | Norway       |
+            | Oman         |
+            | Philippines  |
+            | Portugal     |
+            | Qatar        |
+            | Romania      |
+            | Serbia       |
+            | Singapore    |
+            | South_Africa |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            | Thailand     |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |
