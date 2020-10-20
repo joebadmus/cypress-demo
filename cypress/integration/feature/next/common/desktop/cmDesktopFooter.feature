@@ -83,28 +83,34 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      |
-            | Canada      |
-            | Austria     |
-            | Bahrain     |
-            | Czech       |
-            | Bulgaria    |
-            | South_Korea |
-            | Spain       |
-            | Romania     |
-            | Qatar       |
-            | Lithuania   |
-            | Canada      |
-            | Austria     |
-            | Bahrain     |
-            | Czech       |
-            | Bulgaria    |
-            | South_Korea |
-            | Spain       |
-            | Romania     |
-            | Qatar       |
-            | Oman        |
-            | Greece      |
+            | domain       |
+            | Austria      |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Czech        |
+            | Denmark      |
+            | Estonia      |
+            | France       |
+            | Greece       |
+            | Hungary      |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
+            | Lebanon      |
+            | Lithuania    |
+            | Luxembourg   |
+            | Malaysia     |
+            | Oman         |
+            | Qatar        |
+            | Romania      |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            #| UAE          |
+            #| Ukraine      |
 
 
 
