@@ -15,6 +15,7 @@ import MediaAndPressPage from "../pageObjects/common/desktop/MediaAndPressPage";
 import TheCompanyPage from "../pageObjects/common/desktop/TheCompanyPage";
 import LandingPage from "../pageObjects/common/desktop/LandingPage";
 import ProductListPage from "../pageObjects/common/desktop/ProductListPage";
+import FindAStorePage from "../pageObjects/common/desktop/FindAStorePage";
 
 
 
@@ -39,6 +40,8 @@ class PageHelper {
       case "TheCompanyPage":  return new TheCompanyPage();
       case "LandingPage":  return new LandingPage();
       case "ProductListPage":  return new ProductListPage();
+      case "FindAStorePage":  return new FindAStorePage();
+
 
 
       default : throw `Page ${marketType} is not defined in the page helper`;
