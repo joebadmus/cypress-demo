@@ -25,6 +25,7 @@
   "scripts": {
     "runalluretests": "npx cypress-tags run -e TAGS=@footer --reporter mocha-allure-reporter",
     "runfootertests": "npx cypress-tags run -e TAGS=@footer",
+    "run-tests-for-feature-branch": "npx cypress-tags run -e TAGS=@desktop1",
     "opencypress": "npx cypress open",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
