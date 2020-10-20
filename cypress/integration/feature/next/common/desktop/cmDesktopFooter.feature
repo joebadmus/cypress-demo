@@ -5,8 +5,8 @@ Feature: International Footer Links
     I want to be taken to the correct location from the footer links
 
 
-    Scenario Outline: Platform Mod enabled footer content are displayed correctly
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: Platform Mod Footer Content Is Displayed Correctly
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -16,53 +16,64 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      |
-            | Austria     |
-            | Canada      |
-            | Czech       |
-            | Mexico      |
-            | Bulgaria    |
-            | Bahrain     |
-            | Croatia     |
-            | Turkey      |
-            | Thailand    |
-            | Taiwan      |
-            | USA         |
-            | Sweden      |
-            | Switzerland |
-            | South_Korea |
-            | Serbia      |
-            | Romania     |
-            | Qatar       |
-            | Singapore   |
-            | Portugal    |
-            | Norway      |
-            | Lithuania   |
-            | Philippines |
-            | Oman        |
-            | New_Zealand |
-            | Malaysia    |
-            | Malta       |
-            | Latvia      |
-            | Italy       |
-            | Kuwait      |
-            | Indonesia   |
-            | Hungary     |
-            | Finland     |
-            | Georgia     |
-            | Cyprus      |
-            | Estonia     |
-            | Lebanon     |
-            | Iceland     |
-            | Luxembourg  |
-            | France      |
+            | domain       |
+            | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Cyprus       |
+            | Czech        |
+            | Denmark      |
+            | Estonia      |
+            | Finland      |
+            | France       |
+            | Georgia      |
+            | Gibraltar    |
+            | Greece       |
+            | Hungary      |
+            | Iceland      |
+            | Indonesia    |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
+            | Lebanon      |
+            | Lithuania    |
+            | Luxembourg   |
+            | Malaysia     |
+            | Malta        |
+            | Mexico       |
+            | New_Zealand  |
+            | Norway       |
+            | Oman         |
+            | Philippines  |
+            | Portugal     |
+            | Qatar        |
+            | Romania      |
+            | Serbia       |
+            | Singapore    |
+            | South_Africa |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            | Thailand     |
+            | Turkey       |
+            #| UAE          |
+            #| UK           |
+            #| Ukraine      |
+            | USA          |
 
 
 
 
 
-    Scenario Outline: PlatMod enabled footer content are displayed correctly for duolingo
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+    Scenario Outline: PlatMod enabled footer content are displayed correctly both languages
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I am viewing the footer of the page for the second language
         Then I should see all footer content are displayed correctly
             | footer_content |
@@ -72,27 +83,39 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain      |
-            | Canada      |
-            | Austria     |
-            | Bahrain     |
-            | Czech       |
-            | Bulgaria    |
-            | South_Korea |
-            | Spain       |
-            | Romania     |
-            | Qatar       |
-            | Lithuania   |
-            | Canada      |
-            | Austria     |
-            | Bahrain     |
-            | Czech       |
-            | Bulgaria    |
-            | South_Korea |
-            | Spain       |
-            | Romania     |
-            | Qatar       |
-            | Oman        |
+            | domain       |
+            | Austria      |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Czech        |
+            | Denmark      |
+            | Estonia      |
+            | France       |
+            | Greece       |
+            | Hungary      |
+            | Italy        |
+            | Kuwait       |
+            | Latvia       |
+            | Lebanon      |
+            | Lithuania    |
+            | Luxembourg   |
+            | Malaysia     |
+            | Oman         |
+            | Qatar        |
+            | Romania      |
+            | South_Korea  |
+            | Spain        |
+            | Sweden       |
+            | Switzerland  |
+            | Taiwan       |
+            #| UAE          |
+            #| Ukraine      |
+
+
+
+    Scenario Outline: Platform Mod Footer Check All Expected Footer Enabled Pages
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
             | Malaysia    |
             | Latvia      |
             | Italy       |
@@ -109,7 +132,7 @@ Feature: International Footer Links
 
 
  Scenario Outline: PlatMod enabled footer all pages
-        Given I am an "anonymous" user "desktop" on "<domain>" viewing "Home".
+        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I navigate to the pages from home
             | page                |
             | Landing               |
@@ -130,10 +153,14 @@ Feature: International Footer Links
         Then I should see that the new platform mod footer is present
 
         Examples:
-            | domain   |
-            | Canada   |
-            | Austria  |
-            | Bahrain  |
-            | Bulgaria |
-            | Czech    |
-
+            | domain       |
+            | Armenia      |
+            | Australia    |
+            | Austria      |
+            | Azerbaijan   |
+            | Bahrain      |           
+            | Bulgaria     |
+            | Canada       |
+            | Croatia      |
+            | Czech        |
+       
