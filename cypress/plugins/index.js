@@ -13,7 +13,23 @@
 // the project's config changing)
 
 const cucumber = require("cypress-cucumber-preprocessor").default;
+const fs = require('fs-extra')
+const path = require('path')
+
+function getConfigurationByFile (file) {
+  const pathToConfigFile = path.resolve('cypress', 'config', `${file}.json`)
+
+  if(!fs.existsSync(pathToConfigFile)) {
+    console.log('No custom config file found.')
+    return {};
+  }
+
+  return fs.readJson(pathToConfigFile);
+}
 
 module.exports = (on, config) => {
+ 
+  const file = config.env.configFile 
   on("file:preprocessor", cucumber());
+  return getConfigurationByFile(file);
 };

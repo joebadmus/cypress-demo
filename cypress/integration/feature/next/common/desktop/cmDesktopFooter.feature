@@ -21,7 +21,7 @@ Feature: International Footer Links
             | Australia    |
             | Austria      |
             | Azerbaijan   |
-            | Bahrain      |           
+            | Bahrain      |
             | Bulgaria     |
             | Canada       |
             | Croatia      |
@@ -83,59 +83,43 @@ Feature: International Footer Links
             | LinkLists      |
 
         Examples:
-            | domain       |
-            | Austria      |
-            | Bahrain      |           
-            | Bulgaria     |
-            | Canada       |
-            | Czech        |
-            | Denmark      |
-            | Estonia      |
-            | France       |
-            | Greece       |
-            | Hungary      |
-            | Italy        |
-            | Kuwait       |
-            | Latvia       |
-            | Lebanon      |
-            | Lithuania    |
-            | Luxembourg   |
-            | Malaysia     |
-            | Oman         |
-            | Qatar        |
-            | Romania      |
-            | South_Korea  |
-            | Spain        |
-            | Sweden       |
-            | Switzerland  |
-            | Taiwan       |
-            #| UAE          |
-            #| Ukraine      |
+            | domain      |
+            | Austria     |
+            | Bahrain     |
+            | Bulgaria    |
+            | Canada      |
+            | Czech       |
+            | Denmark     |
+            | Estonia     |
+            | France      |
+            | Greece      |
+            | Hungary     |
+            | Italy       |
+            | Kuwait      |
+            | Latvia      |
+            | Lebanon     |
+            | Lithuania   |
+            | Luxembourg  |
+            | Malaysia    |
+            | Oman        |
+            | Qatar       |
+            | Romania     |
+            | South_Korea |
+            | Spain       |
+            | Sweden      |
+            | Switzerland |
+            | Taiwan      |
+    #| UAE          |
+    #| Ukraine      |
+
 
 
 
     Scenario Outline: Platform Mod Footer Check All Expected Footer Enabled Pages
         Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
-            | Malaysia    |
-            | Latvia      |
-            | Italy       |
-            | Kuwait      |
-            | Hungary     |
-            | Estonia     |
-            | Lebanon     |
-            | Luxembourg  |
-            | France      |
-
-
-
-
-
-
- Scenario Outline: PlatMod enabled footer all pages
-        Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I navigate to the pages from home
             | page                |
-            | Landing               |
+            | Landing             |
             | Login               |
             | Favourites          |
             | Quickshop           |
@@ -148,19 +132,19 @@ Feature: International Footer Links
             | Sitemap             |
             | ShoppingBag         |
             | ProductList         |
-            # | AccountSummary      |
-            
+        # | AccountSummary      |
+
         Then I should see that the new platform mod footer is present
 
         Examples:
-            | domain       |
-            | Armenia      |
-            | Australia    |
-            | Austria      |
-            | Azerbaijan   |
-            | Bahrain      |           
-            | Bulgaria     |
-            | Canada       |
-            | Croatia      |
-            | Czech        |
-       
+            | domain     |
+            | Armenia    |
+            | Australia  |
+            | Austria    |
+            | Azerbaijan |
+            | Bahrain    |
+            | Bulgaria   |
+            | Canada     |
+            | Croatia    |
+            | Czech      |
+
