@@ -62,5 +62,6 @@
   "reporterOptions": {
     "configFile": "reporter-config.json"
   },
-  "projectId": "aubnhd"
+  "projectId": "aubnhd",
+  "ignoreTestFiles" : "**/*feature/next/common/mobile/*"
 }

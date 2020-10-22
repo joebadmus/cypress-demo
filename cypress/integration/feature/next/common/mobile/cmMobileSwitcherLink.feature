@@ -4,6 +4,7 @@ Feature: Platform Mod International Site Guide
     As a user in all next international
     I want to be taken to the mobile site view mode
 
+
     Scenario Outline: Platform Mod Check mobile site view mode is Displayed
         Given I am an "anonymous" user on "desktop" visiting "<domain>" viewing "Home" page
         When I select the View mobile site link

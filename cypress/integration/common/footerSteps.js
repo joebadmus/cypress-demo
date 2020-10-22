@@ -129,3 +129,12 @@ Then("I should be taken to the mobile site view mode", () => {
   page.footerSection().gotoFooter();
   page.footerSection().validateDesktopViewLinkIsPresent();
 });
+
+Given("i call an api", () => {
+  let response = cy.request("https://slack.com/api/api.test");
+  response.its("status").should("equal", 200).then(response => {
+    // let body = JSON.parse(JSON.stringify(response.body));
+    let body = JSON.stringify(response);
+    cy.log(body);
+  });
+})
